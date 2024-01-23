@@ -5,3 +5,41 @@
 	--base-color: #fff;
 	--letter-color: #000;
 }
+
+.App {
+	display: flex;
+	height: 100vh;
+}
+
+.nav-button {
+	flex: 0.05;
+	height: 100%;
+	transition: flex 0.4s ease-in-out;
+}
+
+.nav-button.selected {
+	flex: 1;
+}
+
+.page {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about {
+	background-color: var(--base-color);
+}
+
+.food {
+	background-color: var(--food-color);
+}
+
+.retail {
+	background-color: var(--retail-color);
+}
+
+.community {
+	background-color: var(--community-color);
+}
