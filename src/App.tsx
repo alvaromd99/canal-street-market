@@ -4,6 +4,7 @@ import Community from './pages/community/Community'
 import Food from './pages/food/Food'
 import Retail from './pages/retail/Retail'
 import { Route, useLocation } from 'wouter'
+import canalIcon from './assets/canalIcon.svg'
 
 function App() {
 	const [location, setLocation] = useLocation()
@@ -13,11 +14,14 @@ function App() {
 			<div
 				className={`nav-button about ${location === '/' ? 'selected' : ''}`}
 				onClick={() => setLocation('/')}>
+				<img src={canalIcon} alt='' />
 				<Route path='/' component={About} />
 			</div>
 			<div
 				className={`nav-button food ${location === '/food' ? 'selected' : ''}`}
 				onClick={() => setLocation('food')}>
+				<p>餐饮</p>
+				<span>Food</span>
 				<Route path='/food' component={Food} />
 			</div>
 			<div
@@ -25,6 +29,8 @@ function App() {
 					location === '/retail' ? 'selected' : ''
 				}`}
 				onClick={() => setLocation('retail')}>
+				<p>購物</p>
+				<span>Retail</span>
 				<Route path='/retail' component={Retail} />
 			</div>
 			<div
@@ -32,6 +38,8 @@ function App() {
 					location === '/community' ? 'selected' : ''
 				}`}
 				onClick={() => setLocation('community')}>
+				<p>文化</p>
+				<span>Community</span>
 				<Route path='/community' component={Community} />
 			</div>
 		</div>
