@@ -1,3 +1,5 @@
+import './food.css'
+
 export default function Food() {
-	return <div>Food</div>
+	return <div className='food-page'>Food</div>
 }

@@ -20,8 +20,10 @@ function App() {
 			<div
 				className={`nav-button food ${location === '/food' ? 'selected' : ''}`}
 				onClick={() => setLocation('food')}>
-				<p>餐饮</p>
-				<span>Food</span>
+				<div className='nav-info'>
+					<p>餐饮</p>
+					<span>Food</span>
+				</div>
 				<Route path='/food' component={Food} />
 			</div>
 			<div
