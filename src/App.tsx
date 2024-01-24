@@ -14,7 +14,7 @@ function App() {
 			<div
 				className={`nav-button about ${location === '/' ? 'selected' : ''}`}
 				onClick={() => setLocation('/')}>
-				<img src={canalIcon} alt='' />
+				<img className='logo' src={canalIcon} alt='logo image' />
 				<Route path='/' component={About} />
 			</div>
 			<div

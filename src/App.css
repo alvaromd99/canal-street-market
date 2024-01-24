@@ -8,12 +8,11 @@
 
 .App {
 	display: flex;
-	height: 100vh;
+	min-height: 100dvh;
 }
 
 .nav-button {
 	flex: 0.05;
-	min-height: 100dvh;
 	transition: flex 0.4s ease-in-out;
 	font-family: 'Space Mono', monospace;
 	position: relative;
@@ -37,7 +36,7 @@
 		transition: opacity 0.4s ease-in-out;
 	}
 
-	img {
+	.logo {
 		position: absolute;
 		top: 3rem;
 		left: 3rem;
@@ -56,18 +55,35 @@
 	}
 }
 
+.food,
+.retail,
+.community {
+	animation: goDown 1s ease-in-out forwards;
+}
+
 .about {
 	background-color: var(--base-color);
 }
 
 .food {
 	background-color: var(--food-color);
+	animation-delay: 0.4s;
 }
 
 .retail {
 	background-color: var(--retail-color);
+	animation-delay: 0.2s;
 }
 
 .community {
 	background-color: var(--community-color);
+}
+
+@keyframes goDown {
+	from {
+		transform: translateY(-100vh);
+	}
+	to {
+		transform: translateY(0);
+	}
 }
