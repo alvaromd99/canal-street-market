@@ -14,9 +14,14 @@
 		padding-inline: 0;
 	}
 
-	h1 {
-		font-family: 'Indie Flower', cursive;
-		font-size: 5rem;
-		line-height: 6rem;
+	.title {
+		padding-top: 6rem;
+		padding-bottom: 3rem;
+
+		h1 {
+			font-family: 'Cormorant', serif;
+			font-size: 5rem;
+			line-height: 4rem;
+		}
 	}
 }
