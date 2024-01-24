@@ -8,7 +8,7 @@
 
 .App {
 	display: flex;
-	min-height: 100dvh;
+	height: 100dvh;
 }
 
 .nav-button {
@@ -16,6 +16,12 @@
 	transition: flex 0.4s ease-in-out;
 	font-family: 'Space Mono', monospace;
 	position: relative;
+	overflow-y: scroll;
+	scrollbar-width: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
 
 	span {
 		position: absolute;
