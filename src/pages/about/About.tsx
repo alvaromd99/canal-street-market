@@ -22,6 +22,9 @@ export default function About() {
 					alt='image1'
 				/>
 			</section>
+			<section>
+				<h2>A New Kind of Market</h2>
+			</section>
 		</div>
 	)
 }
