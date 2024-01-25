@@ -23,22 +23,22 @@
 		display: none;
 	}
 
-	span {
+	.nav-paragraph {
+		width: 100%;
+		position: absolute;
+		margin-top: 5rem;
+		font-size: 1.2rem;
+		text-align: center;
+		transition: opacity 0.4s ease-in-out;
+	}
+
+	.nav-span {
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform-origin: center;
 		transform: translateY(-50%) translateX(-50%) rotate(90deg);
 		font-size: 1.2rem;
-		transition: opacity 0.4s ease-in-out;
-	}
-
-	p {
-		width: 100%;
-		position: absolute;
-		margin-top: 5rem;
-		font-size: 1.2rem;
-		text-align: center;
 		transition: opacity 0.4s ease-in-out;
 	}
 
@@ -52,11 +52,11 @@
 .nav-button.selected {
 	flex: 1;
 
-	p {
+	.nav-paragraph {
 		opacity: 0;
 	}
 
-	span {
+	.nav-span {
 		opacity: 0;
 	}
 

@@ -1,6 +1,7 @@
 import { useRef } from 'react'
 import './About.css'
 import { UseIntersectionObserver } from '../../hooks/UseIntersectionObserver'
+import Card from '../../components/Card'
 
 export default function About() {
 	const imageRef = useRef(null)
@@ -26,6 +27,23 @@ export default function About() {
 			</section>
 			<section className='subtitle-section'>
 				<h2>A New Kind of Market</h2>
+			</section>
+			<section className='cards-section'>
+				<Card
+					src='https://images.prismic.io/canalstreetmarket/8f74dfabde9ebd66d0d078ba6cf794c77dc8ac5b_home_page_one.jpg?auto=compress,format&quot'
+					alt='Market image 1'
+					text='Merging retail, food, art, and culture, Canal Street Market highlights top retail and design concepts, restaurants, and up-and-coming players in the downtown New York City community.'
+				/>
+				<Card
+					src='https://images.prismic.io/canalstreetmarket/20c7997073b456fda0e6de872d23b6183892bdde_home_page_two.jpg?auto=compress,format'
+					alt='Market image 2'
+					text={'Retail Market Hours:\nThursday - Sun: 11:00AM - 7:00PM'}
+				/>
+				<Card
+					src='https://images.prismic.io/canalstreetmarket/13a988aff3e9c672350fe8330eb7386c3a85eeb9_home_page_three.jpg?auto=compress,format'
+					alt='Market image 3'
+					text={'Food Hall Hours:\nMon - Sun: 11:00AM - 8:00PM'}
+				/>
 			</section>
 		</div>
 	)

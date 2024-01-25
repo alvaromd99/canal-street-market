@@ -21,8 +21,8 @@ function App() {
 				className={`nav-button food ${location === '/food' ? 'selected' : ''}`}
 				onClick={() => setLocation('food')}>
 				<div className='nav-info'>
-					<p>餐饮</p>
-					<span>Food</span>
+					<p className='nav-paragraph'>餐饮</p>
+					<span className='nav-span'>Food</span>
 				</div>
 				<Route path='/food' component={Food} />
 			</div>
@@ -31,8 +31,8 @@ function App() {
 					location === '/retail' ? 'selected' : ''
 				}`}
 				onClick={() => setLocation('retail')}>
-				<p>購物</p>
-				<span>Retail</span>
+				<p className='nav-paragraph'>購物</p>
+				<span className='nav-span'>Retail</span>
 				<Route path='/retail' component={Retail} />
 			</div>
 			<div
@@ -40,8 +40,8 @@ function App() {
 					location === '/community' ? 'selected' : ''
 				}`}
 				onClick={() => setLocation('community')}>
-				<p>文化</p>
-				<span>Community</span>
+				<p className='nav-paragraph'>文化</p>
+				<span className='nav-span'>Community</span>
 				<Route path='/community' component={Community} />
 			</div>
 		</div>

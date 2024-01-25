@@ -42,10 +42,14 @@
 
 		h2 {
 			font-family: 'Cormorant', serif;
-			font-size: 7rem;
-			line-height: 5.4rem;
+			font-size: 8rem;
 			text-wrap: pretty;
 			max-width: 40rem;
 		}
+	}
+
+	.cards-section {
+		display: flex;
+		justify-content: space-between;
 	}
 }
