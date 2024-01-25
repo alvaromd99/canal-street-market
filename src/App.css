@@ -91,11 +91,24 @@
 	background-color: var(--community-color);
 }
 
+.in-view {
+	animation: fadeIn 1s ease-in-out forwards;
+}
+
 @keyframes goDown {
 	from {
 		transform: translateY(-100vh);
 	}
 	to {
 		transform: translateY(0);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
 	}
 }
