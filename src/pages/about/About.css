@@ -18,7 +18,8 @@
 			font-family: 'Cormorant', serif;
 			font-size: 5rem;
 			line-height: 5.4rem;
-			padding-right: 6rem;
+			text-wrap: pretty;
+			max-width: calc(100% - 10rem);
 		}
 	}
 
@@ -32,6 +33,19 @@
 			height: 100%;
 			background-size: cover;
 			background-position: 50%;
+		}
+	}
+
+	.subtitle-section {
+		padding-top: 6rem;
+		padding-bottom: 4rem;
+
+		h2 {
+			font-family: 'Cormorant', serif;
+			font-size: 7rem;
+			line-height: 5.4rem;
+			text-wrap: pretty;
+			max-width: 40rem;
 		}
 	}
 }

@@ -11,9 +11,11 @@ export default function About() {
 		<div className='about-page'>
 			<section className='title-section'>
 				<h1>
-					Canal Street Market is a carefully curated retail market, food hall &
-					community space open year-round at 265 Canal Street. Support Small
-					Business this weekend!
+					{
+						'Canal Street Market is a carefully curated retail market, food hall & community space open year-round at 265 Canal Street. '
+					}
+					<a href=''> Support Small Business </a>
+					{' this weekend!'}
 				</h1>
 			</section>
 			<section className='image-section' ref={imageRef}>
@@ -22,7 +24,7 @@ export default function About() {
 					alt='image1'
 				/>
 			</section>
-			<section>
+			<section className='subtitle-section'>
 				<h2>A New Kind of Market</h2>
 			</section>
 		</div>
