@@ -45,6 +45,13 @@ export default function About() {
 					text={'Food Hall Hours:\nMon - Sun: 11:00AM - 8:00PM'}
 				/>
 			</section>
+			<section className='events-section'>
+				<div className='events-title'>
+					<p>活動</p>
+					<h3>{'Market\nEvents'}</h3>
+					<p>活動</p>
+				</div>
+			</section>
 		</div>
 	)
 }
