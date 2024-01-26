@@ -2,7 +2,8 @@ import { useRef } from 'react'
 import './About.css'
 import { UseIntersectionObserver } from '../../hooks/UseIntersectionObserver'
 import Card from '../../components/card/Card'
-import MarketEvent from '../../components/market/MarketEvent'
+import MarketEventsPanel from '../../components/events/MarketEventsPanel'
+import { AboutEventsInfo } from '../../constants/constants'
 
 export default function About() {
 	const imageRef = useRef(null)
@@ -53,17 +54,7 @@ export default function About() {
 					<p>活動</p>
 				</div>
 				<div className='events-info'>
-					<div className='events-wrapper'>
-						<MarketEvent
-							eventDate='09/21'
-							eventInfo='Small Business Retail Pop Up Weekend!'
-						/>
-						<MarketEvent
-							eventDate='02/07'
-							eventInfo='New Balance x Paperboy Paris by Greenhouse @ Canal Street Market'
-						/>
-						<MarketEvent eventDate='12/11' eventInfo='Hack City 12/11' />
-					</div>
+					<MarketEventsPanel eventsInfo={AboutEventsInfo} />
 				</div>
 			</section>
 		</div>
