@@ -55,6 +55,7 @@ export default function About() {
 				</div>
 				<div className='events-info'>
 					<MarketEventsPanel eventsInfo={AboutEventsInfo} />
+					<button>see all</button>
 				</div>
 			</section>
 		</div>
