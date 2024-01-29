@@ -1,8 +1,9 @@
 :root {
+	--about-color: #fff;
 	--food-color: #5ea3ec;
 	--retail-color: #f64444;
 	--community-color: #ffb400;
-	--base-color: #fff;
+	--base-color: #dddddd;
 	--letter-color: #000;
 }
 
@@ -78,7 +79,7 @@
 }
 
 .about {
-	background-color: var(--base-color);
+	background-color: var(--about-color);
 }
 
 .food {
