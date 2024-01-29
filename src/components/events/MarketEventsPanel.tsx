@@ -1,6 +1,6 @@
 import './marketEventsPanel.css'
 import MarketEvent from '../market/MarketEvent'
-import { EventInformation } from '../types/types'
+import { EventInformation } from '../../types/types'
 
 export interface MarketEventsPanelProps {
 	eventsInfo: EventInformation[]

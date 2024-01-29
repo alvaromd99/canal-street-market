@@ -1,4 +1,4 @@
-import { EventInformation } from '../components/types/types'
+import { EventInformation } from '../types/types'
 
 export const AboutEventsInfo: EventInformation[] = [
 	{

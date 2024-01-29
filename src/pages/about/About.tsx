@@ -58,6 +58,21 @@ export default function About() {
 					<button>see all</button>
 				</div>
 			</section>
+			<section className='address-section'>
+				<a href='https://www.google.com/maps/place/265+Canal+St,+New+York,+NY+10013/@40.7190077,-74.0030314,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598a1c3945dd:0x6b44c616961ec727!8m2!3d40.7190077!4d-74.0008427'>
+					<div className='address-text'>
+						<h3>265 Canal St. New York, NY</h3>
+					</div>
+				</a>
+				<a href='https://www.google.com/maps/place/265+Canal+St,+New+York,+NY+10013/@40.7190077,-74.0030314,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598a1c3945dd:0x6b44c616961ec727!8m2!3d40.7190077!4d-74.0008427'>
+					<div className='address-img'>
+						<img
+							src='https://images.prismic.io/canalstreetmarket/74921c6bf0abf767666c52a6af3c001c58643587_group-11.jpg?auto=compress,format'
+							alt='Maps photo'
+						/>
+					</div>
+				</a>
+			</section>
 		</div>
 	)
 }

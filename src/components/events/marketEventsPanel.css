@@ -1,5 +1,5 @@
 .bg-animation-wrapper {
-	--color: #000;
+	--color: var(--letter-color);
 	--size: 24px;
 	--speed: 0.8s;
 
