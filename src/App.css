@@ -13,7 +13,7 @@
 }
 
 .nav-button {
-	flex: 0.05;
+	flex: 0.04;
 	transition: flex 0.4s ease-in-out;
 	font-family: 'Space Mono', monospace;
 	position: relative;
