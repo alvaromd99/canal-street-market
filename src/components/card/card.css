@@ -10,3 +10,37 @@
 		font-size: 0.8rem;
 	}
 }
+
+.contact-card {
+	--color: var(--letter-color);
+	--size: 30px;
+
+	background-image: linear-gradient(90deg, #000 50%, transparent 0),
+		linear-gradient(90deg, #000 50%, transparent 0),
+		linear-gradient(180deg, #000 50%, transparent 0),
+		linear-gradient(180deg, #000 50%, transparent 0);
+	background-position: 0 0, 0 100%, 0 0, 100% 0;
+	background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+	background-size: 30px 1px, 30px 1px, 1px 30px, 1px 30px;
+	animation: moveCircle 0.4s infinite normal;
+	animation-timing-function: linear;
+	animation-play-state: paused;
+	padding: 4rem;
+	display: grid;
+	place-items: center;
+
+	&:hover {
+		animation-play-state: running;
+	}
+
+	img {
+		width: 2rem;
+		height: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		text-align: center;
+		max-width: 10rem;
+	}
+}

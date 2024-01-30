@@ -159,13 +159,3 @@
 		gap: 5rem;
 	}
 }
-
-@keyframes moveCircle {
-	0% {
-		background-position: 0 0, 0 100%, 0 0, 100% 0;
-	}
-
-	100% {
-		background-position: 30px 0, -30px 100%, 0 -30px, 100% 30px;
-	}
-}

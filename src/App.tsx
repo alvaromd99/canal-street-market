@@ -4,7 +4,7 @@ import Community from './pages/community/Community'
 import Food from './pages/food/Food'
 import Retail from './pages/retail/Retail'
 import { Route, useLocation } from 'wouter'
-import canalIcon from './assets/canalIcon.svg'
+import marketIcon from './assets/market.svg'
 
 function App() {
 	const [location, setLocation] = useLocation()
@@ -14,7 +14,7 @@ function App() {
 			<div
 				className={`nav-button about ${location === '/' ? 'selected' : ''}`}
 				onClick={() => setLocation('/')}>
-				<img className='logo' src={canalIcon} alt='logo image' />
+				<img className='logo' src={marketIcon} alt='logo image' />
 				<Route path='/' component={About} />
 			</div>
 			<div
