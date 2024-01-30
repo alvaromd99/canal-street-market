@@ -1,0 +1,28 @@
+.footer-title {
+	--color: rgba(0, 0, 0, 0.2);
+	--size: 12px;
+
+	width: 100%;
+	padding: 3.8rem;
+	background-image: repeating-linear-gradient(
+			-74deg,
+			var(--color),
+			var(--color) 1px,
+			transparent 0,
+			transparent 4px
+		),
+		repeating-linear-gradient(
+			-74deg,
+			var(--color),
+			var(--color) 1px,
+			transparent 0,
+			transparent 4px
+		);
+	background-position: 0 0, 0 100%;
+	background-size: 100% var(--size), 100% var(--size);
+	background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+
+	h3 {
+		text-align: center;
+	}
+}

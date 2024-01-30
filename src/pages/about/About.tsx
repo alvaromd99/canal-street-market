@@ -4,6 +4,7 @@ import { UseIntersectionObserver } from '../../hooks/UseIntersectionObserver'
 import Card from '../../components/card/Card'
 import MarketEventsPanel from '../../components/events/MarketEventsPanel'
 import { AboutEventsInfo } from '../../constants/constants'
+import Footer from '../../components/footer/Footer'
 
 export default function About() {
 	const imageRef = useRef(null)
@@ -72,6 +73,9 @@ export default function About() {
 						/>
 					</div>
 				</a>
+			</section>
+			<section className='footer-section'>
+				<Footer />
 			</section>
 		</div>
 	)
