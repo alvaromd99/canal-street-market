@@ -5,6 +5,7 @@ import Card from '../../components/card/Card'
 import MarketEventsPanel from '../../components/events/MarketEventsPanel'
 import { AboutEventsInfo } from '../../constants/constants'
 import Footer from '../../components/footer/Footer'
+import NormalBtn from '../../components/btn/NormalBtn'
 
 export default function About() {
 	const imageRef = useRef(null)
@@ -22,15 +23,18 @@ export default function About() {
 					{' this weekend!'}
 				</h1>
 			</section>
+
 			<section className='image-section' ref={imageRef}>
 				<img
 					src='https://images.prismic.io/canalstreetmarket/1d99cf0e3a0144c1229f92ee5b3c63b0eaae893c_home-hero.jpg?auto=compress,format'
 					alt='image1'
 				/>
 			</section>
+
 			<section className='subtitle-section'>
 				<h2>A New Kind of Market</h2>
 			</section>
+
 			<section className='cards-section'>
 				<Card
 					src='https://images.prismic.io/canalstreetmarket/8f74dfabde9ebd66d0d078ba6cf794c77dc8ac5b_home_page_one.jpg?auto=compress,format&quot'
@@ -48,6 +52,7 @@ export default function About() {
 					text={'Food Hall Hours:\nMon - Sun: 11:00AM - 8:00PM'}
 				/>
 			</section>
+
 			<section className='events-section'>
 				<div className='events-title'>
 					<p>活動</p>
@@ -56,9 +61,12 @@ export default function About() {
 				</div>
 				<div className='events-info'>
 					<MarketEventsPanel eventsInfo={AboutEventsInfo} />
-					<button>see all</button>
+					<div className='btn-wrapper'>
+						<NormalBtn text={'see all'} pad={1.2} />
+					</div>
 				</div>
 			</section>
+
 			<section className='address-section'>
 				<a href='https://www.google.com/maps/place/265+Canal+St,+New+York,+NY+10013/@40.7190077,-74.0030314,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598a1c3945dd:0x6b44c616961ec727!8m2!3d40.7190077!4d-74.0008427'>
 					<div className='address-text'>
@@ -74,6 +82,7 @@ export default function About() {
 					</div>
 				</a>
 			</section>
+
 			<section className='footer-section'>
 				<Footer />
 			</section>
