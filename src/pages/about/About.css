@@ -140,13 +140,13 @@
 		.address-text {
 			display: grid;
 			place-items: center;
-			padding: 5.6rem 2rem;
 
 			h3 {
+				padding-block: 4rem;
 				max-width: 24rem;
 				text-align: center;
 				font-family: 'Cormorant', serif;
-				font-size: 5rem;
+				font-size: 4rem;
 			}
 		}
 
@@ -156,6 +156,8 @@
 
 			img {
 				height: 100%;
+				object-fit: cover;
+				object-position: center;
 			}
 		}
 	}

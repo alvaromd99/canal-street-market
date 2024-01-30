@@ -5,7 +5,7 @@ export default function Footer() {
 		<>
 			<div className='footer-title'>
 				<h3>Interested in becoming a vendor ?</h3>
-				<a href=''>click here</a>
+				<button>click here</button>
 			</div>
 			<div className='footer-links'>Links</div>
 			<div className='footer-newsletter'>Newsletter</div>

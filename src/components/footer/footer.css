@@ -22,7 +22,31 @@
 	background-size: 100% var(--size), 100% var(--size);
 	background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+
 	h3 {
 		text-align: center;
+		font-size: 3rem;
+		font-family: 'Cormorant', serif;
+	}
+
+	button {
+		background-color: var(--about-color);
+		text-align: center;
+		text-decoration: none;
+		width: 12rem;
+		padding: 1rem;
+		border: 1px solid var(--letter-color);
+		transition: all 0.3s;
+		cursor: pointer;
+
+		&:hover {
+			background-color: var(--letter-color);
+			color: var(--base-color);
+		}
 	}
 }
