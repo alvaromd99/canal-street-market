@@ -1,5 +1,5 @@
-import { useRef } from 'react'
 import './About.css'
+import { useRef } from 'react'
 import { UseIntersectionObserver } from '../../hooks/UseIntersectionObserver'
 import Card from '../../components/card/Card'
 import MarketEventsPanel from '../../components/events/MarketEventsPanel'

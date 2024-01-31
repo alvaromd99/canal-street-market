@@ -13,29 +13,34 @@
 	.title-section {
 		padding-top: 9rem;
 		padding-bottom: 8rem;
+		opacity: 0;
+		animation: fadeIn 1s ease-out forwards;
+		animation-delay: 0.4s;
 
 		h1 {
 			font-family: 'Cormorant', serif;
 			font-size: 5rem;
 			line-height: 5.4rem;
 			text-wrap: pretty;
-			max-width: calc(100% - 11rem);
+			max-width: 65%;
 
 			a,
 			a:visited {
+				--color: var(--community-color);
+
 				color: var(--letter-color);
 				text-decoration: none;
 				background-image: repeating-linear-gradient(
 						-45deg,
-						#ffb400,
-						#ffb400 1px,
+						var(--color),
+						var(--color) 1px,
 						transparent 0,
 						transparent 12px
 					),
 					repeating-linear-gradient(
 						45deg,
-						#ffb400,
-						#ffb400 1px,
+						var(--color),
+						var(--color) 1px,
 						transparent 0,
 						transparent 12.2px
 					);
