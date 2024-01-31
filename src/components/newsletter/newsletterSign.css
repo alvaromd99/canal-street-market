@@ -48,18 +48,17 @@
 			flex-grow: 1;
 			position: relative;
 			display: flex;
+			align-items: center;
 			justify-content: end;
 
 			p {
-				text-align: center;
-				transform: rotate(-90deg);
 				font-size: 2rem;
-				line-height: 1.2rem;
+				line-height: 1rem;
 				user-select: none;
 			}
 
 			input[type='submit'] {
-				width: 1.5rem;
+				width: 2rem;
 				height: 1.5rem;
 				background-color: transparent;
 				position: absolute;
