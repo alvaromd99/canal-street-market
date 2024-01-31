@@ -19,7 +19,7 @@ export default function About() {
 					{
 						'Canal Street Market is a carefully curated retail market, food hall & community space open year-round at 265 Canal Street. '
 					}
-					<a href=''> Support Small Business </a>
+					<a href=''>Support Small Business</a>
 					{' this weekend!'}
 				</h1>
 			</section>

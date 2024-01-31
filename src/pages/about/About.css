@@ -20,6 +20,31 @@
 			line-height: 5.4rem;
 			text-wrap: pretty;
 			max-width: calc(100% - 11rem);
+
+			a,
+			a:visited {
+				color: var(--letter-color);
+				text-decoration: none;
+				background-image: repeating-linear-gradient(
+						-45deg,
+						#ffb400,
+						#ffb400 1px,
+						transparent 0,
+						transparent 12px
+					),
+					repeating-linear-gradient(
+						45deg,
+						#ffb400,
+						#ffb400 1px,
+						transparent 0,
+						transparent 12.2px
+					);
+				background-position: 0 103%, 2px 103%;
+				background-size: 17px 10px;
+				background-repeat: repeat-x;
+				animation: wave 0.8s infinite normal;
+				animation-timing-function: linear;
+			}
 		}
 	}
 
