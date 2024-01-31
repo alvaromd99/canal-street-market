@@ -7,6 +7,7 @@ export default function NewsLetterSign() {
 			<form action=''>
 				<input type='email' id='email' autoComplete='off' placeholder='Email' />
 				<div className='submit-wrap'>
+					<p>{'\u21E3'}</p>
 					<input type='submit' value='' />
 				</div>
 			</form>
