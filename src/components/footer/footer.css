@@ -2,7 +2,6 @@
 	--color: rgba(0, 0, 0, 0.2);
 	--size: 12px;
 
-	width: 100%;
 	padding: 3.8rem;
 	background-image: repeating-linear-gradient(
 			-74deg,
@@ -36,12 +35,14 @@
 }
 
 .footer-links {
-	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 5rem;
 }
 
-.footer-newsletter {
+.footer-newsletter,
+.footer-legal,
+.footer-title,
+.footer-links {
 	width: 100%;
 }

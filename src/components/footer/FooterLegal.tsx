@@ -1,5 +1,14 @@
-import './footer.css'
+import './footerLegal.css'
 
 export default function FooterLegal() {
-	return <div>FooterLegal</div>
+	return (
+		<div className='legal-wrapper'>
+			<div className='legal-left-wrapper'>
+				<p>Copyright Canal Street Market 2022</p>
+				<a href=''>Privacy Policy</a>
+				<a href=''>Vendor Login</a>
+			</div>
+			<a href=''>Site by Alvaro</a>
+		</div>
+	)
 }

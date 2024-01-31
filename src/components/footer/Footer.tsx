@@ -2,6 +2,7 @@ import { linkCards } from '../../constants/constants'
 import NormalBtn from '../btn/NormalBtn'
 import ContactCard from '../card/ContactCard'
 import NewsLetterSign from '../newsletter/NewsLetterSign'
+import FooterLegal from './FooterLegal'
 import './footer.css'
 
 export default function Footer() {
@@ -22,6 +23,9 @@ export default function Footer() {
 			</div>
 			<div className='footer-newsletter'>
 				<NewsLetterSign />
+			</div>
+			<div className='footer-legal'>
+				<FooterLegal />
 			</div>
 		</>
 	)
