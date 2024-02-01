@@ -5,6 +5,9 @@
 	--community-color: #ffb400;
 	--base-color: #dddddd;
 	--letter-color: #000;
+
+	--pretty-font: 'Cormorant', serif;
+	--mono-font: 'Space Mono', monospace;
 }
 
 .App {
