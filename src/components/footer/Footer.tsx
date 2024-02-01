@@ -1,6 +1,6 @@
 import { linkCards } from '../../constants/constants'
 import NormalBtn from '../btn/NormalBtn'
-import ContactCard from '../card/ContactCard'
+import ContactCard from '../cards/ContactCard'
 import NewsLetterSign from '../newsletter/NewsLetterSign'
 import FooterLegal from './FooterLegal'
 import './footer.css'

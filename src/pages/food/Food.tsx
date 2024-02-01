@@ -1,3 +1,5 @@
+import FoodCard from '../../components/cards/FoodCard'
+import { foodPlates } from '../../constants/constants'
 import './food.css'
 
 export default function Food() {
@@ -26,7 +28,16 @@ export default function Food() {
 				</div>
 			</section>
 
-			<section className='plates-section'></section>
+			<section className='plates-section'>
+				{foodPlates.map((plate) => (
+					<FoodCard
+						key={plate.id}
+						type={plate.type}
+						name={plate.name}
+						imgSrc={plate.principalPhoto}
+					/>
+				))}
+			</section>
 		</div>
 	)
 }

@@ -1,4 +1,4 @@
-import './card.css'
+import './contactCard.css'
 
 interface ContactCardProps {
 	imgSrc: string

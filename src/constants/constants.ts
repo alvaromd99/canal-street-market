@@ -35,6 +35,7 @@ export const linkCards = [
 
 export const foodPlates = [
 	{
+		id: 1,
 		type: 'Khao Man Gai',
 		name: 'Betong',
 		principalPhoto:
@@ -49,6 +50,7 @@ export const foodPlates = [
 			"Khao Man Gai is a treasured Thai variation of Hainanese Chinese rice, a dish that is extremely popular through Southeast Asia. Betong's Khao Man Gai is a reflection of Chef Noon's childhood growing up in Betong, Thailand.",
 	},
 	{
+		id: 2,
 		type: 'Coffee, Pastries & Smoothies',
 		name: 'Chinatown Deli',
 		principalPhoto:
@@ -60,6 +62,7 @@ export const foodPlates = [
 		description: 'Your favorite neighborhood coffee shop',
 	},
 	{
+		id: 3,
 		type: 'Artisanal Chocolate',
 		name: 'Daniel Corpuz Chocolatier',
 		principalPhoto:
@@ -74,6 +77,7 @@ export const foodPlates = [
 			'Daniel Joseph Corpuz is a pastry chef and chocolatier based in New York City. As a graduate of the Culinary Institute of America, Daniel achieved his Associates Degree in Baking and Pastry and his Bachelor’s Degree in Food Business Administration in 2019. Daniel has worked in several fine dining restaurants in New York City, of which include The Modern at MoMA, Manhatta, and One White Street. As a result of the pandemic, Daniel has shifted to work primarily with chocolate, creating bonbons, confections, and showpieces. His extensive work with chocolate, during a turbulent time in the food industry yielded the opportunity to be on Netflix’s new show, ‘School of Chocolate’ with world renowned Pastry Chef Amaury Guichon. Utilizing his Filipino-American background, he ultimately decided to launch Daniel Corpuz Chocolatier. This chocolate brand centers on his upbringing while amplifying his industry experience by utilizing Filipino and Asian ingredients and flavors into his chocolates.',
 	},
 	{
+		id: 4,
 		type: 'Napoli Style Pizza',
 		name: 'Enzo Bruni La Pizza Gourmet',
 		principalPhoto: '',
@@ -81,6 +85,7 @@ export const foodPlates = [
 		description: 'Enzo Bruni is a pizzaiolo from Naples, Italy.',
 	},
 	{
+		id: 5,
 		type: 'Chinese Classics',
 		name: "Joe's Rice and Noodles",
 		principalPhoto: '',
@@ -88,8 +93,9 @@ export const foodPlates = [
 		description: '',
 	},
 	{
+		id: 6,
 		type: 'Cantonese Steamed Rice Rolls',
-		name: '',
+		name: "Joe's Steam Rice Roll",
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/02074214fef758434124320a62917c03c8490581_new-york-food-market-rice-roll.png?auto=compress,format',
 		secondaryPhotos: [
@@ -100,6 +106,7 @@ export const foodPlates = [
 			'Joe’s Steam Rice Roll started with Chef and Owner Joe Rong’s longing for a steamed rice roll—the way he had it growing up in China: fresh rice batter poured onto a tray, along with fresh meat and vegetables, and all cooked within a steamer. Serendipitously, Joe’s quest for the ideal steamed rice roll led him back home to Taishan, China, where he learned from masters of the craft as a humble student. What we do differently is how we make our rice batter: fresh rice grinded daily by a stone mill, and combined with our in-house secret mix to produce a one-of-a-kind soft and chewy texture. Our mission is to continuously improve and innovate to share our best version of an authentic taste of our culture with the World.',
 	},
 	{
+		id: 7,
 		type: 'Delicious Filipino Classics',
 		name: 'Kabisera',
 		principalPhoto: '',
@@ -108,6 +115,7 @@ export const foodPlates = [
 			'Since 2017, Kabisera has undergone a constant stream of reiterations and the ever-changing menu and frequent pop-up collaborations with other Filipino chefs and artists reflect that. Kabisera’s current mood is in offering a turo-turo style menu on top of their usual paninis, rice bowls, and salads, and utilizing their space to showcase specialty food products and artwork from local Filipino artists and entrepreneurs. Their pastries and kakanins, however, are what first put them on the map—like the biko, a sweet cake that uses glutinous rice and is topped with latik, a syrup made of coconut cream that will have you reassess your relationship with caramel.',
 	},
 	{
+		id: 8,
 		type: 'Bignsoo Sundaes & Bubble Tea',
 		name: 'Lazy Sundaes',
 		principalPhoto:
@@ -119,6 +127,7 @@ export const foodPlates = [
 			'Lazy Sundaes is a refuge from the bustle of your day; an afternoon pick-me-up, the sweet spot in your evening. We believe in celebrating the small victories; life’s hard, and you’ve earned it.',
 	},
 	{
+		id: 9,
 		type: 'Sushi HandRolls & Chirasi',
 		name: 'Mastunori',
 		principalPhoto:
@@ -128,6 +137,7 @@ export const foodPlates = [
 			"Matsunori is the kind of restaurant that attracts New Yorkers who like to be in the know. A hidden gem, you'll find fresh seafood, expertly prepared by a team of chefs that bring expertise from some of the finest sushi joints in the city. Take your friends and pull up a chair at the bar, where you'll be able to chat with the staff and watch dishes come to life. Specialty dishes include Chef's Choice Chirashi and Hand Rolls.",
 	},
 	{
+		id: 10,
 		type: 'Filipino Inspired Taqueria',
 		name: 'Mucho Sarap',
 		principalPhoto:

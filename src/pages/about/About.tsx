@@ -1,7 +1,7 @@
 import './About.css'
 import { useRef } from 'react'
 import { UseIntersectionObserver } from '../../hooks/UseIntersectionObserver'
-import Card from '../../components/card/Card'
+import Card from '../../components/cards/Card'
 import MarketEventsPanel from '../../components/events/MarketEventsPanel'
 import { AboutEventsInfo } from '../../constants/constants'
 import Footer from '../../components/footer/Footer'
