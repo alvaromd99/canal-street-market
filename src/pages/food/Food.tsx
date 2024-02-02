@@ -1,5 +1,6 @@
 import Announcement from '../../components/announcement/Announcement'
 import FoodCard from '../../components/cards/FoodCard'
+import Footer from '../../components/footer/Footer'
 import PageTitle from '../../components/pageTitle/PageTitle'
 import { foodPlates } from '../../constants/constants'
 import './food.css'
@@ -30,6 +31,10 @@ export default function Food() {
 
 			<section className='announcement-section'>
 				<Announcement />
+			</section>
+
+			<section className='footer-section'>
+				<Footer />
 			</section>
 		</div>
 	)

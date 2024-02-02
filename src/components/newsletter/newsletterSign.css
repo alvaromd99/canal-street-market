@@ -48,6 +48,10 @@
 			}
 		}
 
+		input[type='email']::placeholder {
+			color: var(--letter-color);
+		}
+
 		.submit-wrap {
 			flex-grow: 1;
 			position: relative;
