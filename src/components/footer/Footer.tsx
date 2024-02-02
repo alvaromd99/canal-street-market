@@ -18,6 +18,7 @@ export default function Footer() {
 						key={index}
 						imgSrc={linkCard.imgSrc}
 						text={linkCard.text}
+						link={linkCard.link}
 					/>
 				))}
 			</div>

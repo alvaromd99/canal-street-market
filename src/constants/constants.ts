@@ -22,14 +22,17 @@ export const linkCards = [
 	{
 		imgSrc: pencilIcon,
 		text: 'Email us',
+		link: 'mailto:info@canalstreet.market',
 	},
 	{
 		imgSrc: facebookIcon,
 		text: 'Follow us on Facebook',
+		link: 'https://www.facebook.com/canalstreetmarket',
 	},
 	{
 		imgSrc: instagramIcon,
 		text: 'Follow us on Instagram',
+		link: 'https://www.instagram.com/canalstreetmarket/',
 	},
 ]
 
