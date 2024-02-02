@@ -10,6 +10,10 @@
 		padding-inline: 4rem;
 	}
 
+	button {
+		background-color: var(--about-color);
+	}
+
 	.title-section {
 		padding-top: 9rem;
 		padding-bottom: 8rem;

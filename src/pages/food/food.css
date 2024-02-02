@@ -12,6 +12,14 @@
 		padding-inline: 4rem;
 	}
 
+	button {
+		background-color: var(--food-color);
+
+		&:hover {
+			background-color: var(--letter-color);
+		}
+	}
+
 	.hero-section {
 		display: flex;
 		align-items: center;
