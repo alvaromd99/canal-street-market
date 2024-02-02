@@ -9,8 +9,9 @@ import NormalBtn from '../../components/btn/NormalBtn'
 
 export default function About() {
 	const imageRef = useRef(null)
+	const marketsRef = useRef(null)
 
-	UseIntersectionObserver([imageRef])
+	UseIntersectionObserver([imageRef, marketsRef])
 
 	return (
 		<div className='about-page'>
@@ -35,7 +36,7 @@ export default function About() {
 				<h2>A New Kind of Market</h2>
 			</section>
 
-			<section className='cards-section'>
+			<section className='cards-section' ref={marketsRef}>
 				<Card
 					src='https://images.prismic.io/canalstreetmarket/8f74dfabde9ebd66d0d078ba6cf794c77dc8ac5b_home_page_one.jpg?auto=compress,format&quot'
 					alt='Market image 1'

@@ -12,9 +12,11 @@
 	animation: moveCircle 0.4s infinite normal;
 	animation-timing-function: linear;
 	animation-play-state: paused;
+
 	padding: 4rem;
 	display: grid;
 	place-items: center;
+	cursor: pointer;
 
 	&:hover {
 		animation-play-state: running;
