@@ -1,3 +1,4 @@
+import Announcement from '../../components/announcement/Announcement'
 import FoodCard from '../../components/cards/FoodCard'
 import PageTitle from '../../components/pageTitle/PageTitle'
 import { foodPlates } from '../../constants/constants'
@@ -25,6 +26,10 @@ export default function Food() {
 						imgSrc={plate.principalPhoto}
 					/>
 				))}
+			</section>
+
+			<section className='announcement-section'>
+				<Announcement />
 			</section>
 		</div>
 	)

@@ -1,0 +1,68 @@
+.announcement-wrapper {
+	--color: var(--letter-color);
+	--size1: 93px;
+	--size2: 100px;
+	--size3: 50px;
+
+	padding: 110px 0;
+	background-image: repeating-linear-gradient(
+			-45deg,
+			var(--color),
+			var(--color) 1px,
+			transparent 0,
+			transparent 68px
+		),
+		repeating-linear-gradient(
+			45deg,
+			var(--color),
+			var(--color) 1px,
+			transparent 0,
+			transparent 68px
+		),
+		repeating-linear-gradient(
+			-45deg,
+			var(--color),
+			var(--color) 1px,
+			transparent 0,
+			transparent 71px
+		),
+		repeating-linear-gradient(
+			45deg,
+			var(--color),
+			var(--color) 1px,
+			transparent 0,
+			transparent 70px
+		);
+	background-position: 0 101%, 0 101%, 0 0, 0 0;
+	background-size: var(--size1) var(--size3), var(--size1) var(--size3),
+		var(--size2) var(--size3), var(--size2) var(--size3);
+	background-repeat: repeat-x;
+	animation: triangleWave 2s infinite normal;
+	animation-timing-function: linear;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	place-items: center;
+
+	img {
+		width: 10rem;
+		animation: UpDown 1s infinite alternate;
+		animation-timing-function: ease-in-out;
+	}
+
+	div:last-of-type {
+		transform: rotate(180deg);
+	}
+
+	.announcement-text {
+		text-align: center;
+
+		h3 {
+			font-size: 7rem;
+			line-height: 5.5rem;
+			max-width: 10ch;
+			font-family: var(--pretty-font);
+			margin-bottom: 1rem;
+		}
+	}
+}

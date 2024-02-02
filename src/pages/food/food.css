@@ -24,4 +24,8 @@
 		row-gap: 4rem;
 		padding-block: 1rem;
 	}
+
+	.announcement-section {
+		padding-block: 5rem;
+	}
 }

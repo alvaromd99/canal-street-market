@@ -140,3 +140,23 @@
 		background-position-x: 17px, 19px;
 	}
 }
+
+@keyframes triangleWave {
+	0% {
+		background-position: 0 101%, 0 101%, 0 0, 0 0;
+	}
+
+	100% {
+		background-position: 93px 101%, 93px 101%, 100px 0, 100px 0;
+	}
+}
+
+@keyframes UpDown {
+	0% {
+		transform: translateY(10%);
+	}
+
+	100% {
+		transform: translateY(-10%);
+	}
+}
