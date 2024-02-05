@@ -3,7 +3,8 @@ import './pageTitle.css'
 interface PageTitleProps {
 	name: string
 	title: string
-	time: string
+	time?: string
+	text?: string
 	letter: string
 	imgSrc: string
 }
@@ -12,6 +13,7 @@ export default function PageTitle({
 	name,
 	title,
 	time,
+	text,
 	letter,
 	imgSrc,
 }: PageTitleProps) {
@@ -25,11 +27,14 @@ export default function PageTitle({
 			</div>
 			<div className='hero-image'>
 				<div className='image-text'>
-					<p>
-						{`${title} Hours:`}
-						<br />
-						{time}
-					</p>
+					{time && (
+						<p>
+							{`${title} Hours:`}
+							<br />
+							{time}
+						</p>
+					)}
+					{text && <p>{text}</p>}
 					<p>{letter}</p>
 				</div>
 				<img src={imgSrc} alt={`${title} image`} loading='lazy' />
