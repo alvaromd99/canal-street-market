@@ -22,6 +22,7 @@ export default function Retail() {
 			<section className='products-section'>
 				{retailObjects.map((retailObj) => (
 					<ProductCard
+						key={retailObj.id}
 						type={retailObj.type}
 						name={retailObj.name}
 						imgSrc={retailObj.principalPhoto}

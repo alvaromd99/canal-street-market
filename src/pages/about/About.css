@@ -12,6 +12,10 @@
 
 	button {
 		background-color: var(--about-color);
+
+		&:hover {
+			background-color: var(--letter-color);
+		}
 	}
 
 	.title-section {

@@ -32,7 +32,7 @@ export default function PageTitle({
 					</p>
 					<p>{letter}</p>
 				</div>
-				<img src={imgSrc} alt={`${title} image`} />
+				<img src={imgSrc} alt={`${title} image`} loading='lazy' />
 			</div>
 		</>
 	)

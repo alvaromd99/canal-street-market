@@ -30,6 +30,7 @@
 		text-align: end;
 		top: -7.4rem;
 		left: 15rem;
+		z-index: 2;
 
 		p:nth-child(1) {
 			margin-bottom: 1rem;
@@ -45,5 +46,8 @@
 		max-width: 32rem;
 		max-height: 30rem;
 		margin-left: 3rem;
+		opacity: 0;
+		animation: fadeIn 1s ease-in forwards;
+		animation-delay: 0.4s;
 	}
 }
