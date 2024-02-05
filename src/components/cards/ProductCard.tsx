@@ -1,4 +1,4 @@
-import './foodCard.css'
+import './productCard.css'
 
 interface FoodCardProps {
 	type: string
@@ -6,7 +6,7 @@ interface FoodCardProps {
 	imgSrc: string
 }
 
-export default function FoodCard({ type, name, imgSrc }: FoodCardProps) {
+export default function ProductCard({ type, name, imgSrc }: FoodCardProps) {
 	return (
 		<div className='food-plate'>
 			<div className='plate-info'>

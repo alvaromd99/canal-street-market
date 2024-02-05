@@ -1,4 +1,6 @@
+import ProductCard from '../../components/cards/ProductCard'
 import PageTitle from '../../components/pageTitle/PageTitle'
+import { retailObjects } from '../../constants/constants'
 import './retail.css'
 
 export default function Retail() {
@@ -12,6 +14,16 @@ export default function Retail() {
 					letter='購物'
 					imgSrc='https://images.prismic.io/canalstreetmarket/20c7997073b456fda0e6de872d23b6183892bdde_home_page_two.jpg?auto=compress,format'
 				/>
+			</section>
+
+			<section className='products-section'>
+				{retailObjects.map((retailObj) => (
+					<ProductCard
+						type={retailObj.type}
+						name={retailObj.name}
+						imgSrc={retailObj.principalPhoto}
+					/>
+				))}
 			</section>
 		</div>
 	)

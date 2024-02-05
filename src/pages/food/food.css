@@ -29,7 +29,8 @@
 	.plates-section {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		row-gap: 4rem;
+		row-gap: 5rem;
+		column-gap: 3.75rem;
 		padding-block: 1rem;
 	}
 

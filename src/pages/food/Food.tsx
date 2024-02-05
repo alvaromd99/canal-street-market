@@ -1,5 +1,5 @@
 import Announcement from '../../components/announcement/Announcement'
-import FoodCard from '../../components/cards/FoodCard'
+import ProductCard from '../../components/cards/ProductCard'
 import Footer from '../../components/footer/Footer'
 import PageTitle from '../../components/pageTitle/PageTitle'
 import { foodPlates } from '../../constants/constants'
@@ -20,7 +20,7 @@ export default function Food() {
 
 			<section className='plates-section'>
 				{foodPlates.map((plate) => (
-					<FoodCard
+					<ProductCard
 						key={plate.id}
 						type={plate.type}
 						name={plate.name}
