@@ -3,6 +3,7 @@ import ProductCard from '../../components/cards/ProductCard'
 import Footer from '../../components/footer/Footer'
 import PageTitle from '../../components/pageTitle/PageTitle'
 import { foodPlates } from '../../constants/constants'
+import face from '../../assets/smileFace.svg'
 import './food.css'
 
 export default function Food() {
@@ -30,7 +31,7 @@ export default function Food() {
 			</section>
 
 			<section className='announcement-section'>
-				<Announcement />
+				<Announcement svgSrc={face} alt={'Smile Face'} />
 			</section>
 
 			<section className='footer-section'>

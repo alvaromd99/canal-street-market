@@ -26,4 +26,8 @@
 		column-gap: 3.75rem;
 		padding-block: 1rem;
 	}
+
+	.announcement-section {
+		padding-block: 7rem;
+	}
 }

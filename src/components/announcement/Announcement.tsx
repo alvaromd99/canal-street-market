@@ -1,18 +1,22 @@
 import './announcement.css'
-import face from '../../assets/smileFace.svg'
 
-export default function Announcement() {
+interface AnnouncementProps {
+	svgSrc: string
+	alt: string
+}
+
+export default function Announcement({ svgSrc, alt }: AnnouncementProps) {
 	return (
 		<div className='announcement-wrapper'>
 			<div>
-				<img src={face} alt='Smile face svg' />
+				<img src={svgSrc} alt={`${alt} svg`} />
 			</div>
 			<div className='announcement-text'>
 				<h3>The Best of NYC</h3>
 				<p>All under one roof!</p>
 			</div>
 			<div>
-				<img src={face} alt='Smile face svg' />
+				<img src={svgSrc} alt={`${alt} svg`} />
 			</div>
 		</div>
 	)
