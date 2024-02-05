@@ -8,7 +8,7 @@ export default function FooterLegal() {
 				<a href=''>Privacy Policy</a>
 				<a href=''>Vendor Login</a>
 			</div>
-			<a href=''>Site by Alvaro</a>
+			<a href='https://github.com/alvaromd99'>Site by Alvaro</a>
 		</div>
 	)
 }

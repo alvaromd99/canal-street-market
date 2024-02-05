@@ -3,6 +3,7 @@ import ProductCard from '../../components/cards/ProductCard'
 import PageTitle from '../../components/pageTitle/PageTitle'
 import { retailObjects } from '../../constants/constants'
 import rose from '../../assets/rose.svg'
+import Footer from '../../components/footer/Footer'
 import './retail.css'
 
 export default function Retail() {
@@ -30,6 +31,10 @@ export default function Retail() {
 
 			<section className='announcement-section'>
 				<Announcement svgSrc={rose} alt={'Rose'} />
+			</section>
+
+			<section className='footer-section'>
+				<Footer />
 			</section>
 		</div>
 	)
