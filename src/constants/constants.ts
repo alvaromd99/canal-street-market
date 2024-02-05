@@ -155,3 +155,179 @@ export const foodPlates = [
 			"Here at So Sarap's first brick-and-mortar, chef/owner VJ Navarro melds street food of the Philippines along with Mexican flavors for offerings like Taco de Longaniza (sweet Filipino sausage) and Taco de Nilaga (beef short ribs, cheek, and tongue).",
 	},
 ]
+
+export const retailObjects = [
+	{
+		id: 1,
+		type: 'Design Objects',
+		name: 'American Design Club',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/35b63b73f8bf1c9b4317f83217deaf9b80aaa8b1_american-design-club-hero.jpg?auto=compress,format',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/95cb429b813b0cf1774d8552aeee83dc5b10eab1_retail-space-downtown-new-york-42.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/5235f72ff6ba8ac42f7d958f9acd65d9a9bd5d8c_retail-space-downtown-new-york-61.png?auto=compress,format',
+		],
+		description:
+			'Started in 2008, The American Design Club is a platform for designers to show, share, and sell their work. With a mission to discover and bring to the public, new and exciting products by independent designers and brands, The American Design Club supports a community of creative entrepreneurs.',
+		openHours: ['Mon – Sat: 11AM – 7PM', 'Sun: 12AM – 6PM'],
+		links: [
+			'https://www.instagram.com/americandesignclub/',
+			'https://www.americandesignclub.com/',
+		],
+	},
+	{
+		id: 2,
+		type: 'Jewelry',
+		name: 'Beeshaus & Raum NYC',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/9bfc4585bb8e64c7207d8694574bdb86f43320b4_e1ea768dc97f6880050e3f5bc8a68c21c5885336_new-york-retail-space-beeshaus-compressor.jpg?auto=compress,format',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/c3c131bb3d932426974fc70ba42c765f8b907f1f_selects-high-res--retail_77.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/3e5ad4665a8165d024c0c724bed59bd67f3ca6b7_retail-space-downtown-new-york-76.png?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/5b279b37daef4bb8cf37ff8ed8818fd3eae5db59_retail-space-downtown-new-york-30.jpg?auto=compress,format',
+		],
+		description:
+			'Beeshaus is a handmade contemporary art jewelry collection that conveys a sense of simplicity and uniqueness from  geometric shapes. \nRaum NYC curates simple but unique accessories to help individuals to develop its own style. Raum NYC finds inspiration in a minimalist lifestyle and aims to present artists who shares the same pursuit from all over the world.',
+		openHours: ['Mon – Sat: 11AM – 7PM', 'Sun: 12AM – 6PM'],
+		links: ['https://www.instagram.com/beeshaus/', 'https://beeshaus.com/'],
+	},
+	{
+		id: 3,
+		type: 'Jewelry',
+		name: 'Beroep Tech',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/b17c842be3127c52d2a033edbc34a59c18e03244_new-york-retail-space-beroep.jpg?auto=compress,format',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/9e0d4eb7604d787a858e3d53b0318ec85ca412e6_retail-space-downtown-new-york-75.png?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/419bb1770d21b723eab8688f120c645f9ea6f56c_retail-space-downtown-new-york-73.png?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/ba47b03900a925bc4dcd6613aec56e3caf83b879_retail-space-downtown-new-york-74.png?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/2f8c95ba179e4a380208794497d9aa14a8684a27_retail-space-downtown-new-york-57.png?auto=compress,format',
+		],
+		description:
+			'beroep|tech was founded in 2014. A jewelry design and production brand specializing in minimal design, handmade, fashion and fine jewelry made with precious metals or gold filled. All pieces are uniquely designed and carried at some of the top museum stores, designer boutiques, Adornmilk, Not just a Label and the flagship Beroep Tech store in Canal Street Market. All jewelry pieces are designed and crafted by Akiko Kato who studied product design at Parsons School of Design. Her inspiration comes from everyday objects or surroundings which are commonly seen in everyday life. She proposes through her designs a view of finding beauty in everyday life and transforming monotonous items into tiny, wearable sculptures.',
+		openHours: ['Mon – Sat: 11AM – 7PM', 'Sun: 12AM – 6PM'],
+		links: [
+			'https://www.instagram.com/beroeptech/',
+			'https://www.notjustalabel.com/beroeptech',
+		],
+	},
+	{
+		id: 4,
+		type: 'Bonsai Shop',
+		name: 'Dandy Farmer Bonsai Shop',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/d2c3480f5b998a6e1d3c3a0c3af66e4b512c6e99_new-york-retail-space-dandy.jpg?auto=compress,format',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/746884db0ba5f924da5b44f54fc9d110d39dc967_selects-high-res--retail_63.jpg?auto=compress,format',
+		],
+		description:
+			'Dandy Farmer is a Brooklyn, NY based bonsai design studio specializing in indoor and outdoor bonsai. We take plants to the next level so you can stay grounded and live better.\nWhen we started living in the city, we found a stronger need to connect with nature, but owning a garden was an expensive luxury. How could we make them smaller? Enter bonsai gardens. We suddenly found what was missing in our lives - trees. Trees we could tend to, and trees that could teach us to slow down.\nBonsai is an art form of growing trees in small containers. Some people say it should be done a certain way. We don’t. Sure, there are basic rules, but we take bonsai techniques and apply them to all plants. Why? Because the beauty of bonsai is being able to spend more quality time with plants, whether or not you know what a knob cutter’s for.\nTHIS IS ABOUT PROMOTING A HEALTHIER RELATIONSHIP THROUGH OBSERVING AND LEARNING ABOUT NATURE.\nWe treat plants like our friends. We get to know their personalities, give them nicknames, and furnish them with a good home. That’s why our handmade bonsai pots are sturdy and protect the roots from harsh temperatures. Our soil mix is adjusted for each plant to make them healthier, and each bonsai has been preened by devoted hands for countless hours. When you spend enough time with these little ones, you’ll start to see their outsized approach to life: Mila S. hates change while Emilio Thrush races to the edge, and Blue Star Ren likes to give furry hugs while ignoring that brick wall right outside your window.\nWe love bonsai because they teach us how to live grittier, better lives. They put dirt in our hands, give us something meaningful to care for, and let our minds escape into a mini forested playground. Learn more about how to care for bonsai and take one of our upcoming workshops for hands-on training. Go ahead, let mother nature ground you.',
+		openHours: ['Mon – Sat: 11AM – 7PM', 'Sun: 12AM – 6PM'],
+		links: [
+			'https://www.instagram.com/dandyfarmer/',
+			'https://dandyfarmer.com/',
+		],
+	},
+	{
+		id: 5,
+		type: 'Fashion apparel',
+		name: 'Friend Of A Friend Studio',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/8a7435e5b464e5e5686b616e4671bb2efa2df96c_promospread.jpg?auto=compress,format',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/4fa59e7e54e3648441254d5d6ee264480ed4f28c_yes_20190730_ks19025_foaf_01_016.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/bd96603b2a2f6c22b91181018dcefd961da3bfa1_20190730_ks19025_foaf_film_ks_03_000030850001.jpg?auto=compress,format',
+		],
+		description:
+			'HELLO, WE ARE YOUR FRIENDLY DESIGN BRAND :)\nFriend of a Friend Studio creates limited-edition collections of playful goods inspired by New York City, and other places we travel to and revisit in our dreams. Our flagship corner shop at Canal Street Market showcases our current works and explorations. Friend of a Friend Studio supports art programs for local youth and other special causes with every sale. Come say hi! ',
+		openHours: ['Mon – Sat: 11AM – 7PM', 'Sun: 12AM – 6PM'],
+		links: [''],
+	},
+	{
+		id: 6,
+		type: 'Design Objects',
+		name: 'Leibal',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/9373120be0bb6ae6e82f971602c6f2cb50a1fabf_new-york-retail-space-leibal.jpg?auto=compress,format',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/af550ffb2d706da6f76b4072da6283e69596b753_retail-space-downtown-new-york-39.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/f46dedabf1201010924356e882357c9b294a47a2_retail-space-downtown-new-york-37.jpg?auto=compress,format',
+		],
+		description:
+			'Leibal curates a selection of objects focused on quality, minimalism, and functionality. Our mission is to provide a unique set of products that fascinate and inspire the user. We review each product, down to its packaging, to ensure that we continuously provide the best in both quality and design.',
+		openHours: ['Mon – Sat: 11AM – 7PM', 'Sun: 12AM – 6PM'],
+		links: ['https://www.instagram.com/leibal/', 'https://leibal.com/'],
+	},
+	{
+		id: 7,
+		type: 'K Pop Apparel and Merchandise',
+		name: 'Mandu Apparel',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/46c67ce677f3e1394d2d8d2fdcd945f34b368790_retail-market-new-york-mandu.jpg?auto=compress,format',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/54a283e19dbfd50384b94c6d2e0b6c19a57f9f6a_retail-space-downtown-new-york-54.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/1a49b0429790a7399a965b7cdd64318d5f03ca9b_retail-space-downtown-new-york-50.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/bcf931a7a2d4bbff06e2f935a32c3926933defa1_retail-space-downtown-new-york-56.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/031054d4115bf63a82f03b44a19d1331daec69ad_retail-space-downtown-new-york-53.jpg?auto=compress,format',
+		],
+		description:
+			'Mandu Apparel is a retail store that provides KPOP apparel and accessories to fans all over the world. All of the apparel we sell are printed in the USA using eco-friendly inks.',
+		openHours: ['Mon – Sat: 11AM – 7PM', 'Sun: 12AM – 6PM'],
+		links: [
+			'https://www.instagram.com/manduapparel/',
+			'https://manduapparel.com/',
+		],
+	},
+	{
+		id: 8,
+		type: 'Home Goods',
+		name: 'Mogutable',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/5129e430-7c35-4eac-ad5b-426655ac2b27_Mogu_Table_Day_1_Summer_Vacation_0067_+%281%29.jpg?auto=compress,format',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/09878f8c-4f3a-4aef-a771-f6682db0d0db_Mogu_Table_Day_1_Perfectionists_Selects_0172_+%281%29.jpg?auto=compress,format',
+		],
+		description:
+			'Mogutable curates beautiful items for you to enjoy in your home and everyday life.\nWe are Yingchi and Yuchen, the people behind Mogutable. Originally from Taiwan, we are a Brooklyn-based sister duo. Our shop features a selection of unique, well-designed, aesthetically-pleasing objects, sourced from our favorite artisans, locally and internationally.\nWe hope Mogutable becomes a space to inspire—a community for artists, designers, and fans to come together and create something new.',
+		openHours: ['Mon – Sat: 11AM – 7PM', 'Sun: 12AM – 6PM'],
+		links: ['https://www.instagram.com/mogutable/', 'https://mogutable.com/'],
+	},
+	{
+		id: 9,
+		type: 'Jewelry',
+		name: 'Mottive',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/8f565535-b400-4fb3-a814-57c60135073a_Screen+Shot+2020-01-03+at+3.25.02+PM.png?auto=compress,format',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/f8c4bce4-d2e9-44f8-b962-642fba80f12c_Screen+Shot+2020-01-03+at+3.28.48+PM.png?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/b5cd8024-a5eb-4950-a5f6-2628686fcece_Screen+Shot+2020-01-03+at+3.25.19+PM.png?auto=compress,format',
+		],
+		description:
+			'Mottive is a range of unique minimalist jewelry handmade in Brooklyn, New York.\nEach piece is imagined and created for the wearer using ethically and sustainably sourced materials.',
+		openHours: ['Mon – Sat: 11AM – 7PM', 'Sun: 12AM – 6PM'],
+		links: [
+			'https://www.instagram.com/mottive.inc/',
+			'https://mottiveinc.com/',
+		],
+	},
+	{
+		id: 10,
+		type: '',
+		name: '',
+		principalPhoto: '',
+		secondaryPhotos: [''],
+		description: '',
+		openHours: [''],
+		links: [''],
+	},
+	{
+		id: 11,
+		type: '',
+		name: '',
+		principalPhoto: '',
+		secondaryPhotos: [''],
+		description: '',
+		openHours: [''],
+		links: [''],
+	},
+]
