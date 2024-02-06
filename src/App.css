@@ -23,6 +23,11 @@
 	overflow-y: scroll;
 	scrollbar-width: none;
 
+	&:not(.selected) {
+		cursor: pointer;
+		user-select: none;
+	}
+
 	&::-webkit-scrollbar {
 		display: none;
 	}

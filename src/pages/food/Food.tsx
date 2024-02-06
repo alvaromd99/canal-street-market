@@ -12,8 +12,8 @@ export default function Food() {
 			<section className='hero-section'>
 				<PageTitle
 					name='Food'
-					title='Food Hall'
-					time='Mon - Sun: 11:00AM - 8:00PM'
+					title='The Food Hall'
+					text={'Food Hall Hours:\nMon - Sun: 11:00AM - 8:00PM'}
 					letter='餐饮'
 					imgSrc='https://images.prismic.io/canalstreetmarket/13a988aff3e9c672350fe8330eb7386c3a85eeb9_home_page_three.jpg?auto=compress,format'
 				/>

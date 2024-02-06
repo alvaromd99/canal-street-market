@@ -12,8 +12,8 @@ export default function Retail() {
 			<section className='hero-section'>
 				<PageTitle
 					name='Retail'
-					title='Retail Market'
-					time='Thrus - Sun: 11:00AM - 7:00PM'
+					title='The Retail Market'
+					text={'Retail Market Hours:\nThrus - Sun: 11:00AM - 7:00PM'}
 					letter='購物'
 					imgSrc='https://images.prismic.io/canalstreetmarket/20c7997073b456fda0e6de872d23b6183892bdde_home_page_two.jpg?auto=compress,format'
 				/>
