@@ -12,6 +12,14 @@
 		padding-inline: 4rem;
 	}
 
+	button {
+		background-color: var(--community-color);
+
+		&:hover {
+			background-color: var(--letter-color);
+		}
+	}
+
 	.hero-section {
 		display: flex;
 		align-items: center;
@@ -28,6 +36,7 @@
 		padding-block: 2rem;
 
 		h2 {
+			display: block;
 			max-width: 34rem;
 			position: absolute;
 			top: 50%;
@@ -100,6 +109,29 @@
 				background-repeat: repeat-x;
 				background-size: 100% 22px, 100% 22px;
 			}
+		}
+	}
+
+	.btn-wrapper {
+		button {
+			width: 100%;
+		}
+	}
+
+	.features-section {
+		padding-block: 8rem;
+
+		h2 {
+			font-size: 6.25rem;
+			margin-bottom: 2rem;
+			font-family: var(--pretty-font);
+		}
+
+		.features-grid {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			column-gap: 4rem;
+			row-gap: 8rem;
 		}
 	}
 }

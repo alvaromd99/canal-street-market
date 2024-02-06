@@ -1,0 +1,28 @@
+.feature-card {
+	position: relative;
+
+	h4 {
+		position: absolute;
+		font-size: 3rem;
+		line-height: 3rem;
+		bottom: -4rem;
+		left: 30px;
+		font-family: var(--pretty-font);
+		border-left: 14px solid white;
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+		span {
+			background: white;
+			border-right: 14px solid white;
+		}
+	}
+
+	img {
+		margin: auto;
+		width: 100%;
+		max-height: 22rem;
+		object-position: center;
+		object-fit: cover;
+	}
+}
