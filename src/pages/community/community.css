@@ -16,5 +16,90 @@
 		display: flex;
 		align-items: center;
 		padding-block: 7rem;
+
+		img {
+			opacity: 0;
+			animation: none;
+		}
+	}
+
+	.market-events-section {
+		position: relative;
+		padding-block: 2rem;
+
+		h2 {
+			max-width: 34rem;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-family: var(--pretty-font);
+			font-size: 6.25rem;
+			line-height: 5.5rem;
+			text-align: center;
+		}
+
+		.events-grid {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			column-gap: 3.75rem;
+
+			div {
+				padding: 5rem 0 3.75rem;
+			}
+
+			div:nth-child(1),
+			div:nth-child(2),
+			div:nth-child(3),
+			div:nth-child(4) {
+				padding: 5rem 0 3.75rem;
+				background-image: repeating-linear-gradient(
+					-74deg,
+					rgba(0, 0, 0, 0.5),
+					rgba(0, 0, 0, 0.5) 1px,
+					transparent 0,
+					transparent 8px
+				);
+				background-position: 0 0;
+				background-repeat: repeat-x;
+				background-size: 100% 22px;
+			}
+
+			div:nth-child(6),
+			div:nth-child(7) {
+				background-image: repeating-linear-gradient(
+					-74deg,
+					rgba(0, 0, 0, 0.5),
+					rgba(0, 0, 0, 0.5) 1px,
+					transparent 0,
+					transparent 8px
+				);
+				background-position: 0 100%;
+				background-repeat: repeat-x;
+				background-size: 100% 22px;
+			}
+
+			div:nth-child(5),
+			div:nth-child(8) {
+				padding-bottom: 80px;
+				background-image: repeating-linear-gradient(
+						-74deg,
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5) 1px,
+						transparent 0,
+						transparent 8px
+					),
+					repeating-linear-gradient(
+						-74deg,
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5) 1px,
+						transparent 0,
+						transparent 8px
+					);
+				background-position: 0 0, 0 100%;
+				background-repeat: repeat-x;
+				background-size: 100% 22px, 100% 22px;
+			}
+		}
 	}
 }
