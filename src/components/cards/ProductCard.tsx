@@ -1,3 +1,4 @@
+import { useLocation } from 'wouter'
 import './productCard.css'
 
 interface ProductCardProps {
@@ -13,9 +14,11 @@ export default function ProductCard({
 	name,
 	imgSrc,
 }: ProductCardProps) {
-	console.log(route)
+	const [, setLocation] = useLocation()
 
-	const handleClick = () => {}
+	const handleClick = () => {
+		setLocation(`/${route}/${name.toLowerCase().replace(/ /g, '-')}`)
+	}
 
 	return (
 		<div className='food-plate' onClick={handleClick}>

@@ -22,6 +22,7 @@ export default function Retail() {
 			<section className='products-section'>
 				{retailObjects.map((retailObj) => (
 					<ProductCard
+						route={'retail'}
 						key={retailObj.id}
 						type={retailObj.type}
 						name={retailObj.name}
