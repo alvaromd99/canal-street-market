@@ -1,12 +1,16 @@
 .feature-card {
 	position: relative;
 
+	.feature-text {
+		width: 80%;
+		position: relative;
+		left: 20px;
+		top: -30px;
+	}
+
 	h4 {
-		position: absolute;
 		font-size: 3rem;
 		line-height: 3rem;
-		bottom: -4rem;
-		left: 30px;
 		font-family: var(--pretty-font);
 		border-left: 14px solid white;
 		padding-top: 5px;

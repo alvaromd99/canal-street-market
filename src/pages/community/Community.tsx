@@ -1,8 +1,10 @@
+import Announcement from '../../components/announcement/Announcement'
 import NormalBtn from '../../components/btn/NormalBtn'
 import FeaturedCard from '../../components/cards/FeaturedCard'
 import MarketEvent from '../../components/market/MarketEvent'
 import PageTitle from '../../components/pageTitle/PageTitle'
 import './community.css'
+import HeadSvg from '../../assets/head.svg'
 
 export default function Community() {
 	return (
@@ -77,6 +79,15 @@ export default function Community() {
 
 			<section className='btn-wrapper'>
 				<NormalBtn text={'view all stories'} pad={1.2} />
+			</section>
+
+			<section className='announcement-section'>
+				<Announcement
+					svgSrc={HeadSvg}
+					alt={'Head svg'}
+					title={'Market Radio'}
+					subtitle={'Podcast from the market'}
+				/>
 			</section>
 		</div>
 	)
