@@ -5,9 +5,9 @@
 	gap: 4rem;
 
 	h1 {
-		font-size: clamp(10rem, 4vw, 14rem);
+		font-size: clamp(10rem, 4vw, 16rem);
 		font-family: var(--pretty-font);
-		line-height: 12rem;
+		line-height: 10rem;
 	}
 
 	p {

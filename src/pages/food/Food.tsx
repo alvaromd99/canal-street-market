@@ -23,6 +23,7 @@ export default function Food() {
 				{foodPlates.map((plate) => (
 					<ProductCard
 						key={plate.id}
+						route={'food'}
 						type={plate.type}
 						name={plate.name}
 						imgSrc={plate.principalPhoto}
