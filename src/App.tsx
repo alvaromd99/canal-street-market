@@ -5,6 +5,7 @@ import Food from './pages/food/Food'
 import Retail from './pages/retail/Retail'
 import { Route, useLocation } from 'wouter'
 import marketIcon from './assets/market.svg'
+import ProductPage from './pages/product/ProductPage'
 
 function App() {
 	const [location, setLocation] = useLocation()
@@ -31,7 +32,7 @@ function App() {
 					location.includes('/food') ? 'selected' : ''
 				}`}
 				onClick={() => {
-					if (location !== '/food') {
+					if (!location.includes('/food')) {
 						setLocation('/food')
 					}
 				}}>
@@ -40,9 +41,7 @@ function App() {
 					<span className='nav-span'>Food</span>
 				</div>
 				<Route path='/food' component={Food} />
-				<Route path='/food/:name'>
-					{(params) => <>Hello, {params.name}!</>}
-				</Route>
+				<Route path='/food/:name'>{ProductPage}</Route>
 			</div>
 
 			{/* RETAIL */}
@@ -52,16 +51,14 @@ function App() {
 					location.includes('/retail') ? 'selected' : ''
 				}`}
 				onClick={() => {
-					if (location !== '/retail') {
+					if (!location.includes('/retail')) {
 						setLocation('/retail')
 					}
 				}}>
 				<p className='nav-paragraph'>購物</p>
 				<span className='nav-span'>Retail</span>
 				<Route path='/retail' component={Retail} />
-				<Route path='/retail/:name'>
-					{(params) => <>Hello, {params.name}!</>}
-				</Route>
+				<Route path='/retail/:name'>{ProductPage}</Route>
 			</div>
 
 			{/* COMMUNITY */}
