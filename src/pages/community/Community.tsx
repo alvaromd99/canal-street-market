@@ -5,6 +5,9 @@ import MarketEvent from '../../components/market/MarketEvent'
 import PageTitle from '../../components/pageTitle/PageTitle'
 import './community.css'
 import HeadSvg from '../../assets/head.svg'
+import MarketEventsPanel from '../../components/events/MarketEventsPanel'
+import { CommunityEventsInfo } from '../../constants/constants'
+import Footer from '../../components/footer/Footer'
 
 export default function Community() {
 	return (
@@ -88,6 +91,17 @@ export default function Community() {
 					title={'Market Radio'}
 					subtitle={'Podcast from the market'}
 				/>
+			</section>
+
+			<section className='events-section'>
+				<MarketEventsPanel eventsInfo={CommunityEventsInfo} />
+				<div className='events-btn-wrapper'>
+					<NormalBtn text={'see all'} pad={1.2} />
+				</div>
+			</section>
+
+			<section className='footer-section'>
+				<Footer />
 			</section>
 		</div>
 	)

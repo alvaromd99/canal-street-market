@@ -31,7 +31,12 @@ export default function Retail() {
 			</section>
 
 			<section className='announcement-section'>
-				<Announcement svgSrc={rose} alt={'Rose'} />
+				<Announcement
+					svgSrc={rose}
+					alt={'Rose'}
+					title={'The Best of NYC'}
+					subtitle={'All under one roof'}
+				/>
 			</section>
 
 			<section className='footer-section'>

@@ -18,6 +18,21 @@ export const AboutEventsInfo: EventInformation[] = [
 	},
 ]
 
+export const CommunityEventsInfo: EventInformation[] = [
+	{
+		date: '02/06',
+		info: 'S4E1: Welcome to Season 4',
+	},
+	{
+		date: '01/25',
+		info: 'Madison Hammond Re-Signs With Angel City and Chats Her Life + United Soccer Coaches Convention Recap + NWSL Free Agency and Trades + WOSO Roundup',
+	},
+	{
+		date: '05/22',
+		info: 'Episode 13: Sarinya Srisakul',
+	},
+]
+
 export const linkCards = [
 	{
 		imgSrc: pencilIcon,

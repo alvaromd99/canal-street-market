@@ -31,7 +31,12 @@ export default function Food() {
 			</section>
 
 			<section className='announcement-section'>
-				<Announcement svgSrc={face} alt={'Smile Face'} />
+				<Announcement
+					svgSrc={face}
+					alt={'Smile Face'}
+					title={'The Best of NYC'}
+					subtitle={'All under one roof'}
+				/>
 			</section>
 
 			<section className='footer-section'>
