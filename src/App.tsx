@@ -17,7 +17,7 @@ function App() {
 				className={`nav-button about ${location === '/' ? 'selected' : ''}`}
 				onClick={() => {
 					if (location !== '/') {
-						setLocation('food')
+						setLocation('/')
 					}
 				}}>
 				<img className='logo' src={marketIcon} alt='logo image' />
@@ -32,7 +32,7 @@ function App() {
 				}`}
 				onClick={() => {
 					if (location !== '/food') {
-						setLocation('food')
+						setLocation('/food')
 					}
 				}}>
 				<div className='nav-info'>
@@ -49,16 +49,19 @@ function App() {
 
 			<div
 				className={`nav-button retail ${
-					location === '/retail' ? 'selected' : ''
+					location.includes('/retail') ? 'selected' : ''
 				}`}
 				onClick={() => {
 					if (location !== '/retail') {
-						setLocation('retail')
+						setLocation('/retail')
 					}
 				}}>
 				<p className='nav-paragraph'>購物</p>
 				<span className='nav-span'>Retail</span>
 				<Route path='/retail' component={Retail} />
+				<Route path='/retail/:name'>
+					{(params) => <>Hello, {params.name}!</>}
+				</Route>
 			</div>
 
 			{/* COMMUNITY */}
@@ -69,7 +72,7 @@ function App() {
 				}`}
 				onClick={() => {
 					if (location !== '/community') {
-						setLocation('community')
+						setLocation('/community')
 					}
 				}}>
 				<p className='nav-paragraph'>文化</p>
