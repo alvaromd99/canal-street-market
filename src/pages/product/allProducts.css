@@ -29,3 +29,13 @@
 		}
 	}
 }
+
+.plates-page {
+	button {
+		background-color: var(--food-color);
+
+		&:hover {
+			background-color: var(--letter-color);
+		}
+	}
+}
