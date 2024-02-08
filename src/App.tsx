@@ -5,7 +5,8 @@ import Food from './pages/food/Food'
 import Retail from './pages/retail/Retail'
 import { Route, useLocation } from 'wouter'
 import marketIcon from './assets/market.svg'
-import ProductPage from './pages/product/FoodPage'
+import FoodPage from './pages/product/FoodPage'
+import RetailPage from './pages/product/RetailPage'
 
 function App() {
 	const [location, setLocation] = useLocation()
@@ -42,7 +43,7 @@ function App() {
 				</div>
 				<Route path='/food' component={Food} />
 				<Route path='/food/:name'>
-					{(params) => <ProductPage name={params.name} />}
+					{(params) => <FoodPage name={params.name} />}
 				</Route>
 			</div>
 
@@ -60,7 +61,9 @@ function App() {
 				<p className='nav-paragraph'>購物</p>
 				<span className='nav-span'>Retail</span>
 				<Route path='/retail' component={Retail} />
-				<Route path='/retail/:name'>{ProductPage}</Route>
+				<Route path='/retail/:name'>
+					{(params) => <RetailPage name={params.name} />}
+				</Route>
 			</div>
 
 			{/* COMMUNITY */}
