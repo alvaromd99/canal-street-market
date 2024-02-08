@@ -22,12 +22,3 @@
 		column-gap: 4rem;
 	}
 }
-
-@keyframes marche {
-	0% {
-		background-position-x: 0, 0;
-	}
-	100% {
-		background-position-x: 24px, -24px;
-	}
-}

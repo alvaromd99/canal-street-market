@@ -1,0 +1,18 @@
+.images-display-wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 4rem;
+	row-gap: 4rem;
+
+	.images-wrapper {
+		border: 1px solid #000000;
+		max-height: 22rem;
+
+		img {
+			height: 100%;
+			object-position: center;
+			object-fit: contain;
+			margin: auto;
+		}
+	}
+}

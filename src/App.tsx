@@ -5,8 +5,8 @@ import Food from './pages/food/Food'
 import Retail from './pages/retail/Retail'
 import { Route, useLocation } from 'wouter'
 import marketIcon from './assets/market.svg'
-import FoodPage from './pages/product/FoodPage'
-import RetailPage from './pages/product/RetailPage'
+import FoodPage from './pages/product/FoodPlatePage'
+import RetailPage from './pages/product/RetailProductPage'
 
 function App() {
 	const [location, setLocation] = useLocation()

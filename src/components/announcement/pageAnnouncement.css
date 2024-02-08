@@ -1,0 +1,51 @@
+.page-announcement-wrapper {
+	padding: 120px 0;
+	background-image: repeating-linear-gradient(
+			-45deg,
+			#000,
+			#000 1px,
+			transparent 0,
+			transparent 71px
+		),
+		repeating-linear-gradient(
+			45deg,
+			#000,
+			#000 1px,
+			transparent 0,
+			transparent 70px
+		);
+	background-position: 0 0;
+	background-size: 100px 50px;
+	background-repeat: repeat-x;
+	animation: OnlyOneTriangleWave 2s infinite normal;
+	animation-timing-function: linear;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	place-items: center;
+
+	img {
+		width: 10rem;
+		animation: UpDown 1s infinite alternate;
+		animation-timing-function: ease-in-out;
+	}
+
+	div:last-of-type {
+		transform: rotateY(180deg);
+
+		img {
+			animation-delay: 1s;
+		}
+	}
+
+	.page-announcement-text {
+		text-align: center;
+
+		h3 {
+			font-size: 7rem;
+			line-height: 5.5rem;
+			max-width: 10ch;
+			font-family: var(--pretty-font);
+		}
+	}
+}
