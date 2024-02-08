@@ -1,0 +1,29 @@
+.hero-left {
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+
+	h2 {
+		font-size: 7rem;
+		font-family: var(--pretty-font);
+	}
+}
+
+.hero-right {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	gap: 12rem;
+
+	p {
+		text-align: end;
+		white-space: pre-line;
+	}
+
+	img {
+		width: 80%;
+		height: 80%;
+	}
+}
