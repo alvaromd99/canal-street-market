@@ -1,12 +1,13 @@
+import { Route, useLocation } from 'wouter'
 import './App.css'
+import marketIcon from './assets/market.svg'
 import About from './pages/about/About'
 import Community from './pages/community/Community'
+import CommunityFeatures from './pages/community/CommunityFeatures'
 import Food from './pages/food/Food'
-import Retail from './pages/retail/Retail'
-import { Route, useLocation } from 'wouter'
-import marketIcon from './assets/market.svg'
 import FoodPage from './pages/product/FoodPlatePage'
 import RetailPage from './pages/product/RetailProductPage'
+import Retail from './pages/retail/Retail'
 
 function App() {
 	const [location, setLocation] = useLocation()
@@ -14,7 +15,6 @@ function App() {
 	return (
 		<div className='App'>
 			{/* HOME */}
-
 			<div
 				className={`nav-button about ${location === '/' ? 'selected' : ''}`}
 				onClick={() => {
@@ -27,7 +27,6 @@ function App() {
 			</div>
 
 			{/* FOOD */}
-
 			<div
 				className={`nav-button food ${
 					location.includes('/food') ? 'selected' : ''
@@ -48,7 +47,6 @@ function App() {
 			</div>
 
 			{/* RETAIL */}
-
 			<div
 				className={`nav-button retail ${
 					location.includes('/retail') ? 'selected' : ''
@@ -67,19 +65,19 @@ function App() {
 			</div>
 
 			{/* COMMUNITY */}
-
 			<div
 				className={`nav-button community ${
-					location === '/community' ? 'selected' : ''
+					location.includes('/community') ? 'selected' : ''
 				}`}
 				onClick={() => {
-					if (location !== '/community') {
+					if (!location.includes('/community')) {
 						setLocation('/community')
 					}
 				}}>
 				<p className='nav-paragraph'>文化</p>
 				<span className='nav-span'>Community</span>
 				<Route path='/community' component={Community} />
+				<Route path='/community/features' component={CommunityFeatures} />
 			</div>
 		</div>
 	)

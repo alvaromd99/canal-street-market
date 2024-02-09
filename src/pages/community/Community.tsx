@@ -47,7 +47,7 @@ export default function Community() {
 			</section>
 
 			<section className='btn-wrapper' style={{ marginTop: '4rem' }}>
-				<NormalBtn text={'view all'} pad={1.2} />
+				<NormalBtn text={'view all'} pad={1.2} newLocation={''} />
 			</section>
 
 			<section className='features-section'>
@@ -81,7 +81,11 @@ export default function Community() {
 			</section>
 
 			<section className='btn-wrapper'>
-				<NormalBtn text={'view all stories'} pad={1.2} />
+				<NormalBtn
+					text={'view all stories'}
+					pad={1.2}
+					newLocation={'/community/features'}
+				/>
 			</section>
 
 			<section className='announcement-section'>
@@ -96,7 +100,7 @@ export default function Community() {
 			<section className='events-section'>
 				<MarketEventsPanel eventsInfo={CommunityEventsInfo} />
 				<div className='events-btn-wrapper'>
-					<NormalBtn text={'see all'} pad={1.2} />
+					<NormalBtn text={'see all'} pad={1.2} newLocation={''} />
 				</div>
 			</section>
 
