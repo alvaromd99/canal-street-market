@@ -1,13 +1,13 @@
 import { useEffect, useRef } from 'react'
+import rose from '../../assets/rose.svg'
 import PageAnnouncement from '../../components/announcement/PageAnnouncement'
+import ProductCard from '../../components/cards/ProductCard'
+import Footer from '../../components/footer/Footer'
 import ImagesDisplay from '../../components/imagesDisplay/ImagesDisplay'
 import ProductPageTitle from '../../components/pageTitle/ProductPageTitle'
 import { retailObjects } from '../../constants/constants'
 import { findProductsByName } from '../../utils/findProductByName'
 import './allProducts.css'
-import rose from '../../assets/rose.svg'
-import ProductCard from '../../components/cards/ProductCard'
-import Footer from '../../components/footer/Footer'
 
 export default function FoodPage({ name }: { name: string }) {
 	const retailObject = findProductsByName(retailObjects, name)

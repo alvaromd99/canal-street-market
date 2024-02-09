@@ -1,13 +1,13 @@
+import HeadSvg from '../../assets/head.svg'
 import Announcement from '../../components/announcement/Announcement'
 import NormalBtn from '../../components/btn/NormalBtn'
 import FeaturedCard from '../../components/cards/FeaturedCard'
+import MarketEventsPanel from '../../components/events/MarketEventsPanel'
+import Footer from '../../components/footer/Footer'
 import MarketEvent from '../../components/market/MarketEvent'
 import PageTitle from '../../components/pageTitle/PageTitle'
-import './community.css'
-import HeadSvg from '../../assets/head.svg'
-import MarketEventsPanel from '../../components/events/MarketEventsPanel'
 import { CommunityEventsInfo } from '../../constants/constants'
-import Footer from '../../components/footer/Footer'
+import './community.css'
 
 export default function Community() {
 	return (

@@ -1,13 +1,13 @@
 import { useEffect, useRef } from 'react'
+import ramen from '../../assets/ramen.svg'
 import PageAnnouncement from '../../components/announcement/PageAnnouncement'
+import ProductCard from '../../components/cards/ProductCard'
+import Footer from '../../components/footer/Footer'
 import ImagesDisplay from '../../components/imagesDisplay/ImagesDisplay'
 import ProductPageTitle from '../../components/pageTitle/ProductPageTitle'
 import { foodPlates } from '../../constants/constants'
 import { findProductsByName } from '../../utils/findProductByName'
 import './allProducts.css'
-import ramen from '../../assets/ramen.svg'
-import ProductCard from '../../components/cards/ProductCard'
-import Footer from '../../components/footer/Footer'
 
 export default function FoodPage({ name }: { name: string }) {
 	const plate = findProductsByName(foodPlates, name)

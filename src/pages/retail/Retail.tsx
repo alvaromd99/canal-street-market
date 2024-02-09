@@ -1,9 +1,9 @@
+import rose from '../../assets/rose.svg'
 import Announcement from '../../components/announcement/Announcement'
 import ProductCard from '../../components/cards/ProductCard'
+import Footer from '../../components/footer/Footer'
 import PageTitle from '../../components/pageTitle/PageTitle'
 import { retailObjects } from '../../constants/constants'
-import rose from '../../assets/rose.svg'
-import Footer from '../../components/footer/Footer'
 import './retail.css'
 
 export default function Retail() {

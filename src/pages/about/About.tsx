@@ -1,11 +1,11 @@
-import './About.css'
 import { useRef } from 'react'
-import { UseIntersectionObserver } from '../../hooks/UseIntersectionObserver'
+import NormalBtn from '../../components/btn/NormalBtn'
 import Card from '../../components/cards/Card'
 import MarketEventsPanel from '../../components/events/MarketEventsPanel'
-import { AboutEventsInfo } from '../../constants/constants'
 import Footer from '../../components/footer/Footer'
-import NormalBtn from '../../components/btn/NormalBtn'
+import { AboutEventsInfo } from '../../constants/constants'
+import { UseIntersectionObserver } from '../../hooks/UseIntersectionObserver'
+import './About.css'
 
 export default function About() {
 	const imageRef = useRef(null)
