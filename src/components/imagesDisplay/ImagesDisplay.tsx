@@ -7,11 +7,15 @@ interface ImagesDisplayProps {
 export default function ImagesDisplay({ imagesArr }: ImagesDisplayProps) {
 	return (
 		<div className='images-display-wrapper'>
-			{imagesArr.map((image, index) => (
-				<div className='images-wrapper' key={index}>
-					<img src={image} alt='Plate secondary fotos' />
-				</div>
-			))}
+			{imagesArr.map((image, index) => {
+				return (
+					image !== '' && (
+						<div className='images-wrapper' key={index}>
+							<img src={image} alt='Plate secondary fotos' />
+						</div>
+					)
+				)
+			})}
 		</div>
 	)
 }

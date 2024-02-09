@@ -6,6 +6,7 @@ interface ProductPageTitleProps {
 	description: string
 	time: string
 	imgSrc: string
+	backLocation: string
 }
 
 export default function ProductPageTitle({
@@ -13,17 +14,18 @@ export default function ProductPageTitle({
 	description,
 	time,
 	imgSrc,
+	backLocation,
 }: ProductPageTitleProps) {
 	return (
 		<>
 			<div className='hero-left'>
-				<BackBtn text={'all food'} location={'/food'} />
+				<BackBtn text={'all food'} location={backLocation} />
 				<h2>{name}</h2>
 				<p>{description}</p>
 			</div>
 			<div className='hero-right'>
 				<p>{time}</p>
-				<img src={imgSrc} alt='plate photo' />
+				{imgSrc !== '' && <img src={imgSrc} alt='plate photo' />}
 			</div>
 		</>
 	)
