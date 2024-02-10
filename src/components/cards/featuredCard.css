@@ -1,5 +1,6 @@
 .feature-card {
 	position: relative;
+	cursor: pointer;
 
 	.feature-text {
 		width: 80%;

@@ -88,7 +88,7 @@ export default function Community() {
 				<NormalBtn
 					text={'view all stories'}
 					pad={1.2}
-					newLocation={'/community/features'}
+					newLocation={'/community/feature'}
 				/>
 			</section>
 
