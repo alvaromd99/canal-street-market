@@ -4,6 +4,7 @@ import marketIcon from './assets/market.svg'
 import About from './pages/about/About'
 import Community from './pages/community/Community'
 import CommunityFeatures from './pages/community/CommunityFeatures'
+import Feature from './pages/feauture/Feature'
 import Food from './pages/food/Food'
 import FoodPage from './pages/product/FoodPlatePage'
 import RetailPage from './pages/product/RetailProductPage'
@@ -77,7 +78,10 @@ function App() {
 				<p className='nav-paragraph'>文化</p>
 				<span className='nav-span'>Community</span>
 				<Route path='/community' component={Community} />
-				<Route path='/community/features' component={CommunityFeatures} />
+				<Route path='/community/feature' component={CommunityFeatures} />
+				<Route path='/community/feature/:name'>
+					{(params) => <Feature name={params.name} />}
+				</Route>
 			</div>
 		</div>
 	)

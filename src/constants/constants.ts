@@ -1,7 +1,7 @@
-import { EventInformation } from '../types/types'
-import pencilIcon from '../assets/pencil.svg'
 import facebookIcon from '../assets/facebook.svg'
 import instagramIcon from '../assets/instagram.svg'
+import pencilIcon from '../assets/pencil.svg'
+import { EventInformation } from '../types/types'
 
 export const AboutEventsInfo: EventInformation[] = [
 	{
@@ -344,5 +344,114 @@ export const retailObjects = [
 		description: '',
 		openHours: [''],
 		links: [''],
+	},
+]
+
+export const communityFeatures = [
+	{
+		name: 'American Design Club',
+		type: 'Design Objects',
+		ownerName: 'Kiel Mead',
+		ownerDescription: 'Owner of the American Design Club',
+		communityName: 'CSM Community - AMDC',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/ad63bd2481b47c4b95e0ce8eb265658541ace7f4_001-1-1.jpg?auto=compress,format',
+		secondaryPhoto:
+			'https://images.prismic.io/canalstreetmarket/d9c946b6a7fe1cff84a760ff910425b1488f3917_american-design.jpg?auto=compress,format',
+		asidePhoto:
+			'https://images.prismic.io/canalstreetmarket/35b63b73f8bf1c9b4317f83217deaf9b80aaa8b1_american-design-club-hero.jpg?auto=compress,format',
+		letter: '零售',
+		link: '/retail/american-design-club',
+		questions: [
+			{
+				question: 'What do you do?',
+				response:
+					'I do everything from art direction of the company to consult with our brands to make their sales the best and to help shape the sales efforts so they are continuously showing new products to the people who come through CSM.',
+			},
+			{
+				question: 'What is American design club?',
+				response:
+					'It’s a lot of the things but first and foremost we are a representation agency. We represent many designers and brands who are looking to put product out to the market. We mainly work with people who are emerging and could use a guide. We help brands get access to customers by showing them at trade shows and them allowing them to tap into the network of stores we’ve been selling to for a long time. We sort of champion that by having 2 retail outposts in NYC - one in Canal Street Market and the other at Artist Flea in Soho. We showcase them first in NYC because NYC has an amazing clientele: tourists, locals, and people from all types of socioeconomic situations. And that’s something we love about Canal Street Market. It’s all encompassing as far as who comes through the door.',
+			},
+			{
+				question: 'How did you get started in the industry?',
+				response:
+					'I had a pretty successful jewelry line maybe 10 years ago or so. And through that, I created the AMDC as an entity that could help designers show their work, sell their work, and share their ideas of the process and their journey. If I were to cookie cutter sell it to you, we help designers show, share, and sell their work. That’s our manifesto. It started back in 2008, so we’ve been doing it for over a decade. We unapologetically show work from up and coming talented people.',
+			},
+			{
+				question: 'What kinds of things do you show?',
+				response:
+					'We specifically focus on “the gift” market. We have everything from neon lights to greeting cards and onesies for kids and calendars, cologne, candles, ceramics… we have so much. And we fit it into one tiny booth. We have a plethora of product, which is what we pride ourselves on. We figure out how to show an immense amount of product in a small amount of space to so many people.',
+			},
+			{
+				question:
+					'It came to be through a group of friends who were coming from three different design schools who just wanted to show their work. We wanted to help alleviate the stress of showcasing your work alone. We are a support company for people who are struggling to be noticed. If you work with us, we will help create many opportunities for you to show and sell your work. The AMDC is really attracted to CSM because we see ourselves the same way we think CSM sees themselves, in strength in numbers. CSM is successful because there are 10 food vendors and close to 20 shopping vendors. And the AMDC is successful because we do it for 30 people. Because we do it for 30 people, those 30 will invite 10 of their friends. And then we have 300 eyes of everyone’s work. I think likeminds find each other sometimes. And we do it at a wholesale level and CSM does it at a retail and community level. We can co-exist and help each other.',
+			},
+			{
+				question: 'What kind of people do you attract?',
+				response:
+					'All kinds. We get phone calls and emails from people who just see us doing cool things. We put up pictures of our display at CSM and that attracts people who wants those opportunities. We talk to jewelry makers, scarf makers, furniture and lighting designers. Eventually we need to curate ourselves and know who we are selling to and tailor our decisions to that. And we have so much data now and we are students of it. We translate all that information into data sets so we can sell to people anywhere. We are getting so much out of our experience at CSM that we wouldn’t have had before.',
+			},
+			{
+				question: 'Why did you name your brand the American Design Club?',
+				response:
+					"We named ourselves AMDC because in 2008 when I was younger and more interested in furniture design and competing on a level with designers, America was being trashed on. We might still be, though I hope AMDC has had an effect on that. But Europe, like Milan furniture fair, all these other countries were asking what's up with your design world? I purposely named it AMDC so it almost seems like we are government funded and we are an entity in America that is helping and promoting design in America. Our logo is a turkey and the reason it’s a turkey is because Benjamin Franklin wanted the national bird to be a turkey instead of the bald eagle because he thought the bald eagle stole from other people. It was a predator. Whereas a turkey travels in packs and protects each other and has a warning call when predators get too close and work together for the benefit of the community. That’s why we call ourselves the ADC and logo’ed ourselves the turkey. That was our purpose. To feel as official as possible.",
+			},
+			{
+				question: 'Why did you decide to join Canal Street Market?',
+				response:
+					'We decided to join Canal Street Market for a couple reasons. A few people we knew personally were a part of the market and having success. Another thing was we were looking to enter into the retail market and we thought that Canal Street market offered us one of the best packages that was out there, having storage and a clean aesthetic for selling our products, which we thought was really important.',
+			},
+			{
+				question:
+					'What kind of community has Canal Street Market created in Chinatown?',
+				response:
+					'Having food and shopping under one roof is the necessary recipe to start to create a community and have foot traffic. Especially food. You need food everyday and we want people to need something from us everyday. For a company like ours, it’s important that we are catering to three very different groups like the people who are coming in for lunch who are people that work in that area. Then you have locals, who are people living in the area. And then you have the tourists. We love Canal Street Market’s location. It’s such a prime location and it’s such a big draw in general for tourists because of the food and the shopping. It’s a perfect mix of things. I think that Canal Street made an amazing decision, a very conscious decision to keep space so they can rotate different vendors there. It’s a gift to us and the community. Every month there is something new to discover and i think that’s what the community really wants.',
+			},
+			{
+				question: 'What is your go-to vendor at CSM?',
+				response:
+					'I am obsessed with the florist, Fox Fodder Farm. I buy my wife flowers from there all the time. Besides that, I like the coffee from Office Coffee.',
+			},
+			{
+				question:
+					'What’s a memorable moment you experienced at Canal Street Market?',
+				response:
+					'Being a part of a market and not having the key to the door, you put a lot of trust in your fellow vendors, and more importantly, the operations people who run the place. Having them have your back and they aren’t on your payroll, is something I treasure. That’s not something that you see anywhere else. That support is necessary for the future of what we are all doing retail wise, and engaging with the community. We need to be good first before we can be good to the public, and we have that at CSM.',
+			},
+		],
+	},
+	{
+		name: '',
+		principalPhoto: '',
+		secondaryPhoto: '',
+		asidePhoto: '',
+		letter: '',
+		questions: [
+			{ question: '', response: '' },
+			{ question: '', response: '' },
+		],
+	},
+	{
+		name: '',
+		principalPhoto: '',
+		secondaryPhoto: '',
+		asidePhoto: '',
+		letter: '',
+		questions: [
+			{ question: '', response: '' },
+			{ question: '', response: '' },
+		],
+	},
+	{
+		name: '',
+		principalPhoto: '',
+		secondaryPhoto: '',
+		asidePhoto: '',
+		letter: '',
+		questions: [
+			{ question: '', response: '' },
+			{ question: '', response: '' },
+		],
 	},
 ]
