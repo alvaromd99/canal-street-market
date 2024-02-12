@@ -349,6 +349,7 @@ export const retailObjects = [
 
 export const communityFeatures = [
 	{
+		location: 'amdc',
 		name: 'American Design Club',
 		type: 'Design Objects',
 		ownerName: 'Kiel Mead',
@@ -422,6 +423,7 @@ export const communityFeatures = [
 		],
 	},
 	{
+		location: 'joe-rong',
 		name: '',
 		principalPhoto: '',
 		secondaryPhoto: '',
@@ -433,6 +435,7 @@ export const communityFeatures = [
 		],
 	},
 	{
+		location: 'csm-community',
 		name: '',
 		principalPhoto: '',
 		secondaryPhoto: '',
@@ -444,6 +447,7 @@ export const communityFeatures = [
 		],
 	},
 	{
+		location: 'csm-community---izakaya',
 		name: '',
 		principalPhoto: '',
 		secondaryPhoto: '',

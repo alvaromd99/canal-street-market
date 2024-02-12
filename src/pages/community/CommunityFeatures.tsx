@@ -37,7 +37,7 @@ export default function CommunityFeatures() {
 							'https://images.prismic.io/canalstreetmarket/ad63bd2481b47c4b95e0ce8eb265658541ace7f4_001-1-1.jpg?auto=compress,format'
 						}
 						title={'CSM Community - AMDC'}
-						location={'/community/feature/AMDC'}
+						location={'/community/feature/amdc'}
 					/>
 					<FeaturedCard
 						imgSrc={

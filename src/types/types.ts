@@ -22,3 +22,23 @@ export interface RetailObjectsInformation {
 	openHours: string[]
 	links: string[]
 }
+
+export interface CommunityFeaturesInformation {
+	location?: string
+	name: string
+	type?: string
+	ownerName?: string
+	ownerDescription?: string
+	communityName?: string
+	principalPhoto: string
+	secondaryPhoto: string
+	asidePhoto: string
+	letter: string
+	link?: string
+	questions: Question[]
+}
+
+export interface Question {
+	question: string
+	response?: string
+}
