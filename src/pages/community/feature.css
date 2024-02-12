@@ -1,0 +1,38 @@
+.feature-page {
+	min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	padding-top: 8rem;
+	padding-bottom: 1rem;
+
+	section {
+		padding-inline: 4rem;
+	}
+
+	button {
+		background-color: var(--community-color);
+
+		&:hover {
+			background-color: var(--letter-color);
+		}
+	}
+
+	.fading-in {
+		animation: fadeIn 1.5s ease-out forwards;
+	}
+
+	.feature-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.header-btn-wrapper {
+			display: flex;
+			align-items: center;
+		}
+
+		.header-letter {
+			font-size: 4rem;
+		}
+	}
+}

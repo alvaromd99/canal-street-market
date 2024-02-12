@@ -20,6 +20,10 @@
 		}
 	}
 
+	.fading-in {
+		animation: fadeIn 1.5s ease-out forwards;
+	}
+
 	.header-section {
 		display: flex;
 		align-items: center;
