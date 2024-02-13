@@ -16,6 +16,13 @@ export default function Feature({ name }: { name: string }) {
 				</div>
 				<p className='header-letter'>{feature?.letter}</p>
 			</section>
+
+			<section className='title-section'>
+				<h1>
+					<span>{feature?.name}</span>
+				</h1>
+				<img src={feature?.principalPhoto} alt='Photo' />
+			</section>
 		</div>
 	)
 }
