@@ -14,7 +14,7 @@ export default function Feature({ name }: { name: string }) {
 					<BackBtn text={'Community'} location={'/community'} />
 					<BackBtn text={'Features'} location={'/community/feature'} />
 				</div>
-				<p className='header-letter'>{feature?.letter}</p>
+				<p className='header-letter'>零售</p>
 			</section>
 
 			<section className='title-section'>
@@ -23,6 +23,8 @@ export default function Feature({ name }: { name: string }) {
 				</h1>
 				<img src={feature?.principalPhoto} alt='Photo' />
 			</section>
+
+			<section className='information-section'></section>
 		</div>
 	)
 }

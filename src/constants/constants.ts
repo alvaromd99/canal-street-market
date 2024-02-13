@@ -361,7 +361,6 @@ export const communityFeatures = [
 			'https://images.prismic.io/canalstreetmarket/d9c946b6a7fe1cff84a760ff910425b1488f3917_american-design.jpg?auto=compress,format',
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/35b63b73f8bf1c9b4317f83217deaf9b80aaa8b1_american-design-club-hero.jpg?auto=compress,format',
-		letter: '零售',
 		link: '/retail/american-design-club',
 		questions: [
 			{
@@ -424,38 +423,64 @@ export const communityFeatures = [
 	},
 	{
 		location: 'joe-rong',
-		name: '',
-		principalPhoto: '',
-		secondaryPhoto: '',
-		asidePhoto: '',
-		letter: '',
+		name: "Joe's Steam Rice Rolls",
+		type: 'Cantonese Steamed Rice Rolls',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/9c41db6b59d689aeda46a6a6405d8767649629c4_joejoe.jpg?auto=compress,format',
+		secondaryPhoto:
+			'https://images.prismic.io/canalstreetmarket/1a414bdd7ac06e7038e47436b9a35970a08aa7bb_jj-for-joe-2.jpg?auto=compress,format',
+		asidePhoto:
+			'https://images.prismic.io/canalstreetmarket/02074214fef758434124320a62917c03c8490581_new-york-food-market-rice-roll.png?auto=compress,format',
+		ownerName: 'Joe Rong',
+		ownerDescription: 'The founder of Joe’s Steam Rice Rolls in NYC',
+		communityName: 'CSM Community - AMDC',
 		questions: [
-			{ question: '', response: '' },
-			{ question: '', response: '' },
-		],
-	},
-	{
-		location: 'csm-community',
-		name: '',
-		principalPhoto: '',
-		secondaryPhoto: '',
-		asidePhoto: '',
-		letter: '',
-		questions: [
-			{ question: '', response: '' },
-			{ question: '', response: '' },
-		],
-	},
-	{
-		location: 'csm-community---izakaya',
-		name: '',
-		principalPhoto: '',
-		secondaryPhoto: '',
-		asidePhoto: '',
-		letter: '',
-		questions: [
-			{ question: '', response: '' },
-			{ question: '', response: '' },
+			{
+				question: 'How did you get started?',
+				response:
+					'In China, steam rice rolls are a really simple thing. Every morning, we eat it for breakfast. It’s fast food and healthy. Here, there are rice rolls in some places but they don’t do it as well as in China, so I wanted to bring it here and let more people know about it and have a taste of it. There are thousands of restaurants like this in China but it made me really sad when I came here because I thought I wasn’t going to have this kind of food anymore. When my mom moved to NY, she cooked it for me once at home. It reminded me of my childhood, so I decided to open a restaurant to sell the rice rolls. I used to work at a Karaoke bar as a bartender but I never worked at a restaurant. I don’t cook. A lot of people think I’m a good chef but I can’t cook. I can learn though! I’m probably just dumb. When I had this idea, I just decided to open it. My family, even my wife, didn’t support me at first. But I wanted to do it and I spent my own money to go back to China to learn the recipe. When I got the idea and opened the store, it only took me 2 months. I didn’t have any support but it turned out pretty good.',
+			},
+			{
+				question: 'How did it turn into something bigger?',
+				response:
+					'I had never worked at a restaurant before and I had imagined it would be easy and I thought I had figured out all the steps in my mind. But it wasn’t easy. At the beginning, I faced a lot of problems. But no matter what problem I faced, big or small, I had to figure it out on my own. We are more popular right now, but the first year we didn’t have a lot of customers. I was losing money. But we kept doing it and we improved the recipe. And when customers came, we treated them well and they loved the food and then they would tell their friends. That’s how we gained customers. It was through word of mouth. But it took about 1-2 years. We didn’t pay for advertising or do any promotions. It took a bit to get to this stage. It’s been about 3 years since we opened. When I opened this restaurant, my uncle gave me all the money to me to open this restaurant and he fully trusted me. He told me, “no matter what happens, no matter what kind of problem you are facing, just don’t give up. Even if you’re not making any money, if you keep going your dreams will come true.” It was hard but it was worth it. If I were to go back to that time, I probably wouldn’t do it again. Even if I know it’s going to be successful, I probably wouldn’t. It was really stressful.',
+			},
+			{
+				question: 'How did you decide on the name?',
+				response:
+					'The name is pretty simple because the only thing we sell is steam rice rolls and Joe is my name. But in Chinese, the name is pretty funny. It’s chiang fung wong, which translate to, “We are the king of rice rolls”, like Burger King. A lot of Chinese restaurants are run by older people so when I started, I was only 24 years old and a lot of customers didn’t trust a young guy trying to start a restaurant. That was also a big hurdle.',
+			},
+			{
+				question: 'What is the secret of your rice rolls?',
+				response:
+					'There is no secret. But we spend a lot of time making it. Some people go to the market to get rice powder to make the recipe but we use fresh rice. We soak the rice for 4 hours and everyday we prepare it and order 60 pounds of rice to grind it. We spend 2-3 hours grinding it into a powder. We spend a lot of time and put in a lot of effort to make it fresh.',
+			},
+			{
+				question: 'What kind of community are you trying to create?',
+				response:
+					'It’s for everyone. At first, this kind of food was for Cantonese people. Only they knew what it was. A lot of people from China, from the north side, didn’t even know what it was. Now they are more familiar with it. My first store is located in Flushing. There are a lot of Korean people there and it’s funny because I started getting a lot of Korean customers. We started adding a spicy sauce, which was a really popular with them. We also continued to find new sauces to cater to more kinds of taste buds.',
+			},
+			{
+				question: 'Why did you join Canal Street Market?',
+				response:
+					'I have a friend Eric, who is the owner of 886, a Taiwanese restaurant, and he introduced me to Phil, the founder of CSM. I really appreciate this opportunity. Before, I had only thought about expanding to Chinese neighborhoods like Flushing, Brooklyn, Elmhurst, and Chinatown but because of CSM, I get to share this food with a lot more people.',
+			},
+			{
+				question:
+					'What kind of community do you think Canal Street Market has created in Chinatown?',
+				response:
+					'A lot of my friends told me they used to have to go an hour to get to Flushing to eat this kind of food. I had never really thought about opening it in Manhattan. But Canal Street Market is really special because it brings this kind of food to a new kind of customer. It’s next to Soho and everyone is really open minded and nice. I used to talk to the customers and they are really open to talking and experiencing new things.',
+			},
+			{
+				question: 'What is your go-to vendor at CSM?',
+				response: 'Boba Guys. And also I love the curry at Izakaya Samurice.',
+			},
+			{
+				question:
+					'What’s a memorable moment you experienced at Canal Street Market?',
+				response:
+					'One time, there was a customer who came from SF and he said now I don’t have to buy a ticket to Guangdong. I can just buy a ticket to NY to get this kind of food. I love to make friends with the customers. In Chinese they always say “the customer is God”. But I always say, customers are your friends. You respect them and they respect you.',
+			},
 		],
 	},
 ]

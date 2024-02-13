@@ -33,7 +33,6 @@ export interface CommunityFeaturesInformation {
 	principalPhoto: string
 	secondaryPhoto: string
 	asidePhoto: string
-	letter: string
 	link?: string
 	questions: Question[]
 }
