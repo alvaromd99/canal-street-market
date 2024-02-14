@@ -483,4 +483,131 @@ export const communityFeatures = [
 			},
 		],
 	},
+	{
+		location: 'joe-rong',
+		name: 'Beroep Tech',
+		type: 'Jewelry',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/b41fd97ada7c19360a17c6007020ddcc3aba6b6f_002-1.jpg?auto=compress,format',
+		secondaryPhoto:
+			'https://images.prismic.io/canalstreetmarket/60ed27b89c2b906f6e1a558c763f3d93b2c6bfa8_004-1.jpg?auto=compress,format',
+		asidePhoto:
+			'https://images.prismic.io/canalstreetmarket/b17c842be3127c52d2a033edbc34a59c18e03244_new-york-retail-space-beroep.jpg?auto=compress,format',
+		ownerName: 'Akiko Kato',
+		ownerDescription: 'Founder and designer of Beroep Tech',
+		communityName: 'Beroep Tech',
+		questions: [
+			{
+				question: 'How did you get started?',
+				response:
+					'I originally studied classical music. I played the piano. But I always knew I didn’t want to be a teacher. I was surrounded by teachers. My aunt and grandma used to be a teacher but I wanted to live a different way. I was given an electronic organ when I was about 3 years old but I got tired of playing the organ because it was so easy. But then my mom suggested I start the piano.',
+			},
+			{
+				question: 'How did you transition to the industry you’re in now?',
+				response: '',
+			},
+			{
+				question: 'How did the idea of your brand come to be?',
+				response:
+					'My brand name is strange: Beroep Tech. Beroep means profession in dutch and I put tech at the end. Most jewelry designers use their name and then jewelry design at the end. For example, my name is Akiko Kato and the name would typically be Akiko Kato jewelry design. I tried to be really different and get people to question my brand. I wanted them to think, what is this? How do you pronounce it? Using my name would have given people an idea of the brand before seeing it. Like “Oh, she is from Japan” or “She’s a Japanese designer”. That’s giving people an initial impression that I want to avoid. I also don’t want people to think this is women’s jewelry or men’s jewelry. I want to make it gender neutral. And then people say, unisex. But the unisex idea is based on 2 genders and I don’t have those ideas. The name is neutral and encompasses that idea.',
+			},
+			{
+				question: 'After graduating, how did you start your own brand?',
+				response:
+					'I had no idea because school never taught me how to make a business. They just taught me how to develop design skills but I had to figure out the business side. I used to work for other designers but it was really hard and strict. I was so exhausted. Back then I created jewelry in an organic style because that was more mainstream and I felt people wouldn’t accept my contemporary style. But I wasn’t satisfied by doing that so I started to launch some contemporary pieces and it was picked up by New Museum shop and some other museum shops. That’s when I first felt I could develop my own line.',
+			},
+			{
+				question: 'What kind of community are you trying to create?',
+				response:
+					'It’s for a wide range of age, any race, any gender, that’s my concept. It’s an inclusive community. I don’t target a specific kind of community.',
+			},
+			{
+				question: 'Why did you decide to join CSM?',
+				response:
+					'I passed by one day and I recognized this space was being constructed. I was wondering what was happening inside. And I sensed it was going to be a really beautiful place and that really good things would come of this place. And I looked up the space and emailed them. I just followed my intuition. This is a really good location and a nice environment. It’s an Asian themed market and I’m so happy to be a part of this.',
+			},
+			{
+				question: 'What kind of community has CSM created in chinatown?',
+				response:
+					'I think as an Asian living in NYC we are a minority. And we feel ignored in a way. The Asian community is so much bigger than we think and exposure is so small so that’s why in general, Asian people think there aren’t as many of us. But CSM helps expose how big the community is. And this place is very forward thinking. The space captures what is going on today. For example they have a podcast station. It’s hard to trust the media and I don’t watch TV anymore and I’m not sure if the newscaster is telling the truth so I feel like the kind of podcasts created at CSM really represent the people’s voice.',
+			},
+			{
+				question: 'What is your go-to vendor at CSM?',
+				response:
+					'Samurice because they have a grilled fish that reminds me of home. And I like Office Coffee. They carry Supermoon Bakery and I’m a big fan of them. It’s the best. I like the salted caramel donuts. It’s so sweet and dangerous. I usually stay away from sugar but that is one of the best.',
+			},
+			{
+				question: 'Tell me about a memorable experience that happened at CSM',
+				response:
+					'Recently, one customer was looking for a certain style of earring and she told me that she was in South Africa and she saw a lady who wore big hoops and asked her, where did you get those hoops? And the lady told her, she bought it at Canal Street Market. This happened in South Africa!! I was really touched. She was super excited that she found my earrings in South Africa.',
+			},
+		],
+	},
+	{
+		location: 'csm-community---izakaya',
+		name: 'Izakaya Samurice',
+		type: 'Filipino Inspired Taqueria',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/fe8a44c7efc3e71cd5443ec833069561bd3ff1a7_01-1.jpg?auto=compress,format',
+		secondaryPhoto: '',
+		asidePhoto:
+			'https://images.prismic.io/canalstreetmarket/f14a4da6-69de-4f1c-a609-ac87f894c6c4_muchosarap.png?auto=compress,format',
+		ownerName: 'Yudai Kanayama',
+		ownerDescription: 'Creative Director for Izakaya Samurice',
+		communityName: 'Mucho Sarap',
+		questions: [
+			{
+				question: 'How did you guys get started?',
+				response:
+					'Y; I came to the states as a student studying fashion. I came here 10 years ago and I was upstate for 3 years and transferred to FIT. I studied fashion merchandising which has nothing to do with food. But then I worked at a Japanese clothing store selling really expensive denim for like $1500 to rich people who are interested in Japan. I think that’s my base for anything that I do now. I know how to sell denim for that much money and how to explain the story about the product for one hour. When I quit that  job I started looking for something else to do. At that time I had a roommate who was a chef and he said to me, “Yudai, let’s open a restaurant and I know how to cook but I don’t know anything else. Can you do the other stuff?” And that’s how Izakaya started. I said “Ok, I think i can do it. It’s just a difference between selling clothes and food and I know how to sell clothes.” I was selling food the way I sold clothes, like explaining the story of cabbage for 5-10mins. I was explaining things that didn’t need any explanation. It’s not just a place to eat but to learn the culture. For some people in the same industry they might say “Yudai you talk too much”, but people like it. Keisuke joined 3 years ago. He was in a different industry in Japan. K: I was in the agriculture industry. I used to work at a Japanese rice company. I started Samurice in order to share the great taste of Japanese rice with others. I came to NY in order to share it with a lot of people outside of Japan.',
+			},
+			{
+				question: 'How did you meet?',
+				response:
+					'Y: One of my partners back then was a friend of Keisuke’s so he decided to join our team. We met in the restaurant. The most important thing for us is to serve what we really like, not just what people like. We try to provide what we think is the best, not what we think people like. I don’t like that style of business because then we are serving things we don’t believe in. If we love it, we serve it.',
+			},
+			{
+				question: 'What is the concept of Izakaya Samurice?',
+				response:
+					'Keisuke came here to introduce Japanese rice. That’s what his company is about. Importing and exporting. Samurice actually has a different location in Singapore and they are importing a lot of rice from Japan. But he wanted to do the same in NY. So we take their rice to create a bento box. We only use rice from Japan, not from California. You don’t really get to eat that rice except in expensive sushi restaurants in NY. And we serve it for a really reasonable price. We wanted to make a store where we can introduce that rice. It’s a daily thing. We hope that people come everyday. We see some people come 5 days a week. We want it to be inside their daily life. K: Goodbye coffee and bagel. Hello miso soup and rice. Miso soup is very healthy. Y: It’s a good start to the day. K: I think everyone should eat miso soup everyday. We have a points card.If you eat there 3 times, you get one free miso soup.',
+			},
+			{
+				question: 'What do you want to do further?',
+				response:
+					'We just want to introduce something new to NY. And we want to help people who want to do something in NY. A lot of people from Japan want to come here and open a restaurant and we are helping them now. It’s not about money but if we believe in the idea, we want to help them. We are from Hokkaido so these people from Philadelphia were distributing beer from Hokkaido and now we are working together to open a Hokkaido restaurant in the LES. That’s the most recent one. And in the same neighborhood, we are opening a sake bar in the new Essex St Market.',
+			},
+			{
+				question: 'What kind of community are you looking to create?',
+				response:
+					'It’s not our target but our customers tend to be the kind of people we used to be. I used to work in fashion and I have a lot of connection from when I used to work in that industry. So we are a lot of artists and I like that we are all trying to help each other.We want to collaborate with the fashion and art people and have done some of this in the past.',
+			},
+			{
+				question: 'What do you want to communicate with your food?',
+				response:
+					'I think it’s important in America where people don’t know much about Japanese food, it’s important to talk about how it’s made and the preparation that it takes to make it. We don’t want people to think it’s just whatever. It takes a lot of work. A lot of things need explanation. You might not taste the hard work but you can hear the effort that’s put into it.',
+			},
+			{
+				question: 'Why did you join Canal Street Market?',
+				response:
+					'A lot of my friends and I were told by many people about Canal Street Market and that it is going to be the next hot spot. And everyone was talking about that. We actually met Phil at Izakaya the restaurant and he was telling us about his market and that’s the area we actually wanted to be in. And it wasn’t a Chinatown style but something new on Canal Street that looked hot so we thought this is the place for us. We thought the next stop after Soho is kind of ideal would be Canal St.',
+			},
+			{
+				question:
+					'What kind of community do you think Canal Street Market has created in Chinatown?',
+				response:
+					'I think it’s a good market because they have a lot of office people and are trying to create something that is a part of daily life. K: I hope that at night, people come here more to drink. Y: we are also applying for a liquor license so it can turn into a night destination as well. K: A night club!	Y: Ya exactly.',
+			},
+			{
+				question: 'What is your go-to vendor at CSM?',
+				response:
+					'K: I love the ceviche. Mission Ceviche! Y: Office coffee for me. K: Chanel Latte. Y: The latte has a chanel type logo.',
+			},
+			{
+				question:
+					'What’s a memorable moment you experienced at Canal Street Market?',
+				response:
+					'K: Sometimes we see the same person 5 days in a row. Y: I was also surprised to see that a lot of people love natto. I thought people wouldn’t like it. But a lot of american people, maybe health oriented people love it! They do something that we would never do. They create combinations like curry natto and it’s new to us. It’s really interesting. K: Also we had a tourist from France come to our stand, and they said to us that it was the most delicious rice they had in NY. And they asked for a second bowl. Y: It’s hard to find a good bento in NY. We are making a bento for people right in front of them.',
+			},
+		],
+	},
 ]
