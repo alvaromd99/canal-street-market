@@ -24,16 +24,16 @@ export interface RetailObjectsInformation {
 }
 
 export interface CommunityFeaturesInformation {
-	location?: string
+	location: string
 	name: string
-	type?: string
-	ownerName?: string
-	ownerDescription?: string
-	communityName?: string
+	type: string
+	ownerName: string
+	ownerDescription: string
+	communityName: string
 	principalPhoto: string
-	secondaryPhoto: string
+	secondaryPhoto?: string
 	asidePhoto: string
-	link?: string
+	link: string
 	questions: Question[]
 }
 

@@ -63,4 +63,19 @@
 			object-fit: cover;
 		}
 	}
+
+	.information-section {
+		display: flex;
+
+		.information-text {
+			flex: 0.8;
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+		}
+
+		.aside-link {
+			flex: 0.2;
+		}
+	}
 }

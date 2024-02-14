@@ -431,6 +431,7 @@ export const communityFeatures = [
 			'https://images.prismic.io/canalstreetmarket/1a414bdd7ac06e7038e47436b9a35970a08aa7bb_jj-for-joe-2.jpg?auto=compress,format',
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/02074214fef758434124320a62917c03c8490581_new-york-food-market-rice-roll.png?auto=compress,format',
+		link: '',
 		ownerName: 'Joe Rong',
 		ownerDescription: 'The founder of Joe’s Steam Rice Rolls in NYC',
 		communityName: 'CSM Community - AMDC',
@@ -493,6 +494,7 @@ export const communityFeatures = [
 			'https://images.prismic.io/canalstreetmarket/60ed27b89c2b906f6e1a558c763f3d93b2c6bfa8_004-1.jpg?auto=compress,format',
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/b17c842be3127c52d2a033edbc34a59c18e03244_new-york-retail-space-beroep.jpg?auto=compress,format',
+		link: '',
 		ownerName: 'Akiko Kato',
 		ownerDescription: 'Founder and designer of Beroep Tech',
 		communityName: 'Beroep Tech',
@@ -552,6 +554,7 @@ export const communityFeatures = [
 		secondaryPhoto: '',
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/f14a4da6-69de-4f1c-a609-ac87f894c6c4_muchosarap.png?auto=compress,format',
+		link: '',
 		ownerName: 'Yudai Kanayama',
 		ownerDescription: 'Creative Director for Izakaya Samurice',
 		communityName: 'Mucho Sarap',
