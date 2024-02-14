@@ -1,7 +1,7 @@
 import facebookIcon from '../assets/facebook.svg'
 import instagramIcon from '../assets/instagram.svg'
 import pencilIcon from '../assets/pencil.svg'
-import { EventInformation } from '../types/types'
+import { CommunityFeaturesInformation, EventInformation } from '../types/types'
 
 export const AboutEventsInfo: EventInformation[] = [
 	{
@@ -347,7 +347,7 @@ export const retailObjects = [
 	},
 ]
 
-export const communityFeatures = [
+export const communityFeatures: CommunityFeaturesInformation[] = [
 	{
 		location: 'amdc',
 		name: 'American Design Club',
@@ -384,7 +384,8 @@ export const communityFeatures = [
 					'We specifically focus on “the gift” market. We have everything from neon lights to greeting cards and onesies for kids and calendars, cologne, candles, ceramics… we have so much. And we fit it into one tiny booth. We have a plethora of product, which is what we pride ourselves on. We figure out how to show an immense amount of product in a small amount of space to so many people.',
 			},
 			{
-				question:
+				question: 'How did the idea of AMDC come to be?',
+				response:
 					'It came to be through a group of friends who were coming from three different design schools who just wanted to show their work. We wanted to help alleviate the stress of showcasing your work alone. We are a support company for people who are struggling to be noticed. If you work with us, we will help create many opportunities for you to show and sell your work. The AMDC is really attracted to CSM because we see ourselves the same way we think CSM sees themselves, in strength in numbers. CSM is successful because there are 10 food vendors and close to 20 shopping vendors. And the AMDC is successful because we do it for 30 people. Because we do it for 30 people, those 30 will invite 10 of their friends. And then we have 300 eyes of everyone’s work. I think likeminds find each other sometimes. And we do it at a wholesale level and CSM does it at a retail and community level. We can co-exist and help each other.',
 			},
 			{
@@ -506,7 +507,8 @@ export const communityFeatures = [
 			},
 			{
 				question: 'How did you transition to the industry you’re in now?',
-				response: '',
+				response:
+					'I moved to NY in the 90s and studied product design at Parsons and back then there was a metal major. Now that doesn’t exist. I really enjoyed studying there, especially because my style wasn’t classic. I knew my style was contemporary, modern. I was given the space to develop my ideas fully.',
 			},
 			{
 				question: 'How did the idea of your brand come to be?',

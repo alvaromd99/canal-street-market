@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react'
 import BackBtn from '../../components/btn/BackBtn'
+import Footer from '../../components/footer/Footer'
+import Question from '../../components/questions/Question'
 import { communityFeatures } from '../../constants/constants'
 import { findFeaturesByName } from '../../utils/findFeatureByName'
 import './feature.css'
@@ -45,8 +47,15 @@ export default function Feature({ name }: { name: string }) {
 									alt={`${feature.ownerName} secondary photo`}
 								/>
 							)}
+							{feature.questions.map(({ question, response }, index) => (
+								<Question question={question} response={response} key={index} />
+							))}
 						</div>
 						<div className='aside-link'></div>
+					</section>
+
+					<section className='footer-section'>
+						<Footer />
 					</section>
 				</div>
 			)}

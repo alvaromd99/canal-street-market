@@ -1,3 +1,5 @@
+import './question.css'
+
 interface QuestionProps {
 	question: string
 	response: string
