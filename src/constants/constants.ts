@@ -349,7 +349,7 @@ export const retailObjects = [
 
 export const communityFeatures: CommunityFeaturesInformation[] = [
 	{
-		location: 'amdc',
+		location: 'csm-community--amdc',
 		name: 'American Design Club',
 		communityName: 'CSM Community - AMDC',
 		principalPhoto:
@@ -423,7 +423,7 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 		],
 	},
 	{
-		location: 'joe-rong',
+		location: 'csm-community--joe-rong',
 		name: "Joe's Steam Rice Rolls",
 		communityName: "CSM Community - Joe's Steam Rice Rolls",
 		principalPhoto:
@@ -432,7 +432,7 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 			'https://images.prismic.io/canalstreetmarket/1a414bdd7ac06e7038e47436b9a35970a08aa7bb_jj-for-joe-2.jpg?auto=compress,format',
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/02074214fef758434124320a62917c03c8490581_new-york-food-market-rice-roll.png?auto=compress,format',
-		link: '',
+		link: "/food/joe's-steam-rice-roll",
 		type: 'Cantonese Steamed Rice Rolls',
 		ownerName: 'Joe Rong',
 		ownerDescription: 'The founder of Joe’s Steam Rice Rolls in NYC',
@@ -486,7 +486,7 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 		],
 	},
 	{
-		location: 'joe-rong',
+		location: 'csm-community--berop-tech',
 		name: 'Beroep Tech',
 		communityName: 'CSM Community - Beroep Tech',
 		principalPhoto:
@@ -495,7 +495,7 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 			'https://images.prismic.io/canalstreetmarket/60ed27b89c2b906f6e1a558c763f3d93b2c6bfa8_004-1.jpg?auto=compress,format',
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/b17c842be3127c52d2a033edbc34a59c18e03244_new-york-retail-space-beroep.jpg?auto=compress,format',
-		link: '',
+		link: '/retail/beroep-tech',
 		type: 'Jewelry',
 		ownerName: 'Akiko Kato',
 		ownerDescription: 'Founder and designer of Beroep Tech',
@@ -548,7 +548,7 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 		],
 	},
 	{
-		location: 'csm-community---izakaya',
+		location: 'csm-community--izakaya',
 		name: 'Izakaya Samurice',
 		communityName: 'CSM-Community-Izayaka',
 		principalPhoto:
@@ -556,7 +556,7 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 		secondaryPhoto: '',
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/f14a4da6-69de-4f1c-a609-ac87f894c6c4_muchosarap.png?auto=compress,format',
-		link: '',
+		link: '/food/mucho-sarap',
 		type: 'Filipino Inspired Taqueria',
 		ownerName: 'Yudai Kanayama',
 		ownerDescription: 'Creative Director for Izakaya Samurice',
