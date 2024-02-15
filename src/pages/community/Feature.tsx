@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import BackBtn from '../../components/btn/BackBtn'
+import NormalBtn from '../../components/btn/NormalBtn'
 import FeaturedCard from '../../components/cards/FeaturedCard'
 import Footer from '../../components/footer/Footer'
 import Question from '../../components/questions/Question'
@@ -40,8 +41,10 @@ export default function Feature({ name }: { name: string }) {
 
 					<section className='information-section'>
 						<div className='information-text'>
-							<p>{selectedFeature.ownerName}</p>
-							<p>{selectedFeature.ownerDescription}</p>
+							<p className='owner-information'>{selectedFeature.ownerName}</p>
+							<p className='owner-information'>
+								{selectedFeature.ownerDescription}
+							</p>
 							{selectedFeature.secondaryPhoto && (
 								<img
 									src={selectedFeature.secondaryPhoto}
@@ -58,7 +61,20 @@ export default function Feature({ name }: { name: string }) {
 								)
 							)}
 						</div>
-						<div className='aside-link'></div>
+						<div className='aside-link'>
+							<div className='aside-link-wrapper'>
+								<p>{selectedFeature.type}</p>
+								<h3>{selectedFeature.name}</h3>
+								<img src={selectedFeature.asidePhoto} alt='Aside photo' />
+								<div className='btn-wrapper'>
+									<NormalBtn
+										text={'learn more'}
+										pad={1}
+										newLocation={`${selectedFeature.link}`}
+									/>
+								</div>
+							</div>
+						</div>
 					</section>
 
 					<section className='more-features-section'>
