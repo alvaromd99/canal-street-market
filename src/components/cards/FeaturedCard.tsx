@@ -19,7 +19,7 @@ export default function FeaturedCard({
 	}
 	return (
 		<div className='feature-card' onClick={handleClick}>
-			<img src={imgSrc} alt='' />
+			<img src={imgSrc} alt={`${title} img`} loading='lazy' />
 			<div className='feature-text'>
 				<h4>
 					<span>{title}</span>
