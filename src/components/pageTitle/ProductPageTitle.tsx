@@ -3,6 +3,7 @@ import './productPageTitle.css'
 
 interface ProductPageTitleProps {
 	name: string
+	btnText: string
 	description: string
 	time: string
 	imgSrc: string
@@ -11,6 +12,7 @@ interface ProductPageTitleProps {
 
 export default function ProductPageTitle({
 	name,
+	btnText,
 	description,
 	time,
 	imgSrc,
@@ -19,7 +21,7 @@ export default function ProductPageTitle({
 	return (
 		<>
 			<div className='hero-left'>
-				<BackBtn text={'all food'} location={backLocation} />
+				<BackBtn text={btnText} location={backLocation} />
 				<h2>{name}</h2>
 				<p>{description}</p>
 			</div>

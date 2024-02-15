@@ -13,8 +13,8 @@ export default function FoodPage({ name }: { name: string }) {
 	const plate = findProductsByName(foodPlates, name)
 
 	const wrapperRef = useRef<HTMLDivElement | null>(null)
-
 	const topRef = useRef<HTMLDivElement | null>(null)
+
 	useEffect(() => {
 		wrapperRef.current?.classList.remove('fading-in')
 		topRef.current?.scrollIntoView()
@@ -32,6 +32,7 @@ export default function FoodPage({ name }: { name: string }) {
 							time={'Food Hall Hours:\nMon - Sun: 11:00AM - 8:00PM'}
 							imgSrc={plate.principalPhoto}
 							backLocation={'/food'}
+							btnText={'all food'}
 						/>
 					</section>
 

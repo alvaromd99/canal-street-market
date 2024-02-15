@@ -14,6 +14,7 @@ export default function FoodPage({ name }: { name: string }) {
 
 	const topRef = useRef<HTMLDivElement | null>(null)
 	const wrapperRef = useRef<HTMLDivElement | null>(null)
+
 	useEffect(() => {
 		wrapperRef.current?.classList.remove('fading-in')
 		topRef.current?.scrollIntoView()
@@ -31,6 +32,7 @@ export default function FoodPage({ name }: { name: string }) {
 							time={'Food Hall Hours:\nMon - Sun: 11:00AM - 8:00PM'}
 							imgSrc={retailObject.principalPhoto}
 							backLocation={'/retail'}
+							btnText={'all retail'}
 						/>
 					</section>
 

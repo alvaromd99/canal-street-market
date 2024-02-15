@@ -18,7 +18,7 @@ export default function Feature({ name }: { name: string }) {
 		wrapperRef.current?.classList.remove('fading-in')
 		topRef.current?.scrollIntoView()
 		wrapperRef.current?.classList.add('fading-in')
-	}, [])
+	}, [name])
 
 	return (
 		<div className='feature-page' ref={topRef}>
