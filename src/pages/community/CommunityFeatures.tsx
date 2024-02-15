@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import BackBtn from '../../components/btn/BackBtn'
 import FeaturedCard from '../../components/cards/FeaturedCard'
 import Footer from '../../components/footer/Footer'
+import { communityFeatures } from '../../constants/constants'
 import './communityFeatures.css'
 
 export default function CommunityFeatures() {
@@ -32,34 +33,14 @@ export default function CommunityFeatures() {
 				</section>
 
 				<section className='features-section'>
-					<FeaturedCard
-						imgSrc={
-							'https://images.prismic.io/canalstreetmarket/ad63bd2481b47c4b95e0ce8eb265658541ace7f4_001-1-1.jpg?auto=compress,format'
-						}
-						title={'CSM Community - AMDC'}
-						location={'/community/feature/amdc'}
-					/>
-					<FeaturedCard
-						imgSrc={
-							'https://images.prismic.io/canalstreetmarket/9c41db6b59d689aeda46a6a6405d8767649629c4_joejoe.jpg?auto=compress,format'
-						}
-						title={"CSM Community - Joe's Steam Rice Rolls"}
-						location={'/community/feature/joe-rong'}
-					/>
-					<FeaturedCard
-						imgSrc={
-							'https://images.prismic.io/canalstreetmarket/b41fd97ada7c19360a17c6007020ddcc3aba6b6f_002-1.jpg?auto=compress,format'
-						}
-						title={'CSM Community - Bereop Tech'}
-						location={'/community/feature/csm-community'}
-					/>
-					<FeaturedCard
-						imgSrc={
-							'https://images.prismic.io/canalstreetmarket/fe8a44c7efc3e71cd5443ec833069561bd3ff1a7_01-1.jpg?auto=compress,format'
-						}
-						title={'CSM Community - Izakaya'}
-						location={'/community/feature/csm-community---izakaya'}
-					/>
+					{communityFeatures.map((feature, index) => (
+						<FeaturedCard
+							key={index}
+							imgSrc={feature.principalPhoto}
+							title={feature.communityName}
+							location={`/community/feature/${feature.location}`}
+						/>
+					))}
 				</section>
 
 				<section className='footer-section'>

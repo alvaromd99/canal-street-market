@@ -351,9 +351,6 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 	{
 		location: 'amdc',
 		name: 'American Design Club',
-		type: 'Design Objects',
-		ownerName: 'Kiel Mead',
-		ownerDescription: 'Owner of the American Design Club',
 		communityName: 'CSM Community - AMDC',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/ad63bd2481b47c4b95e0ce8eb265658541ace7f4_001-1-1.jpg?auto=compress,format',
@@ -362,6 +359,9 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/35b63b73f8bf1c9b4317f83217deaf9b80aaa8b1_american-design-club-hero.jpg?auto=compress,format',
 		link: '/retail/american-design-club',
+		type: 'Design Objects',
+		ownerName: 'Kiel Mead',
+		ownerDescription: 'Owner of the American Design Club',
 		questions: [
 			{
 				question: 'What do you do?',
@@ -425,7 +425,7 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 	{
 		location: 'joe-rong',
 		name: "Joe's Steam Rice Rolls",
-		type: 'Cantonese Steamed Rice Rolls',
+		communityName: "CSM Community - Joe's Steam Rice Rolls",
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/9c41db6b59d689aeda46a6a6405d8767649629c4_joejoe.jpg?auto=compress,format',
 		secondaryPhoto:
@@ -433,9 +433,9 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/02074214fef758434124320a62917c03c8490581_new-york-food-market-rice-roll.png?auto=compress,format',
 		link: '',
+		type: 'Cantonese Steamed Rice Rolls',
 		ownerName: 'Joe Rong',
 		ownerDescription: 'The founder of Joe’s Steam Rice Rolls in NYC',
-		communityName: 'CSM Community - AMDC',
 		questions: [
 			{
 				question: 'How did you get started?',
@@ -488,7 +488,7 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 	{
 		location: 'joe-rong',
 		name: 'Beroep Tech',
-		type: 'Jewelry',
+		communityName: 'CSM Community - Beroep Tech',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/b41fd97ada7c19360a17c6007020ddcc3aba6b6f_002-1.jpg?auto=compress,format',
 		secondaryPhoto:
@@ -496,9 +496,9 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/b17c842be3127c52d2a033edbc34a59c18e03244_new-york-retail-space-beroep.jpg?auto=compress,format',
 		link: '',
+		type: 'Jewelry',
 		ownerName: 'Akiko Kato',
 		ownerDescription: 'Founder and designer of Beroep Tech',
-		communityName: 'Beroep Tech',
 		questions: [
 			{
 				question: 'How did you get started?',
@@ -550,16 +550,16 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 	{
 		location: 'csm-community---izakaya',
 		name: 'Izakaya Samurice',
-		type: 'Filipino Inspired Taqueria',
+		communityName: 'CSM-Community-Izayaka',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/fe8a44c7efc3e71cd5443ec833069561bd3ff1a7_01-1.jpg?auto=compress,format',
 		secondaryPhoto: '',
 		asidePhoto:
 			'https://images.prismic.io/canalstreetmarket/f14a4da6-69de-4f1c-a609-ac87f894c6c4_muchosarap.png?auto=compress,format',
 		link: '',
+		type: 'Filipino Inspired Taqueria',
 		ownerName: 'Yudai Kanayama',
 		ownerDescription: 'Creative Director for Izakaya Samurice',
-		communityName: 'Mucho Sarap',
 		questions: [
 			{
 				question: 'How did you guys get started?',
