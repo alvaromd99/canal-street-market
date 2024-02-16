@@ -15,6 +15,12 @@
 	height: 100dvh;
 }
 
+a {
+	all: initial;
+	text-decoration: none;
+	color: inherit;
+}
+
 .nav-button {
 	flex: 0.04;
 	transition: flex 0.4s ease-in-out;
