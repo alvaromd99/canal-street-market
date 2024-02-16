@@ -1,0 +1,24 @@
+.header-left {
+	display: flex;
+	flex-direction: column;
+	gap: var(--header-gap);
+
+	h1 {
+		font-family: var(--pretty-font);
+		font-size: 6.25rem;
+	}
+}
+
+.header-right {
+	display: flex;
+	flex-direction: column;
+	gap: var(--header-gap);
+	text-align: end;
+
+	p:nth-child(1) {
+		max-width: 25ch;
+	}
+	p:nth-child(2) {
+		font-size: 4rem;
+	}
+}

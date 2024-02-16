@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
-import BackBtn from '../../components/btn/BackBtn'
 import FeaturedCard from '../../components/cards/FeaturedCard'
 import Footer from '../../components/footer/Footer'
+import CommunityPagesTitle from '../../components/pageTitle/CommunityPagesTitle'
 import { communityFeatures } from '../../constants/constants'
 import './communityFeatures.css'
 
@@ -19,17 +19,13 @@ export default function CommunityFeatures() {
 		<div className='community-features-page' ref={topRef}>
 			<div className='animation-wrapper' ref={wrapperRef}>
 				<section className='header-section'>
-					<div className='header-left'>
-						<BackBtn text={'community'} location={'/community'} />
-						<h1>Features</h1>
-					</div>
-					<div className='header-right'>
-						<p>
-							Our mixed-use space hosts ongoing events, podcasts & artists in
-							residence
-						</p>
-						<p>文化</p>
-					</div>
+					<CommunityPagesTitle
+						title={'Features'}
+						text={
+							'Our mixed-use space hosts ongoing events, podcasts & artists in residence'
+						}
+						letter={'文化'}
+					/>
 				</section>
 
 				<section className='features-section'>

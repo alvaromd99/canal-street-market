@@ -69,7 +69,6 @@ export default function Feature({ name }: { name: string }) {
 								<div className='btn-wrapper'>
 									<NormalBtn
 										text={'learn more'}
-										pad={1}
 										newLocation={`${selectedFeature.link}`}
 									/>
 								</div>
