@@ -8,7 +8,7 @@ export default function Footer() {
 		<>
 			<div className='footer-title'>
 				<h3>Interested in becoming a vendor ?</h3>
-				<NormalBtn text='click here' pad={1} newLocation={''} />
+				<NormalBtn text='click here' newLocation={''} />
 			</div>
 			<FooterLinks />
 			<div className='footer-legal'>

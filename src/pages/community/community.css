@@ -12,7 +12,7 @@
 		padding-inline: 4rem;
 	}
 
-	button {
+	.btn-link {
 		background-color: var(--community-color);
 
 		&:hover {
@@ -113,8 +113,12 @@
 	}
 
 	.btn-wrapper {
-		button {
+		display: flex;
+		align-items: center;
+
+		a {
 			width: 100%;
+			text-align: center;
 		}
 	}
 
@@ -147,7 +151,7 @@
 
 		.events-btn-wrapper {
 			position: absolute;
-			bottom: -1.5rem;
+			bottom: -0.2rem;
 			left: 50%;
 			transform: translateX(-50%);
 		}

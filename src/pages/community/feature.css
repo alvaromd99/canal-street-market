@@ -15,7 +15,7 @@
 		padding-inline: 4rem;
 	}
 
-	button {
+	.btn-link {
 		background-color: var(--community-color);
 
 		&:hover {
