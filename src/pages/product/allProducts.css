@@ -54,7 +54,7 @@
 }
 
 .plates-page {
-	button {
+	.btn-link {
 		background-color: var(--food-color);
 
 		&:hover {
@@ -64,7 +64,7 @@
 }
 
 .retail-objects-page {
-	button {
+	.btn-link {
 		background-color: var(--retail-color);
 
 		&:hover {

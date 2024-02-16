@@ -12,7 +12,7 @@
 		padding-inline: 4rem;
 	}
 
-	button {
+	.btn-link {
 		background-color: var(--food-color);
 
 		&:hover {

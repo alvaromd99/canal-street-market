@@ -1,25 +1,15 @@
-import { useLocation } from 'wouter'
+import { Link } from 'wouter'
 import './button.css'
 
 interface NormalBtnProps {
 	text: string
-	pad: number
 	newLocation: string
 }
 
-export default function NormalBtn({ text, pad, newLocation }: NormalBtnProps) {
-	const [, setLocation] = useLocation()
-
-	const handleClick = () => {
-		setLocation(newLocation)
-	}
-
+export default function NormalBtn({ text, newLocation }: NormalBtnProps) {
 	return (
-		<button
-			className='btn'
-			style={{ padding: `${pad}rem` }}
-			onClick={handleClick}>
+		<Link to={newLocation} className='btn btn-link'>
 			{text}
-		</button>
+		</Link>
 	)
 }
