@@ -50,7 +50,7 @@ export default function Community() {
 			</section>
 
 			<section className='btn-wrapper' style={{ marginTop: '4rem' }}>
-				<NormalBtn text={'view all'} newLocation={''} />
+				<NormalBtn text={'view all'} newLocation={'/community/event'} />
 			</section>
 
 			<section className='features-section'>

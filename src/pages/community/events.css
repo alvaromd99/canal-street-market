@@ -1,0 +1,21 @@
+.events-page {
+	--header-gap: 3rem;
+	min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	padding-top: 6rem;
+	padding-bottom: 1rem;
+	opacity: 0;
+	animation: fadeIn 1s ease-out forwards;
+	animation-delay: 0.4s;
+
+	section {
+		padding-inline: 4rem;
+	}
+
+	.header-section {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}

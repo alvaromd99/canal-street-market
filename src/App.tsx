@@ -4,6 +4,7 @@ import marketIcon from './assets/market.svg'
 import About from './pages/about/About'
 import Community from './pages/community/Community'
 import CommunityFeatures from './pages/community/CommunityFeatures'
+import Events from './pages/community/Events'
 import Feature from './pages/community/Feature'
 import Food from './pages/food/Food'
 import FoodPage from './pages/product/FoodPlatePage'
@@ -82,6 +83,7 @@ function App() {
 				<Route path='/community/feature/:name'>
 					{(params) => <Feature name={params.name} />}
 				</Route>
+				<Route path='/community/event' component={Events} />
 			</div>
 		</div>
 	)
