@@ -1,25 +1,4 @@
 .page-announcement-wrapper {
-	padding: 120px 0;
-	background-image: repeating-linear-gradient(
-			-45deg,
-			#000,
-			#000 1px,
-			transparent 0,
-			transparent 71px
-		),
-		repeating-linear-gradient(
-			45deg,
-			#000,
-			#000 1px,
-			transparent 0,
-			transparent 70px
-		);
-	background-position: 0 0;
-	background-size: 100px 50px;
-	background-repeat: repeat-x;
-	animation: OnlyOneTriangleWave 2s infinite normal;
-	animation-timing-function: linear;
-
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	place-items: center;
@@ -48,4 +27,70 @@
 			font-family: var(--pretty-font);
 		}
 	}
+}
+
+.page-announcement-wrapper.bg-top {
+	padding: 120px 0;
+	background-image: repeating-linear-gradient(
+			-45deg,
+			#000,
+			#000 1px,
+			transparent 0,
+			transparent 71px
+		),
+		repeating-linear-gradient(
+			45deg,
+			#000,
+			#000 1px,
+			transparent 0,
+			transparent 70px
+		);
+	background-position: 0 0;
+	background-size: 100px 50px;
+	background-repeat: repeat-x;
+	animation: OnlyOneTriangleWave 2s infinite normal;
+	animation-timing-function: linear;
+}
+
+.page-announcement-wrapper.bg-top-bottom {
+	--color: var(--letter-color);
+	--size1: 93px;
+	--size2: 100px;
+	--size3: 50px;
+
+	padding: 110px 0;
+	background-image: repeating-linear-gradient(
+			-45deg,
+			var(--color),
+			var(--color) 1px,
+			transparent 0,
+			transparent 68px
+		),
+		repeating-linear-gradient(
+			45deg,
+			var(--color),
+			var(--color) 1px,
+			transparent 0,
+			transparent 68px
+		),
+		repeating-linear-gradient(
+			-45deg,
+			var(--color),
+			var(--color) 1px,
+			transparent 0,
+			transparent 71px
+		),
+		repeating-linear-gradient(
+			45deg,
+			var(--color),
+			var(--color) 1px,
+			transparent 0,
+			transparent 70px
+		);
+	background-position: 0 101%, 0 101%, 0 0, 0 0;
+	background-size: var(--size1) var(--size3), var(--size1) var(--size3),
+		var(--size2) var(--size3), var(--size2) var(--size3);
+	background-repeat: repeat-x;
+	animation: triangleWave 2s infinite normal;
+	animation-timing-function: linear;
 }
