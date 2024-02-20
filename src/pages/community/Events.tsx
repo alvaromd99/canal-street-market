@@ -23,6 +23,8 @@ export default function Events() {
 					title={'Past Events'}
 				/>
 			</section>
+
+			<section className='images-slider-section'></section>
 		</div>
 	)
 }

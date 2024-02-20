@@ -4,12 +4,12 @@ import NormalBtn from '../../components/btn/NormalBtn'
 import FeaturedCard from '../../components/cards/FeaturedCard'
 import Footer from '../../components/footer/Footer'
 import Question from '../../components/questions/Question'
-import { communityFeatures } from '../../constants/constants'
+import { CommunityFeatures } from '../../constants/constants'
 import { findFeaturesByName } from '../../utils/findFeatureByName'
 import './feature.css'
 
 export default function Feature({ name }: { name: string }) {
-	const selectedFeature = findFeaturesByName(communityFeatures, name)
+	const selectedFeature = findFeaturesByName(CommunityFeatures, name)
 
 	const wrapperRef = useRef<HTMLDivElement | null>(null)
 	const topRef = useRef<HTMLDivElement | null>(null)

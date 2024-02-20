@@ -1,7 +1,11 @@
 import facebookIcon from '../assets/facebook.svg'
 import instagramIcon from '../assets/instagram.svg'
 import pencilIcon from '../assets/pencil.svg'
-import { CommunityFeaturesInformation, EventInformation } from '../types/types'
+import {
+	CommunityFeaturesInformation,
+	EventInformation,
+	EventsPageInformation,
+} from '../types/types'
 
 export const AboutEventsInfo: EventInformation[] = [
 	{
@@ -347,7 +351,7 @@ export const retailObjects = [
 	},
 ]
 
-export const communityFeatures: CommunityFeaturesInformation[] = [
+export const CommunityFeatures: CommunityFeaturesInformation[] = [
 	{
 		location: 'csm-community--amdc',
 		name: 'American Design Club',
@@ -617,7 +621,7 @@ export const communityFeatures: CommunityFeaturesInformation[] = [
 	},
 ]
 
-export const eventsPageInfo = [
+export const eventsPageInfo: EventsPageInformation[] = [
 	{
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/33dc8d36-4b94-4c4c-a5e7-056c279bbec8_GreenhouseXPaperboyXNewBalance22.jpg?auto=compress,format',
@@ -636,75 +640,129 @@ export const eventsPageInfo = [
 		],
 	},
 	{
-		principalPhoto: '',
-		date: '',
-		time: '',
-		title: '',
-		description: '',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/64a019ce-90a6-468a-9570-2fd438094ef8_hackcity.jpg?auto=compress,format',
+		date: 'December 11th- December 12th',
+		time: '7:30pm - 9:30pm',
+		title: 'Hack City 12/11',
+		description:
+			"If having an Asian guy on a comedy show is unusual, then having two is just overkill. But that’s what comics Fumi Abe and Michael Nguyen are trying to do with their Hack City comedy show — overkill on the funnies. Join the two as they host one of NYC’s most diverse comedy show, featuring comics from MTV, Comedy Central, and your Facebook feed. Doors at 7:30 p.m., show at 8:00 p.m. This month's line-up: Erica Spera Napoleon Emil Pedro Gonzalez Dylan Adler Sydnee Washington",
 		secondaryPhotos: ['', '', '', '', '', ''],
 	},
 	{
-		principalPhoto: '',
-		date: '',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/cd40ba40e570956d372790c25d22cc8b1f803af9_ss2019_square-1.png?auto=compress,format',
+		date: 'July 27th- July 28th',
 		time: '',
-		title: '',
-		description: '',
-		secondaryPhotos: ['', '', '', '', '', ''],
+		title: 'Taiwanese Wave',
+		description:
+			'【Taiwanese Waves Look Back】A Pop Up Exhibition. For the upcoming 4th Taiwanese Waves at SummerStage on August 3rd, we would like to invite New Yorkers to join us for a special two-day exhibition at Canal Street Market on July 27th and 28th. Throughout the exhibition, you can discover the behind the scene ideas for the previous line ups and have an interactive AR music immersive experience with the this year’s line up. On July 28th, there will also be a panel focusing on Asian women in music. Lastly, don’t forget to jump into the human-sized Taiwanese Waves poster set, and be part of the Taiwanese Waves poster. Please come join the WAVES!',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/13b89e6427f6f48e2548a615e03801b7761b942b_7.28-panel-1.jpg?auto=compress,format',
+		],
 	},
 	{
-		principalPhoto: '',
-		date: '',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/7b6f08c25c32c6d2963da12fd806452686cf8551_csm_foodhall_web.jpg?auto=compress,format',
+		date: 'April 26th- April 28th',
 		time: '',
-		title: '',
-		description: '',
-		secondaryPhotos: ['', '', '', '', '', ''],
+		title: 'Food Hall Family Discount - 10% OFF any ONE food item',
+		description:
+			'Celebrate the last weekend of April with your Food Hall Family at Canal Street Market! Present this page on your next visit for 10% OFF on any one food item from April 26 - 28, 2019. Offer cannot be exchanged for cash. Limit one per transaction per customer and one time use only. Expires April 28, 2019',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/a7373dddf78b93e234fb07c9c7e4f1a5f41a1be1_csm_foodhall_email.jpg?auto=compress,format',
+		],
 	},
 	{
-		principalPhoto: '',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/e406550648c95c04b821483755af3e57ed4aa9b8_https___cdn.evbuc.com_images_59581354_48297149940_1_original.jpg?auto=compress,format',
 		date: '',
-		time: '',
-		title: '',
-		description: '',
-		secondaryPhotos: ['', '', '', '', '', ''],
+		time: 'April 18th - April 12th',
+		title: 'Asian Creative Collective - Illustration / Tattoo',
+		description:
+			'*** Please make sure you apply for the admission ticket through Eventbrite https://www.eventbrite.com/e/asian-creative-collective-illustration-tattoo-tickets-58827335143		If you have 10 min to share your STORY to the entire world - what would that story be? Asian Creative Collective is the place for you to offer inspiration online & offline.Step out of your comfort zone and share your story. For this event, we will be inviting a collective of artists, designers, and tattooist to talk about their experiences and answer any questions you have.Each speaker will have 10 - 15 minutes followed by networking sessions.',
+		secondaryPhotos: [
+			'https://images.unsplash.com/photo-1564426622559-5af68da63b96?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		],
 	},
 	{
-		principalPhoto: '',
-		date: '',
-		time: '',
-		title: '',
-		description: '',
-		secondaryPhotos: ['', '', '', '', '', ''],
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/30c2c64a27adc1ad31ee4b926210e224cd8406ad_2019-3-20-show.jpg?auto=compress,format',
+		date: 'March 20th',
+		time: '8pm - 10pm',
+		title: 'Hack City Comedy Show',
+		description:
+			"Hack City ComedyIf having an Asian guy on a comedy show is unusual, then having two is just ove But that’s what comics Fumi Abe and Michael Nguyen are trying to do with their Hack City comedy show — overkill on the funnies. Join the two as they host one of NYC’s most diverse comedy show, featuring comics from MTV, Comedy Central, and your Facebook feed. Every 3rd Wednesday at Canal Street Market, 265 Canal St. Free admission! Doors at 730 p.m., show at 8:00 p.m. This month's line-up: Pedro Gonzalez (NY's Funniest Finalist) Anya Volz (Thirst Trap) Sam Evans (Just For Laughs) Aminah Imani (Comedy @ The Knitting Factory) Karen Chee (Late Night with Seth Meyers) + Special  guest NIMESH PATEL (SNL, Comedy Cellar, Joe Rogan Experience) 1. ALL ENTRY is 1st come 1st serve. Tickets/RSVPs do not guarantee entry if we hit capacity, so get there early! 2. Seating is limited but we have standing room. 3. Line-up is subject to change 4. Please buy something to support the venue and keep the show free!",
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/cc856596756f17938c034648aa7254ee9cb44ca6_hackcity_6.jpg?auto=compress,format',
+		],
 	},
 	{
-		principalPhoto: '',
-		date: '',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/a4562bd846950c7828752f1326d9e64b7e22263a_hackcity_11.jpg?auto=compress,format',
+		date: 'February 27th',
 		time: '',
-		title: '',
-		description: '',
-		secondaryPhotos: ['', '', '', '', '', ''],
+		title: 'Hack City Comedy Show 2/27',
+		description:
+			'Canal Street Market and Asian Not Asian Podcast presents Hack City!Featured comedians: Danny Decolle Khalid Rahmaan Tyler Fischer Karen Chee Ian Lara Sam Ruddy Hosted by: Mic Nguyen Fumi Abe',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/5d7a4c10943c19deda0af790a4b06b3a460a198f_hackcity_12.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/889113bbc32dfea20af3f810753af179b916392f_hackcity_10.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/a4562bd846950c7828752f1326d9e64b7e22263a_hackcity_11.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/998cbdde4a7118fcb4bc8757dd31ffba9446a5e8_hackcity_9.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/e4d58282b2aed19033ff88095b9607124bd63a34_hackcity_14.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/ba49e0a5c13265da6463c5c7f77dfd1f9929a4a7_hackcity_8.jpg?auto=compress,format',
+		],
 	},
 	{
-		principalPhoto: '',
-		date: '',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/4aad3bc6caa580102730312af222bddd9bb0db23_yearpig_6.jpg?auto=compress,format',
+		date: 'January 31st',
 		time: '',
-		title: '',
-		description: '',
-		secondaryPhotos: ['', '', '', '', '', ''],
+		title: 'Year Of The Pig: A Chinese New Year Party',
+		description:
+			'In honor of one of the most significant celebrations of the year in the Asian community, MáLà Project and Canal Street Market have joined forces to co-host a Chinese New Year Party. We celebrated the end of a 12-year lunar cycle and welcomed a new beginning alongside food & lifestyle industry peers, press, and influencers. The party featured finger foods, open bar, photo booth, lion dance, live music, gift bags, and more. Canal Street Market’s full roster of food vendors and MáLà Project will be offered exclusive dishes to welcome the New Year. In the spirit of celebrating the New Year with friends and family, we’ve also invited guest chefs/restaurants to come collaborate with Canal Street Market for special dishes.',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/2cfa9d0bada77412333ba0f38ac6450ac44242c3_yearpig_1.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/14c41cb07f866868e07e1916b0c644e1ebbd0f9a_yearpig_8.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/ee43b3262d077f79ceb8bf8bba7a26e55bde940a_yearpig_7.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/9efcbc04b4726a98a0ef28ce1577667ed5cce22f_yearpig_3.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/7ea992e2f8e77ea5f70702c8b058e0ec9e993509_yearpig_4.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/25eecbf2a187e1bf2e5f53a241c415544472011b_yearpig_5.jpg?auto=compress,format',
+		],
 	},
 	{
-		principalPhoto: '',
-		date: '',
-		time: '',
-		title: '',
-		description: '',
-		secondaryPhotos: ['', '', '', '', '', ''],
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/37388b19a084812957da49d7632f37654c65bb63_kare_4.jpg?auto=compress,format',
+		date: 'December 1st- December 4th',
+		time: '7pm-11pm',
+		title: 'Korean Night Market Pop-up curated by Kare Package',
+		description:
+			'Taking the shape of a two-week-long mini market inspired by the beloved Night Markets of Seoul, Kare Package hit the sweet spot that connects NY and Seoul shopping culture: a pop-up. We concepted and creative directed a world within the walls of Canal Street Market, thoughtfully curating some of Asia’s premiere beauty, art, and fashion items. As a modern holiday shopping experience, we decorated the pop-up with exclusive social media photo ops -- from the space’s installation to the Kare Package itself, both executed by a longtime partner, NY-based design collective And Or Forever. We then imbued the Kare Package experience with opportunities to discover international brands all in one place in a beautiful, stylish, and celebratory way. Korean bestsellers Oauhsommet, Yupan C Face Mask & Chewable Vitamin C, Ssanai, and Baebae were made available for the first time ever in a US retail space. These sat alongside K-beauty I handpicked from the Seoul markets. In addition, we recruited globally established labels MMParis, White Zinfandel, Trine Tuxen Jewelry, Kaarem, SKINRx Lab, Kosette, and ESL, as well as artists Eddie Kang and Soyoun Lee, to contribute merchandise for our shop. We glittered the space with self-produced events ranging from food (Spot Dessert Bar premiered its holiday “it” desserts), fashion (Trine Tuxen Jewelry Copenhagen brand hosted two special shopping nights with Tarot card reading), and of course, beauty (Yaeji’s makeup artist orchestrated 10 minute makeovers). The entire experience was previewed at our Night Market Party, a noeraebang-style gathering with a beauty talk show hosted by Very Good Light’s David Yi with guest celebrity hairstylist David Lopez, followed by drag performances by Bubble T’s very best (DJ Tito_Vida, West Dakota, Dynasty, Mahal Kita, and Bibing kamama). Joined by our creative friends from across the Pacific and the NY homebase alike, we celebrated the intersection and introduction of Korean culture and shopping on our own turf, and disseminated our beauty-brimming Kare Packages into the city.',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/b0938ad75f0f5ca88f0c78d45fcdeb517f5da2f1_kare_2.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/230db64574017f4204b1fe5eae6ba9b9e6878702_kare_8.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/43d180a52ca3061adfccf9e86b7f26c382097f66_kare_11.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/3dfa097870464c3f7f3eefc748fc4e27282771de_kare_15.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/8fe8bfbb4caf5c77eb99313a09429b8eebb05bf4_kare_1.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/3c4bf3d11e347ca5b06e7fe5df67245d82bd2554_kare_10.jpg?auto=compress,format',
+		],
 	},
 	{
-		principalPhoto: '',
-		date: '',
+		principalPhoto:
+			'https://images.prismic.io/canalstreetmarket/665f0b594846ef9660a22f0c42808f725f1ebf1d_bea793479d2d723464a3572d61444e7349eb7e7b_red_dot_canal_street-83-compressor.jpg?auto=compress,format',
+		date: 'August 18th',
 		time: '',
-		title: '',
-		description: '',
-		secondaryPhotos: ['', '', '', '', '', ''],
+		title: 'Red Dot Campaign 3rd annual art show',
+		description:
+			'Red Dot Campaign is back for the 3rd annual art show and donation drive with food, jams, activities, and strangers that might teach you something new. Since Red Dot’s inception, creative expression has been our foundational approach to highlighting the social, cultural and political practices surrounding civil and reproductive rights. Our annual art show serves as a platform for artists within our community to display work geared towards our collective consciousness.',
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/36d7425b861e1f55491a30ffe05054e233ce6a62_reddot_8.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/933e7e9c6d61cb603fe6b07f1cf1a0414857e680_reddot_5.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/f7e2dfaad84fa8148d52b993b935c16e5c6d2533_reddot_3.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/f01e9214b61da6a8a09deb9e1d5ece3c395f3aaf_reddot_9.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/79bee1869b479798290c292c1fddb794b7a30c82_reddot_6.jpg?auto=compress,format',
+			'https://images.prismic.io/canalstreetmarket/5b7985d1cdcacbebc5a60f511529113b4a33d170_reddot_7.jpg?auto=compress,format',
+		],
 	},
 ]

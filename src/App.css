@@ -190,3 +190,13 @@ a {
 		background-position-x: 100px;
 	}
 }
+
+@keyframes DiagonalBarsMarche {
+	0% {
+		background-position-x: 0;
+	}
+
+	100% {
+		background-position-x: 22px;
+	}
+}

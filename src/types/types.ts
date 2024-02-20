@@ -41,3 +41,12 @@ export interface Question {
 	question: string
 	response: string
 }
+
+export interface EventsPageInformation {
+	principalPhoto: string
+	date: string
+	time?: string
+	title: string
+	description: string
+	secondaryPhotos: string[]
+}
