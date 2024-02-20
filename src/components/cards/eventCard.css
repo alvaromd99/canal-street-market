@@ -1,4 +1,6 @@
 .event-card {
+	cursor: pointer;
+
 	img {
 		margin: auto;
 		width: 100%;

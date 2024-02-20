@@ -27,8 +27,13 @@ export default function Events() {
 			</section>
 
 			<section className='images-slider-section'>
-				{EventsPageInfo.map((e, index) => (
-					<EventCard key={index} imgSrc={e.principalPhoto} title={e.title} />
+				{EventsPageInfo.map(({ principalPhoto, title, location }, index) => (
+					<EventCard
+						key={index}
+						imgSrc={principalPhoto}
+						title={title}
+						location={location}
+					/>
 				))}
 			</section>
 		</div>

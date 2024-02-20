@@ -43,6 +43,7 @@ export interface Question {
 }
 
 export interface EventsPageInformation {
+	location: string
 	principalPhoto: string
 	date: string
 	time?: string

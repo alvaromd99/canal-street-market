@@ -6,6 +6,7 @@ import Community from './pages/community/Community'
 import CommunityFeatures from './pages/community/CommunityFeatures'
 import Events from './pages/community/Events'
 import Feature from './pages/community/Feature'
+import SingleEvent from './pages/community/SingleEvent'
 import Food from './pages/food/Food'
 import FoodPage from './pages/product/FoodPlatePage'
 import RetailPage from './pages/product/RetailProductPage'
@@ -84,6 +85,9 @@ function App() {
 					{(params) => <Feature name={params.name} />}
 				</Route>
 				<Route path='/community/event' component={Events} />
+				<Route path='/community/event/:name'>
+					{(params) => <SingleEvent name={params.name} />}
+				</Route>
 			</div>
 		</div>
 	)

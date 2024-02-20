@@ -623,6 +623,8 @@ export const CommunityFeaturesInfo: CommunityFeaturesInformation[] = [
 
 export const EventsPageInfo: EventsPageInformation[] = [
 	{
+		location:
+			'new-balance-has-teamed-up-with-paris-based-restaurant-meets-streetwear',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/33dc8d36-4b94-4c4c-a5e7-056c279bbec8_GreenhouseXPaperboyXNewBalance22.jpg?auto=compress,format',
 		date: 'February 7th- February 9th',
@@ -640,6 +642,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		],
 	},
 	{
+		location: 'comedy-show',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/64a019ce-90a6-468a-9570-2fd438094ef8_hackcity.jpg?auto=compress,format',
 		date: 'December 11th- December 12th',
@@ -650,6 +653,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		secondaryPhotos: ['', '', '', '', '', ''],
 	},
 	{
+		location: 'taiwanese-waves-look-backa-pop-up-exhibition-for',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/cd40ba40e570956d372790c25d22cc8b1f803af9_ss2019_square-1.png?auto=compress,format',
 		date: 'July 27th- July 28th',
@@ -662,6 +666,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		],
 	},
 	{
+		location: 'a-food-hall-family-discount-10-off-any-one-food-item',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/7b6f08c25c32c6d2963da12fd806452686cf8551_csm_foodhall_web.jpg?auto=compress,format',
 		date: 'April 26th- April 28th',
@@ -674,6 +679,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		],
 	},
 	{
+		location: 'asian-creative-collective-illustration-tattoo',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/e406550648c95c04b821483755af3e57ed4aa9b8_https___cdn.evbuc.com_images_59581354_48297149940_1_original.jpg?auto=compress,format',
 		date: '',
@@ -686,6 +692,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		],
 	},
 	{
+		location: 'hack-city-comedy-show1',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/30c2c64a27adc1ad31ee4b926210e224cd8406ad_2019-3-20-show.jpg?auto=compress,format',
 		date: 'March 20th',
@@ -698,6 +705,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		],
 	},
 	{
+		location: 'hack-city-comedy-show-227',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/a4562bd846950c7828752f1326d9e64b7e22263a_hackcity_11.jpg?auto=compress,format',
 		date: 'February 27th',
@@ -715,6 +723,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		],
 	},
 	{
+		location: 'chinese-new-year-party',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/4aad3bc6caa580102730312af222bddd9bb0db23_yearpig_6.jpg?auto=compress,format',
 		date: 'January 31st',
@@ -732,6 +741,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		],
 	},
 	{
+		location: 'hack-city-comedy-show',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/37388b19a084812957da49d7632f37654c65bb63_kare_4.jpg?auto=compress,format',
 		date: 'December 1st- December 4th',
@@ -749,6 +759,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		],
 	},
 	{
+		location: 'korean-night-market-pop-up-curated-by-kare-package',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/665f0b594846ef9660a22f0c42808f725f1ebf1d_bea793479d2d723464a3572d61444e7349eb7e7b_red_dot_canal_street-83-compressor.jpg?auto=compress,format',
 		date: 'August 18th',
