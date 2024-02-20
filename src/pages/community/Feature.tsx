@@ -4,12 +4,12 @@ import NormalBtn from '../../components/btn/NormalBtn'
 import FeaturedCard from '../../components/cards/FeaturedCard'
 import Footer from '../../components/footer/Footer'
 import Question from '../../components/questions/Question'
-import { CommunityFeatures } from '../../constants/constants'
+import { CommunityFeaturesInfo } from '../../constants/constants'
 import { findFeaturesByName } from '../../utils/findFeatureByName'
 import './feature.css'
 
 export default function Feature({ name }: { name: string }) {
-	const selectedFeature = findFeaturesByName(CommunityFeatures, name)
+	const selectedFeature = findFeaturesByName(CommunityFeaturesInfo, name)
 
 	const wrapperRef = useRef<HTMLDivElement | null>(null)
 	const topRef = useRef<HTMLDivElement | null>(null)
@@ -79,16 +79,16 @@ export default function Feature({ name }: { name: string }) {
 					<section className='more-features-section'>
 						<h2>Features</h2>
 						<div className='features-grid'>
-							{communityFeatures
-								.filter((feature) => feature.name !== selectedFeature.name)
-								.map((feature, index) => (
-									<FeaturedCard
-										key={index}
-										imgSrc={feature.principalPhoto}
-										title={feature.communityName}
-										location={`/community/feature/${feature.location}`}
-									/>
-								))}
+							{CommunityFeaturesInfo.filter(
+								(feature) => feature.name !== selectedFeature.name
+							).map((feature, index) => (
+								<FeaturedCard
+									key={index}
+									imgSrc={feature.principalPhoto}
+									title={feature.communityName}
+									location={`/community/feature/${feature.location}`}
+								/>
+							))}
 						</div>
 					</section>
 

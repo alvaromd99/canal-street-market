@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import FeaturedCard from '../../components/cards/FeaturedCard'
 import Footer from '../../components/footer/Footer'
 import CommunityPagesTitle from '../../components/pageTitle/CommunityPagesTitle'
-import { communityFeatures } from '../../constants/constants'
+import { CommunityFeaturesInfo } from '../../constants/constants'
 import './communityFeatures.css'
 
 export default function CommunityFeatures() {
@@ -29,7 +29,7 @@ export default function CommunityFeatures() {
 				</section>
 
 				<section className='features-section'>
-					{communityFeatures.map((feature, index) => (
+					{CommunityFeaturesInfo.map((feature, index) => (
 						<FeaturedCard
 							key={index}
 							imgSrc={feature.principalPhoto}

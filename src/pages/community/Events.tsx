@@ -1,6 +1,8 @@
 import smileFace from '../../assets/smileFace.svg'
 import PageAnnouncement from '../../components/announcement/PageAnnouncement'
+import EventCard from '../../components/cards/EventCard'
 import CommunityPagesTitle from '../../components/pageTitle/CommunityPagesTitle'
+import { EventsPageInfo } from '../../constants/constants'
 import './events.css'
 
 export default function Events() {
@@ -24,7 +26,11 @@ export default function Events() {
 				/>
 			</section>
 
-			<section className='images-slider-section'></section>
+			<section className='images-slider-section'>
+				{EventsPageInfo.map((e, index) => (
+					<EventCard key={index} imgSrc={e.principalPhoto} title={e.title} />
+				))}
+			</section>
 		</div>
 	)
 }

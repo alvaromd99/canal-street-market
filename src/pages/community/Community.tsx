@@ -8,7 +8,7 @@ import MarketEvent from '../../components/market/MarketEvent'
 import PageTitle from '../../components/pageTitle/PageTitle'
 import {
 	CommunityEventsInfo,
-	communityFeatures,
+	CommunityFeaturesInfo,
 } from '../../constants/constants'
 import './community.css'
 
@@ -56,7 +56,7 @@ export default function Community() {
 			<section className='features-section'>
 				<h2>Features</h2>
 				<div className='features-grid'>
-					{communityFeatures.map((feature, index) => (
+					{CommunityFeaturesInfo.map((feature, index) => (
 						<FeaturedCard
 							key={index}
 							imgSrc={feature.principalPhoto}

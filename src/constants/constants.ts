@@ -351,7 +351,7 @@ export const retailObjects = [
 	},
 ]
 
-export const CommunityFeatures: CommunityFeaturesInformation[] = [
+export const CommunityFeaturesInfo: CommunityFeaturesInformation[] = [
 	{
 		location: 'csm-community--amdc',
 		name: 'American Design Club',
@@ -621,7 +621,7 @@ export const CommunityFeatures: CommunityFeaturesInformation[] = [
 	},
 ]
 
-export const eventsPageInfo: EventsPageInformation[] = [
+export const EventsPageInfo: EventsPageInformation[] = [
 	{
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/33dc8d36-4b94-4c4c-a5e7-056c279bbec8_GreenhouseXPaperboyXNewBalance22.jpg?auto=compress,format',
