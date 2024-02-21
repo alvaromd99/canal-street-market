@@ -1,25 +1,6 @@
 .events-page {
-	--header-gap: 3rem;
-	min-height: 100dvh;
-	display: flex;
-	flex-direction: column;
 	padding-top: 6rem;
-	padding-bottom: 1rem;
-	opacity: 0;
-	animation: fadeIn 1s ease-out forwards;
 	animation-delay: 0.4s;
-
-	section {
-		padding-inline: 4rem;
-	}
-
-	.btn-link {
-		background-color: var(--community-color);
-
-		&:hover {
-			background-color: var(--letter-color);
-		}
-	}
 
 	.header-section {
 		display: flex;
@@ -38,5 +19,12 @@
 		column-gap: var(--grid-gap);
 		row-gap: var(--grid-gap);
 		padding-block: 4rem;
+	}
+
+	.footer-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 5rem;
 	}
 }

@@ -34,12 +34,6 @@
 	}
 }
 
-.footer-links {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	column-gap: 5rem;
-}
-
 .footer-newsletter,
 .footer-legal,
 .footer-title,

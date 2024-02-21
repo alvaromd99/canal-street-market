@@ -1,5 +1,4 @@
 .community-features-page {
-	--header-gap: 3rem;
 	min-height: 100dvh;
 	display: flex;
 	flex-direction: column;
@@ -8,22 +7,6 @@
 	opacity: 0;
 	animation: fadeIn 1s ease-out forwards;
 	animation-delay: 0.4s;
-
-	section {
-		padding-inline: 4rem;
-	}
-
-	.btn-link {
-		background-color: var(--community-color);
-
-		&:hover {
-			background-color: var(--letter-color);
-		}
-	}
-
-	.fading-in {
-		animation: fadeIn 1.5s ease-out forwards;
-	}
 
 	.header-section {
 		display: flex;

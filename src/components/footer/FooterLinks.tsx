@@ -1,6 +1,7 @@
 import { linkCards } from '../../constants/constants'
 import ContactCard from '../cards/ContactCard'
 import NewsLetterSign from '../newsletter/NewsLetterSign'
+import './footerLinks.css'
 
 export default function FooterLinks() {
 	return (

@@ -114,6 +114,31 @@ a {
 	animation: fadeIn 1s ease-in-out forwards;
 }
 
+.page {
+	min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	opacity: 0;
+	animation: fadeIn 1s ease-out forwards;
+	padding-bottom: 1rem;
+}
+
+section {
+	padding-inline: 4rem;
+}
+
+.btn-link {
+	background-color: var(--community-color);
+
+	&:hover {
+		background-color: var(--letter-color);
+	}
+}
+
+.fading-in {
+	animation: fadeIn 1s ease-out forwards;
+}
+
 @keyframes goDown {
 	from {
 		transform: translateY(-100vh);
