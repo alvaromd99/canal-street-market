@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import smileFace from '../../assets/smileFace.svg'
 import PageAnnouncement from '../../components/announcement/PageAnnouncement'
 import EventCard from '../../components/cards/EventCard'
@@ -8,8 +9,14 @@ import { EventsPageInfo } from '../../constants/constants'
 import './events.css'
 
 export default function Events() {
+	const topRef = useRef<HTMLDivElement | null>(null)
+
+	useEffect(() => {
+		topRef.current?.scrollIntoView()
+	}, [])
+
 	return (
-		<div className='events-page page'>
+		<div className='events-page page' ref={topRef}>
 			<section className='header-section'>
 				<CommunityPagesTitle
 					title={'Market Events'}
