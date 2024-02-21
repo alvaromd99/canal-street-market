@@ -1,6 +1,7 @@
 import { Route, useLocation } from 'wouter'
 import './App.css'
 import marketIcon from './assets/market.svg'
+import UseDialog from './hooks/UseDialog'
 import About from './pages/about/About'
 import Community from './pages/community/Community'
 import CommunityFeatures from './pages/community/CommunityFeatures'
@@ -14,6 +15,8 @@ import Retail from './pages/retail/Retail'
 
 function App() {
 	const [location, setLocation] = useLocation()
+
+	const { isOpen } = UseDialog()
 
 	return (
 		<div className='App'>
@@ -89,6 +92,9 @@ function App() {
 					{(params) => <SingleEvent name={params.name} />}
 				</Route>
 			</div>
+			<dialog open={isOpen}>
+				<p>Hello world</p>
+			</dialog>
 		</div>
 	)
 }

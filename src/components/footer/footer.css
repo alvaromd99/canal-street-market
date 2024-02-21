@@ -32,6 +32,20 @@
 		font-size: 3rem;
 		font-family: 'Cormorant', serif;
 	}
+
+	button {
+		background-color: transparent;
+		border: 1px solid var(--letter-color);
+		transition: all 0.4s;
+		cursor: pointer;
+		padding: 1rem 3rem;
+		text-align: center;
+
+		&:hover {
+			color: var(--base-color);
+			background-color: var(--letter-color);
+		}
+	}
 }
 
 .footer-newsletter,
