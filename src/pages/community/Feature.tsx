@@ -21,7 +21,7 @@ export default function Feature({ name }: { name: string }) {
 	}, [name])
 
 	return (
-		<div className='feature-page' ref={topRef}>
+		<div className='feature-page page' ref={topRef}>
 			{selectedFeature && (
 				<div className='animation-wrapper' ref={wrapperRef}>
 					<section className='feature-header'>
@@ -66,12 +66,10 @@ export default function Feature({ name }: { name: string }) {
 								<p>{selectedFeature.type}</p>
 								<h3>{selectedFeature.name}</h3>
 								<img src={selectedFeature.asidePhoto} alt='Aside photo' />
-								<div className='btn-wrapper'>
-									<NormalBtn
-										text={'learn more'}
-										newLocation={`${selectedFeature.link}`}
-									/>
-								</div>
+								<NormalBtn
+									text={'learn more'}
+									newLocation={`${selectedFeature.link}`}
+								/>
 							</div>
 						</div>
 					</section>

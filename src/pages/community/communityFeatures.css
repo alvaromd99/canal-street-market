@@ -1,12 +1,6 @@
 .community-features-page {
-	min-height: 100dvh;
-	display: flex;
-	flex-direction: column;
-	padding-top: 6rem;
-	padding-bottom: 1rem;
-	opacity: 0;
-	animation: fadeIn 1s ease-out forwards;
 	animation-delay: 0.4s;
+	padding-top: 6rem;
 
 	.header-section {
 		display: flex;

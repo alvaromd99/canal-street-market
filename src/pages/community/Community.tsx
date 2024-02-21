@@ -14,7 +14,7 @@ import './community.css'
 
 export default function Community() {
 	return (
-		<div className='community-page'>
+		<div className='community-page page'>
 			<section className='hero-section'>
 				<PageTitle
 					name={'Community'}

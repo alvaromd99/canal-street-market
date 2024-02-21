@@ -1,21 +1,5 @@
 .single-event-page {
-	min-height: 100dvh;
-	display: flex;
-	flex-direction: column;
 	padding-top: 8rem;
-	padding-bottom: 1rem;
-
-	section {
-		padding-inline: 4rem;
-	}
-
-	.btn-link {
-		background-color: var(--community-color);
-
-		&:hover {
-			background-color: var(--letter-color);
-		}
-	}
 
 	.header-section {
 		display: flex;

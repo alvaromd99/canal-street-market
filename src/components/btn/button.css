@@ -3,6 +3,7 @@
 	transition: all 0.4s;
 	cursor: pointer;
 	padding: 1rem 3rem;
+	text-align: center;
 
 	&:hover {
 		color: var(--base-color);

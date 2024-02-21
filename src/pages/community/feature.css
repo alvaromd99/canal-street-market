@@ -1,27 +1,5 @@
 .feature-page {
-	min-height: 100dvh;
-	display: flex;
-	flex-direction: column;
 	padding-top: 8rem;
-	padding-bottom: 1rem;
-	opacity: 0;
-
-	&:has(.fading-in) {
-		transition: opacity 1s ease-in;
-		opacity: 1;
-	}
-
-	section {
-		padding-inline: 4rem;
-	}
-
-	.btn-link {
-		background-color: var(--community-color);
-
-		&:hover {
-			background-color: var(--letter-color);
-		}
-	}
 
 	.feature-header {
 		display: flex;
@@ -100,10 +78,6 @@
 				h3 {
 					font-size: 1.4rem;
 					font-weight: bold;
-				}
-
-				button {
-					width: 100%;
 				}
 			}
 		}

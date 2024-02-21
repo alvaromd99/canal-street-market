@@ -16,7 +16,7 @@ export default function CommunityFeatures() {
 	}, [])
 
 	return (
-		<div className='community-features-page' ref={topRef}>
+		<div className='community-features-page page' ref={topRef}>
 			<div className='animation-wrapper' ref={wrapperRef}>
 				<section className='header-section'>
 					<CommunityPagesTitle
