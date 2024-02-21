@@ -1,14 +1,14 @@
+import face from '../../assets/smileFace.svg'
 import Announcement from '../../components/announcement/Announcement'
 import ProductCard from '../../components/cards/ProductCard'
 import Footer from '../../components/footer/Footer'
 import PageTitle from '../../components/pageTitle/PageTitle'
 import { foodPlates } from '../../constants/constants'
-import face from '../../assets/smileFace.svg'
 import './food.css'
 
 export default function Food() {
 	return (
-		<div className='food-page'>
+		<div className='food-page page'>
 			<section className='hero-section'>
 				<PageTitle
 					name='Food'

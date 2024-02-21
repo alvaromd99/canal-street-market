@@ -8,7 +8,7 @@ import './retail.css'
 
 export default function Retail() {
 	return (
-		<div className='retail-page'>
+		<div className='retail-page page'>
 			<section className='hero-section'>
 				<PageTitle
 					name='Retail'

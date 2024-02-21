@@ -14,7 +14,7 @@ export default function About() {
 	UseIntersectionObserver([imageRef, marketsRef])
 
 	return (
-		<div className='about-page'>
+		<div className='about-page page'>
 			<section className='title-section'>
 				<h1>
 					{

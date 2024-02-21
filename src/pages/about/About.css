@@ -1,22 +1,5 @@
 .about-page {
-	width: 100%;
-	min-height: 100dvh;
-	display: flex;
-	flex-direction: column;
 	padding-top: 6rem;
-	padding-bottom: 1rem;
-
-	section {
-		padding-inline: 4rem;
-	}
-
-	.btn-link {
-		background-color: var(--about-color);
-
-		&:hover {
-			background-color: var(--letter-color);
-		}
-	}
 
 	.title-section {
 		padding-top: 9rem;
@@ -122,6 +105,14 @@
 				bottom: -0.2rem;
 				left: 50%;
 				transform: translateX(-50%);
+
+				a {
+					background-color: var(--about-color);
+
+					&:hover {
+						background-color: var(--letter-color);
+					}
+				}
 			}
 		}
 	}

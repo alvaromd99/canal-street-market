@@ -128,7 +128,7 @@ section {
 }
 
 .btn-link {
-	background-color: var(--community-color);
+	background-color: transparent;
 
 	&:hover {
 		background-color: var(--letter-color);
