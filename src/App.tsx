@@ -16,7 +16,7 @@ import Retail from './pages/retail/Retail'
 function App() {
 	const [location, setLocation] = useLocation()
 
-	const { isOpen } = UseDialog()
+	const { isOpen, changeDialogState } = UseDialog()
 
 	return (
 		<div className='App'>
@@ -92,9 +92,14 @@ function App() {
 					{(params) => <SingleEvent name={params.name} />}
 				</Route>
 			</div>
-			<dialog open={isOpen}>
-				<p>Hello world</p>
-			</dialog>
+			{isOpen && (
+				<div className='backdrop'>
+					<dialog open>
+						<p>Hello world</p>
+						<button onClick={changeDialogState}>Close</button>
+					</dialog>
+				</div>
+			)}
 		</div>
 	)
 }

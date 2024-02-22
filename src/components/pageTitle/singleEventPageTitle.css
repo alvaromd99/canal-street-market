@@ -1,0 +1,39 @@
+.title-wrapper {
+	padding-block: 4rem;
+	display: flex;
+	gap: 6rem;
+
+	.left-section {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+
+		.date-time {
+			display: flex;
+			justify-content: space-between;
+
+			p {
+				font-size: 1.4rem;
+			}
+		}
+
+		h1 {
+			font-family: var(--pretty-font);
+			font-size: 6.25rem;
+			line-height: 6.25rem;
+		}
+
+		p {
+			font-size: 0.9rem;
+		}
+	}
+
+	.right-section {
+		img {
+			max-width: 23.75rem;
+			height: 30rem;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+}

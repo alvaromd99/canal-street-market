@@ -627,7 +627,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 			'new-balance-has-teamed-up-with-paris-based-restaurant-meets-streetwear',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/33dc8d36-4b94-4c4c-a5e7-056c279bbec8_GreenhouseXPaperboyXNewBalance22.jpg?auto=compress,format',
-		date: 'February 7th- February 9th',
+		date: 'February 7th - February 9th',
 		time: '',
 		title: 'New Balance x Paperboy Paris by Greenhouse @ Canal Street Market',
 		description:
@@ -645,7 +645,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		location: 'comedy-show',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/64a019ce-90a6-468a-9570-2fd438094ef8_hackcity.jpg?auto=compress,format',
-		date: 'December 11th- December 12th',
+		date: 'December 11th - December 12th',
 		time: '7:30pm - 9:30pm',
 		title: 'Hack City 12/11',
 		description:
@@ -656,7 +656,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		location: 'taiwanese-waves-look-backa-pop-up-exhibition-for',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/cd40ba40e570956d372790c25d22cc8b1f803af9_ss2019_square-1.png?auto=compress,format',
-		date: 'July 27th- July 28th',
+		date: 'July 27th - July 28th',
 		time: '',
 		title: 'Taiwanese Wave',
 		description:
@@ -669,7 +669,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		location: 'a-food-hall-family-discount-10-off-any-one-food-item',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/7b6f08c25c32c6d2963da12fd806452686cf8551_csm_foodhall_web.jpg?auto=compress,format',
-		date: 'April 26th- April 28th',
+		date: 'April 26th - April 28th',
 		time: '',
 		title: 'Food Hall Family Discount - 10% OFF any ONE food item',
 		description:
@@ -744,7 +744,7 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		location: 'hack-city-comedy-show',
 		principalPhoto:
 			'https://images.prismic.io/canalstreetmarket/37388b19a084812957da49d7632f37654c65bb63_kare_4.jpg?auto=compress,format',
-		date: 'December 1st- December 4th',
+		date: 'December 1st - December 4th',
 		time: '7pm-11pm',
 		title: 'Korean Night Market Pop-up curated by Kare Package',
 		description:
