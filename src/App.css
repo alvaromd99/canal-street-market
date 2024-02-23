@@ -172,6 +172,37 @@ section {
 	}
 }
 
+dialog {
+	width: 80%;
+	min-height: 100vh;
+	top: 8rem;
+	margin: auto;
+	border: 0;
+
+	&::backdrop {
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.exit-modal-btn {
+		background-color: transparent;
+		border: none;
+		width: 4rem;
+		height: 4rem;
+		border-radius: 50%;
+		position: fixed;
+		top: 2rem;
+		right: 2rem;
+		cursor: pointer;
+		display: grid;
+		place-items: center;
+
+		svg {
+			width: 4rem;
+			height: 4rem;
+		}
+	}
+}
+
 /* Animations */
 @keyframes appearFromBottom {
 	100% {
