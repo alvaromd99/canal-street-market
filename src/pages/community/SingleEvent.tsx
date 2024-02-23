@@ -28,7 +28,7 @@ export default function SingleEvent({ name }: { name: string }) {
 					</section>
 
 					<section className='images-slider-section'>
-						<ImagesSlider imagesArr={[]} />
+						<ImagesSlider imagesArr={selectedEvent.secondaryPhotos} />
 					</section>
 				</div>
 			)}
