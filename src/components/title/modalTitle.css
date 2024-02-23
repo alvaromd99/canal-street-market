@@ -1,0 +1,29 @@
+.modal-title {
+	padding-bottom: 5rem;
+	background-image: repeating-linear-gradient(
+			-28deg,
+			#000,
+			#000 1px,
+			transparent 0,
+			transparent 40px
+		),
+		repeating-linear-gradient(
+			28deg,
+			#000,
+			#000 1px,
+			transparent 0,
+			transparent 40px
+		);
+	background-position: 0 101%, 0 101%;
+	background-size: 79px 25px, 79px 25px;
+	background-repeat: repeat-x;
+
+	h2 {
+		margin: auto;
+		text-align: center;
+		font-family: var(--pretty-font);
+		font-size: 7rem;
+		line-height: 7rem;
+		max-width: 54rem;
+	}
+}

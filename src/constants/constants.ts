@@ -5,6 +5,7 @@ import {
 	CommunityFeaturesInformation,
 	EventInformation,
 	EventsPageInformation,
+	ModalListInformation,
 } from '../types/types'
 
 export const AboutEventsInfo: EventInformation[] = [
@@ -774,6 +775,76 @@ export const EventsPageInfo: EventsPageInformation[] = [
 			'https://images.prismic.io/canalstreetmarket/f01e9214b61da6a8a09deb9e1d5ece3c395f3aaf_reddot_9.jpg?auto=compress,format',
 			'https://images.prismic.io/canalstreetmarket/79bee1869b479798290c292c1fddb794b7a30c82_reddot_6.jpg?auto=compress,format',
 			'https://images.prismic.io/canalstreetmarket/5b7985d1cdcacbebc5a60f511529113b4a33d170_reddot_7.jpg?auto=compress,format',
+		],
+	},
+]
+
+export const ModalListInfo: ModalListInformation[] = [
+	{
+		title: 'How it works',
+		listItems: [
+			{
+				markerSrc:
+					'https://canalstreet.market/assets/images/svg-icon-clover.svg',
+				text: 'Design your space',
+			},
+			{
+				markerSrc:
+					'https://canalstreet.market/assets/images/svg-icon-smile.svg',
+				text: 'Create your experience',
+			},
+			{
+				markerSrc:
+					'https://canalstreet.market/assets/images/svg-icon-horse.svg',
+				text: 'Grow your audience',
+			},
+		],
+	},
+	{
+		title: 'Why Canal Street Market?',
+		listItems: [
+			{
+				markerSrc:
+					'https://canalstreet.market/assets/images/svg-icon-umbrella.svg',
+				text: 'Low cost of entry',
+			},
+			{
+				markerSrc:
+					'https://canalstreet.market/assets/images/svg-icon-yinyang.svg',
+				text: 'Minimal Commitment',
+			},
+			{
+				markerSrc:
+					'https://canalstreet.market/assets/images/svg-icon-wheel.svg',
+				text: 'Low rental cost',
+			},
+		],
+	},
+	{
+		title: 'Benefits',
+		listItems: [
+			{
+				markerSrc: 'https://canalstreet.market/assets/images/svg-icon-grid.svg',
+				text: 'Build exposure through our built in foot traffic',
+			},
+			{
+				markerSrc:
+					'https://canalstreet.market/assets/images/svg-icon-hammers.svg',
+				text: 'Get real time customer feedback',
+			},
+			{
+				markerSrc: 'https://canalstreet.market/assets/images/svg-icon-flag.svg',
+				text: 'Test new products',
+			},
+			{
+				markerSrc: 'https://canalstreet.market/assets/images/svg-icon-pawn.svg',
+				text: 'Create physical brand experiences',
+			},
+			{
+				markerSrc:
+					'https://canalstreet.market/assets/images/svg-icon-arrow.svg',
+				text: 'Test new products',
+			},
 		],
 	},
 ]

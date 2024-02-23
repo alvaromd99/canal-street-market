@@ -51,3 +51,13 @@ export interface EventsPageInformation {
 	description: string
 	secondaryPhotos: string[]
 }
+
+export interface ModalListInformation {
+	title: string
+	listItems: ModalList[]
+}
+
+export interface ModalList {
+	markerSrc: string
+	text: string
+}

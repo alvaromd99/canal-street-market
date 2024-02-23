@@ -175,9 +175,11 @@ section {
 dialog {
 	width: 80%;
 	min-height: 100vh;
-	top: 8rem;
+	padding-block: 8rem;
 	margin: auto;
 	border: 0;
+	scrollbar-width: none;
+	background-color: transparent;
 
 	&::backdrop {
 		background: rgba(0, 0, 0, 0.5);
