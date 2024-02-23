@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import './imagesSlider.css'
 
 interface ImagesSliderProps {
@@ -9,11 +9,9 @@ export default function ImagesSlider({ imagesArr }: ImagesSliderProps) {
 	const [imagesIndex, setImagesIndex] = useState(1)
 	const sliderRef = useRef<HTMLDivElement | null>(null)
 
-	const imagesToRender = [
-		imagesArr[imagesArr.length - 1],
-		...imagesArr,
-		imagesArr[0],
-	]
+	const imagesToRender = useMemo(() => {
+		return [imagesArr[imagesArr.length - 1], ...imagesArr, imagesArr[0]]
+	}, [imagesArr])
 
 	const showNextImage = () => {
 		if (!sliderRef.current || imagesIndex >= imagesToRender.length - 1) return

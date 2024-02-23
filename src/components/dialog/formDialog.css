@@ -1,0 +1,48 @@
+.form-dialog {
+	background-image: repeating-linear-gradient(
+			90deg,
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.2) 1px,
+			transparent 0,
+			transparent 4px
+		),
+		repeating-linear-gradient(
+			90deg,
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.2) 1px,
+			transparent 0,
+			transparent 4px
+		),
+		repeating-linear-gradient(
+			0deg,
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.2) 1px,
+			transparent 0,
+			transparent 4px
+		),
+		repeating-linear-gradient(
+			0deg,
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.2) 1px,
+			transparent 0,
+			transparent 4px
+		);
+	background-position: 0 0, 0 100%, left 15px, right 15px;
+	background-size: 100% 15px, 100% 15px, 15px calc(100% - 30px),
+		15px calc(100% - 30px);
+	background-repeat: no-repeat;
+	box-shadow: -2px -8px 49px 10px rgba(0, 0, 0, 0.19);
+
+	width: 75rem;
+	height: 100vh;
+	margin-top: 5rem;
+	padding: 6rem 4rem 4rem;
+	position: relative;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	animation: appearFromBottom 0.5s ease-out forwards;
+}

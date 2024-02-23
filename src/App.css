@@ -139,14 +139,9 @@ section {
 	animation: fadeIn 1s ease-out forwards;
 }
 
-dialog {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 .backdrop {
+	overflow-y: scroll;
+	scrollbar-width: none;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -154,6 +149,39 @@ dialog {
 	height: 100%;
 	background: rgba(0, 0, 0, 0.5);
 	z-index: 999;
+	opacity: 0;
+	animation: fadeIn 0.2s ease-out forwards;
+
+	.exit-btn {
+		background-color: transparent;
+		border: none;
+		width: 4rem;
+		height: 4rem;
+		border-radius: 50%;
+		position: fixed;
+		top: 2rem;
+		right: 2rem;
+		cursor: pointer;
+		display: grid;
+		place-items: center;
+
+		svg {
+			width: 4rem;
+			height: 4rem;
+		}
+	}
+}
+
+/* Animations */
+@keyframes appearFromBottom {
+	100% {
+		top: 50%;
+	}
+}
+@keyframes goDownToBottom {
+	100% {
+		top: 150%;
+	}
 }
 
 @keyframes goDown {

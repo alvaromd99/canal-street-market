@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import BackBtn from '../../components/btn/BackBtn'
 import FooterLegal from '../../components/footer/FooterLegal'
 import FooterLinks from '../../components/footer/FooterLinks'
@@ -11,10 +12,19 @@ import './singleEvent.css'
 export default function SingleEvent({ name }: { name: string }) {
 	const selectedEvent = findSingleEventByName(EventsPageInfo, name)
 
+	const wrapperRef = useRef<HTMLDivElement | null>(null)
+	const topRef = useRef<HTMLDivElement | null>(null)
+
+	useEffect(() => {
+		wrapperRef.current?.classList.remove('fading-in')
+		topRef.current?.scrollIntoView()
+		wrapperRef.current?.classList.add('fading-in')
+	}, [name])
+
 	return (
-		<div className='single-event-page page'>
+		<div className='single-event-page page' ref={topRef}>
 			{selectedEvent && (
-				<div>
+				<div className='animation-wrapper' ref={wrapperRef}>
 					<section className='header-section'>
 						<BackBtn text={'community'} location={'/community'} />
 						<BackBtn text={'events'} location={'/community/event'} />
