@@ -4,4 +4,12 @@
 	.header-section {
 		display: flex;
 	}
+
+	.footer-section {
+		margin-top: 4rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 5rem;
+	}
 }

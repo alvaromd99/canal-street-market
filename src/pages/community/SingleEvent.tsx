@@ -1,6 +1,9 @@
 import BackBtn from '../../components/btn/BackBtn'
+import FooterLegal from '../../components/footer/FooterLegal'
+import FooterLinks from '../../components/footer/FooterLinks'
 import ImagesSlider from '../../components/imagesSlider/ImagesSlider'
 import SingleEventPageTitle from '../../components/pageTitle/SingleEventPageTitle'
+import UpcomingEventsTitle from '../../components/title/UpcomingEventsTitle'
 import { EventsPageInfo } from '../../constants/constants'
 import { findSingleEventByName } from '../../utils/findSingleEventByName'
 import './singleEvent.css'
@@ -29,6 +32,15 @@ export default function SingleEvent({ name }: { name: string }) {
 
 					<section className='images-slider-section'>
 						<ImagesSlider imagesArr={selectedEvent.secondaryPhotos} />
+					</section>
+
+					<section className='upcoming-events-section'>
+						<UpcomingEventsTitle />
+					</section>
+
+					<section className='footer-section'>
+						<FooterLinks />
+						<FooterLegal />
 					</section>
 				</div>
 			)}
