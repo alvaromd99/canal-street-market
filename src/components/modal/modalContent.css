@@ -45,4 +45,13 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	}
+
+	.vendor-section {
+		h4 {
+			font-size: 4rem;
+			font-family: var(--pretty-font);
+			text-align: center;
+			margin-bottom: 3rem;
+		}
+	}
 }
