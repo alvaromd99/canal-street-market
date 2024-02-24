@@ -11,12 +11,21 @@ export function RefProvider({ children }: RefProviderProps) {
 
 	const openDialog = () => {
 		if (!dialogRef.current) return
+		dialogRef.current.style.animation =
+			'appearFromBottom 0.5s ease-out forwards'
 		dialogRef.current.showModal()
+		dialogRef.current.scrollTo(0, 0)
 	}
 
 	const closeDialog = () => {
 		if (!dialogRef.current) return
-		dialogRef.current.close()
+		dialogRef.current.style.animation = 'goDownToBottom 0.5s ease-out'
+
+		setTimeout(() => {
+			if (!dialogRef.current) return
+			console.log('Timeout')
+			dialogRef.current.close()
+		}, 500)
 	}
 
 	return (

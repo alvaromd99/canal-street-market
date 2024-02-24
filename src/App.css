@@ -173,13 +173,15 @@ section {
 }
 
 dialog {
-	width: 80%;
+	width: 75%;
 	min-height: 100vh;
 	padding-block: 8rem;
+	top: 150%;
 	margin: auto;
 	border: 0;
 	scrollbar-width: none;
 	background-color: transparent;
+	animation: appearFromBottom 0.8s ease-out forwards;
 
 	&::backdrop {
 		background: rgba(0, 0, 0, 0.5);
@@ -208,10 +210,15 @@ dialog {
 /* Animations */
 @keyframes appearFromBottom {
 	100% {
-		top: 50%;
+		top: 0%;
 	}
 }
+
 @keyframes goDownToBottom {
+	0% {
+		top: 0%;
+	}
+
 	100% {
 		top: 150%;
 	}

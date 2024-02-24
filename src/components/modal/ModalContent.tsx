@@ -1,14 +1,14 @@
 import { ModalListInfo } from '../../constants/constants'
+import ModalForm from '../form/ModalForm'
 import ModalList from '../list/ModalList'
 import ModalTitle from '../title/ModalTitle'
 import './modalContent.css'
 
 export default function ModalContent() {
-	ModalListInfo
 	return (
 		<div className='modal'>
 			<ModalTitle />
-			<section className='modal-grid'>
+			<div className='modal-grid'>
 				<img
 					src='https://images.prismic.io/canalstreetmarket/e5e49733e81f2ffc993c9fea54aab63cc2e88128_65cba3e4e63fe9c4baf2e68ce8606fafe6a802c2_food-hall-compressor.jpg?auto=compress,format'
 					alt='Modal image 1'
@@ -24,7 +24,11 @@ export default function ModalContent() {
 					alt='Modal image 3'
 				/>
 				<ModalList listInfo={ModalListInfo[2]} />
-			</section>
+			</div>
+			<div className='vendor-section'>
+				<h4>Become a vendor</h4>
+				<ModalForm />
+			</div>
 		</div>
 	)
 }
