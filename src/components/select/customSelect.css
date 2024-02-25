@@ -4,7 +4,6 @@
 	max-height: 3.75rem;
 	overflow: hidden;
 	border: 1px solid #000;
-	z-index: 1;
 	scrollbar-width: none;
 	transition: max-height 0.4s ease-out;
 

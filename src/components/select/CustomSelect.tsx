@@ -15,6 +15,16 @@ export default function CustomSelect({
 	const [isOpen, setIsOpen] = useState(false)
 
 	const handleSelectView = () => {
+		if (!selectRef.current) return
+		if (!isOpen) {
+			selectRef.current.style.zIndex = '2'
+		} else {
+			setTimeout(() => {
+				if (!selectRef.current) return
+				selectRef.current.style.zIndex = '1'
+			}, 400)
+		}
+
 		setIsOpen(!isOpen)
 	}
 

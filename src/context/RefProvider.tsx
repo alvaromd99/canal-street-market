@@ -19,7 +19,7 @@ export function RefProvider({ children }: RefProviderProps) {
 
 	const closeDialog = () => {
 		if (!dialogRef.current) return
-		dialogRef.current.style.animation = 'goDownToBottom 0.5s ease-out'
+		dialogRef.current.style.animation = 'goDownToBottom 0.5s ease-in'
 
 		setTimeout(() => {
 			if (!dialogRef.current) return
