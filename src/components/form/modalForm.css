@@ -29,6 +29,10 @@ form {
 		resize: none;
 		border: 1px solid #000;
 		padding: 1rem;
+
+		&::placeholder {
+			color: #000;
+		}
 	}
 
 	.modal-submit-btn {
@@ -39,6 +43,7 @@ form {
 		height: 3.75rem;
 		border: 1px solid #000;
 		text-align: center;
+		cursor: pointer;
 	}
 
 	div:nth-child(1) {

@@ -1,23 +1,9 @@
+import { itemsArray, months, terms } from '../../constants/constants'
 import CustomSelect from '../select/CustomSelect'
 import './modalForm.css'
 
 export default function ModalForm() {
-	const itemsArray = ['Food', 'Retail']
-	const months = [
-		'January',
-		'February',
-		'March',
-		'April',
-		'May',
-		'June',
-		'July',
-		'August',
-		'September',
-		'October',
-		'November',
-		'December',
-	]
-	const terms = ['1 year', '+1 year']
+	const handleSubmit = () => {}
 
 	return (
 		<form>
@@ -49,7 +35,9 @@ export default function ModalForm() {
 				<textarea placeholder='Tell us a litter about yourself...'></textarea>
 			</div>
 			<div className='div10'>
-				<button className='modal-submit-btn'>Submit</button>
+				<button className='modal-submit-btn' onClick={handleSubmit}>
+					Submit
+				</button>
 			</div>
 		</form>
 	)

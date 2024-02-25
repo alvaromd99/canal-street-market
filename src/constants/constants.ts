@@ -848,3 +848,22 @@ export const ModalListInfo: ModalListInformation[] = [
 		],
 	},
 ]
+
+export const itemsArray = ['Food', 'Retail']
+
+export const months = [
+	'January',
+	'February',
+	'March',
+	'April',
+	'May',
+	'June',
+	'July',
+	'August',
+	'September',
+	'October',
+	'November',
+	'December',
+]
+
+export const terms = ['1 year', '+1 year']
