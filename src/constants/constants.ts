@@ -10,16 +10,19 @@ import {
 
 export const AboutEventsInfo: EventInformation[] = [
 	{
-		date: '09/21',
-		info: 'Small Business Retail Pop Up Weekend!',
+		date: '01/31',
+		info: 'Year Of The Pig: A Chinese New Year Party',
+		link: '/community/event/chinese-new-year-party',
 	},
 	{
 		date: '02/07',
 		info: 'New Balance x Paperboy Paris by Greenhouse @ Canal Street Market',
+		link: '/community/event/new-balance-has-teamed-up-with-paris-based-restaurant-meets-streetwear',
 	},
 	{
 		date: '12/11',
 		info: 'Hack City 12/11',
+		link: '/community/event/comedy-show',
 	},
 ]
 
@@ -27,14 +30,17 @@ export const CommunityEventsInfo: EventInformation[] = [
 	{
 		date: '02/06',
 		info: 'S4E1: Welcome to Season 4',
+		link: 'https://soundcloud.com/asiannotasian',
 	},
 	{
 		date: '01/25',
 		info: 'Madison Hammond Re-Signs With Angel City and Chats Her Life + United Soccer Coaches Convention Recap + NWSL Free Agency and Trades + WOSO Roundup',
+		link: 'https://girlssoccernetwork.com/',
 	},
 	{
 		date: '05/22',
 		info: 'Episode 13: Sarinya Srisakul',
+		link: 'https://soundcloud.com/activistnyc/episode-13-sarinya-srisakul',
 	},
 ]
 
@@ -651,7 +657,9 @@ export const EventsPageInfo: EventsPageInformation[] = [
 		title: 'Hack City 12/11',
 		description:
 			"If having an Asian guy on a comedy show is unusual, then having two is just overkill. But that’s what comics Fumi Abe and Michael Nguyen are trying to do with their Hack City comedy show — overkill on the funnies. Join the two as they host one of NYC’s most diverse comedy show, featuring comics from MTV, Comedy Central, and your Facebook feed. Doors at 7:30 p.m., show at 8:00 p.m. This month's line-up: Erica Spera Napoleon Emil Pedro Gonzalez Dylan Adler Sydnee Washington",
-		secondaryPhotos: ['', '', '', '', '', ''],
+		secondaryPhotos: [
+			'https://images.prismic.io/canalstreetmarket/64a019ce-90a6-468a-9570-2fd438094ef8_hackcity.jpg?auto=compress,format',
+		],
 	},
 	{
 		location: 'taiwanese-waves-look-backa-pop-up-exhibition-for',

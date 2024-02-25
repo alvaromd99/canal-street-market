@@ -1,4 +1,3 @@
-import { Link } from 'wouter'
 import './marketEvent.css'
 
 interface MarketEventProps {
@@ -7,17 +6,17 @@ interface MarketEventProps {
 	link: string
 }
 
-export default function MarketEvent({
+export default function MarketExternalEvent({
 	eventDate,
 	eventInfo,
 	link,
 }: MarketEventProps) {
 	return (
-		<Link to={link}>
+		<a href={link} target='_blank'>
 			<div className='event'>
 				<p>{eventDate}</p>
 				<p>{eventInfo}</p>
 			</div>
-		</Link>
+		</a>
 	)
 }

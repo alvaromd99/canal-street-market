@@ -1,5 +1,6 @@
 .event {
 	font-size: 0.8rem;
+	cursor: pointer;
 
 	p:nth-child(1) {
 		text-align: center;

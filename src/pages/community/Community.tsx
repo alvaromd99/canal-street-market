@@ -2,7 +2,7 @@ import HeadSvg from '../../assets/head.svg'
 import Announcement from '../../components/announcement/Announcement'
 import NormalBtn from '../../components/btn/NormalBtn'
 import FeaturedCard from '../../components/cards/FeaturedCard'
-import MarketEventsPanel from '../../components/events/MarketEventsPanel'
+import MarketEventsExternal from '../../components/events/MarketEventsExternal'
 import Footer from '../../components/footer/Footer'
 import MarketEvent from '../../components/market/MarketEvent'
 import PageTitle from '../../components/pageTitle/PageTitle'
@@ -33,19 +33,33 @@ export default function Community() {
 				<h2>Market Events</h2>
 				<div className='events-grid'>
 					<MarketEvent
-						eventDate='09/11 (past)'
+						eventDate='01/31 (past)'
 						eventInfo='Small Business Retail Pop Up Weekend!'
+						link={'/community/event/chinese-new-year-party'}
 					/>
 					<div></div>
 					<div></div>
 					<MarketEvent
 						eventDate='02/07 (past)'
 						eventInfo='New Balance x Paperboy Paris by Greenhouse @ Canal Street Market'
+						link={
+							'/community/event/new-balance-has-teamed-up-with-paris-based-restaurant-meets-streetwear'
+						}
 					/>
-					<MarketEvent eventDate='12/11(past)' eventInfo='Hack City 12/11' />
+					<MarketEvent
+						eventDate='12/11(past)'
+						eventInfo='Hack City 12/11'
+						link={'/community/event/comedy-show'}
+					/>
 					<div></div>
 					<div></div>
-					<MarketEvent eventDate='07/27 (past)' eventInfo='Taiwanese Wave' />
+					<MarketEvent
+						eventDate='07/27 (past)'
+						eventInfo='Taiwanese Wave'
+						link={
+							'/community/event/taiwanese-waves-look-backa-pop-up-exhibition-for'
+						}
+					/>
 				</div>
 			</section>
 
@@ -84,7 +98,7 @@ export default function Community() {
 			</section>
 
 			<section className='events-section'>
-				<MarketEventsPanel eventsInfo={CommunityEventsInfo} />
+				<MarketEventsExternal eventsInfo={CommunityEventsInfo} />
 				<div className='events-btn-wrapper'>
 					<NormalBtn text={'see all'} newLocation={''} />
 				</div>

@@ -1,19 +1,19 @@
 import { EventInformation } from '../../types/types'
-import MarketEvent from '../market/MarketEvent'
+import MarketExternalEvent from '../market/MarketExternalEvent'
 import './marketEventsPanel.css'
 
 export interface MarketEventsPanelProps {
 	eventsInfo: EventInformation[]
 }
 
-export default function MarketEventsPanel({
+export default function MarketEventsExternal({
 	eventsInfo,
 }: MarketEventsPanelProps) {
 	return (
 		<div className='bg-animation-wrapper'>
 			<div className='events-wrapper'>
 				{eventsInfo.map((e, index) => (
-					<MarketEvent
+					<MarketExternalEvent
 						key={index}
 						eventDate={e.date}
 						eventInfo={e.info}

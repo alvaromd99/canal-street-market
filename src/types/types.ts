@@ -1,6 +1,7 @@
 export interface EventInformation {
 	date: string
 	info: string
+	link: string
 }
 
 export interface FoodPlateInformation {
