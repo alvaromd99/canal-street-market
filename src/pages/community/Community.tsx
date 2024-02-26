@@ -2,7 +2,7 @@ import HeadSvg from '../../assets/head.svg'
 import Announcement from '../../components/announcement/Announcement'
 import NormalBtn from '../../components/btn/NormalBtn'
 import FeaturedCard from '../../components/cards/FeaturedCard'
-import MarketEventsExternal from '../../components/events/MarketEventsExternal'
+import MarketEventsPanel from '../../components/events/MarketEventsPanel'
 import Footer from '../../components/footer/Footer'
 import MarketEvent from '../../components/market/MarketEvent'
 import PageTitle from '../../components/pageTitle/PageTitle'
@@ -36,6 +36,7 @@ export default function Community() {
 						eventDate='01/31 (past)'
 						eventInfo='Small Business Retail Pop Up Weekend!'
 						link={'/community/event/chinese-new-year-party'}
+						type={'internal'}
 					/>
 					<div></div>
 					<div></div>
@@ -45,11 +46,13 @@ export default function Community() {
 						link={
 							'/community/event/new-balance-has-teamed-up-with-paris-based-restaurant-meets-streetwear'
 						}
+						type={'internal'}
 					/>
 					<MarketEvent
 						eventDate='12/11(past)'
 						eventInfo='Hack City 12/11'
 						link={'/community/event/comedy-show'}
+						type={'internal'}
 					/>
 					<div></div>
 					<div></div>
@@ -59,6 +62,7 @@ export default function Community() {
 						link={
 							'/community/event/taiwanese-waves-look-backa-pop-up-exhibition-for'
 						}
+						type={'internal'}
 					/>
 				</div>
 			</section>
@@ -98,7 +102,7 @@ export default function Community() {
 			</section>
 
 			<section className='events-section'>
-				<MarketEventsExternal eventsInfo={CommunityEventsInfo} />
+				<MarketEventsPanel eventsInfo={CommunityEventsInfo} type={'external'} />
 				<div className='events-btn-wrapper'>
 					<NormalBtn text={'see all'} newLocation={''} />
 				</div>

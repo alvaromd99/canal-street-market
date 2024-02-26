@@ -13,6 +13,8 @@ import FoodPage from './pages/product/FoodPlatePage'
 import RetailPage from './pages/product/RetailProductPage'
 import Retail from './pages/retail/Retail'
 
+// TODO : Make submit animations
+
 function App() {
 	const [location, setLocation] = useLocation()
 

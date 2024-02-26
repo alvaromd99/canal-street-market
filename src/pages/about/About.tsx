@@ -61,7 +61,7 @@ export default function About() {
 					<p>活動</p>
 				</div>
 				<div className='events-info'>
-					<MarketEventsPanel eventsInfo={AboutEventsInfo} />
+					<MarketEventsPanel eventsInfo={AboutEventsInfo} type={'internal'} />
 					<div className='btn-wrapper'>
 						<NormalBtn text={'see all'} newLocation={'/community/event'} />
 					</div>
