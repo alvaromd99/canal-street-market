@@ -23,7 +23,6 @@ export function RefProvider({ children }: RefProviderProps) {
 
 		setTimeout(() => {
 			if (!dialogRef.current) return
-			console.log('Timeout')
 			dialogRef.current.close()
 		}, 500)
 	}
